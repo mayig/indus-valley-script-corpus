@@ -8,5 +8,8 @@
     "wells_graphemes": [
         "W220"
     ],
+    "mahadevan_graphemes": [
+        "M059"
+    ],
     "features": []
 }

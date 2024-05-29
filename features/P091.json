@@ -12,6 +12,10 @@
         "W353",
         "W354"
     ],
+    "mahadevan_graphemes": [
+        "M174",
+        "M175"
+    ],
     "features": [
         {
             "top_lines": "integer",

@@ -11,6 +11,9 @@
         "W155",
         "W156"
     ],
+    "mahadevan_graphemes": [
+        "M015"
+    ],
     "features": [
         {
             "burden_shape": "integer",
