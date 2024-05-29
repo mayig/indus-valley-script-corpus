@@ -57,7 +57,8 @@ My intention is to use an integer encoding for all features in a given allograph
 representation for a given representation, it does make the data more easily used by numerical analyses.
 
 I have developed a small Visual Studio Code extension which allows you to hover over a number like `P086`, and it will give you a description of
-the symbol itself, as well as a description of the feature vector for that symbol. Please let me know if you would like access to this extension.
+the symbol itself, as well as a description of the feature vector for that symbol. This lives in the `indus_helper_vsce` directory. It is fairly
+technical to build VSCode extensions, but if you'd like a copy, I can supply one.
 
 ## Notes on allograph selection
 
