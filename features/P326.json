@@ -1,0 +1,39 @@
+{
+    "id": "P326",
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, two small vertical strokes inside mouth of jar",
+    "parpola_graphemes": [
+        "V206",
+        "V413"
+    ],
+    "wells_graphemes": [
+        "W742",
+        "W743",
+        "W744"
+    ],
+    "features": [
+        {
+            "round_sides": "integer",
+            "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+            "width": "integer",
+            "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+            "angled_bottom": "integer",
+            "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+            "lips": "integer",
+            "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+            "handles": "integer",
+            "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        },
+        {
+            "small_strokes": "integer",
+            "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate"
+        }
+    ]
+}

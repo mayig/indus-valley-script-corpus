@@ -1,0 +1,31 @@
+{
+    "id": "P275",
+    "description": "Square in middle, possibly with horizontal lines across, and lines coming from top and bottom",
+    "parpola_graphemes": [
+        "V072",
+        "V073",
+        "V074",
+        "V317",
+        "V783"
+    ],
+    "wells_graphemes": [
+        "W510",
+        "W511",
+        "W512",
+        "W513"
+    ],
+    "features": [
+        {
+            "top_decoration": "integer",
+            "description": "How is the top extended? 0 = inverted U, 1 = vertical line"
+        },
+        {
+            "bottom_decoration": "integer",
+            "description": "How is the bottom extended? 0 = two greater-than symbol legs, 1 = vertical line, 2 = nothing"
+        },
+        {
+            "middle_decoration": "integer",
+            "description": "How is the middle decorated? 0 = empty, 1 = as a grid, 2 = with partial horizontal lines"
+        }
+    ]
+}

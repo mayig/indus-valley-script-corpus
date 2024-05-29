@@ -1,0 +1,17 @@
+{
+    "id": "P211",
+    "description": "Horizontally striped isocolese triange, with serifed T on top",
+    "parpola_graphemes": [
+        "V271",
+        "V260"
+    ],
+    "wells_graphemes": [
+        "W504"
+    ],
+    "features": [
+        {
+            "stripes": "integer",
+            "description": "How many stripes are there?"
+        }
+    ]
+}

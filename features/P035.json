@@ -1,0 +1,22 @@
+{
+    "id": "P035",
+    "description": "Person with bow and arrow",
+    "parpola_graphemes": [
+        "V139",
+        "V390"
+    ],
+    "wells_graphemes": [
+        "W125",
+        "W126"
+    ],
+    "features": [
+        {
+            "roundedness": "integer",
+            "description": "How round is the bow? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        },
+        {
+            "facing": "integer",
+            "description": "Is the box on the right? 0 = yes, 1 = no"
+        }
+    ]
+}

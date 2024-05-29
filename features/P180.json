@@ -1,0 +1,20 @@
+{
+    "id": "P180",
+    "description": "Leaf, small perpendicular strokes radiating from the top. Surrounded by a capital Gamma",
+    "parpola_graphemes": [
+        "V346"
+    ],
+    "wells_graphemes": [
+        "W796"
+    ],
+    "features": [
+        {
+            "strokes": "integer",
+            "description": "Number of strokes coming off the half-leaf"
+        },
+        {
+            "leaf_shape": "integer",
+            "description": "What shape is the leaf? 0 = complete, 1 = right-half only"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "P108",
+    "description": "Vertical stroke, broken by a circle with a dot in it",
+    "parpola_graphemes": [
+        "V174",
+        "V573"
+    ],
+    "wells_graphemes": [
+        "W370",
+        "W371",
+        "W372"
+    ],
+    "features": [
+        {
+            "roundedness": "integer",
+            "description": "How round is the central circle? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        },
+        {
+            "circle_position": "integer",
+            "description": "Where is the circle located? 0 = top, 1 = middle, 2 = bottom, 3 = indeterminate"
+        },
+        {
+            "circle_decoration": "integer",
+            "description": "How is the circle decorated? 0 = dot, 1 = hatches, nothing"
+        }
+    ]
+}

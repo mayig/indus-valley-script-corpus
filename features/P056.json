@@ -1,0 +1,17 @@
+{
+    "id": "P056",
+    "description": "Fish with a small vertical stroke in the body",
+    "parpola_graphemes": [
+        "V178",
+        "V461"
+    ],
+    "wells_graphemes": [
+        "W231"
+    ],
+    "features": [
+        {
+            "dot_or_stroke": "integer",
+            "description": "Is the marking a dot or a proper vertical line? 0 = dot, 1 = line"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = ["json_validator"]
+
+[workspace.package]
+authors = ["mike@mayig.net"]
+edition = "2021"
+description = "Corpus of Indus Seals and Inscriptions digitization with subjective allographs"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mayig/indus-valley-script-corpus"
+readme = "README.md"
+keywords = [
+    "indus",
+    "seals",
+    "inscriptions",
+    "corpus",
+    "digitization",
+    "allographs",
+    "subjective",
+    "rust",
+]
+categories = ["linguistics"]

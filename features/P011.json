@@ -1,0 +1,17 @@
+{
+    "id": "P011",
+    "description": "Person with round breasts and one raised arm",
+    "parpola_graphemes": [
+        "V097",
+        "V534"
+    ],
+    "wells_graphemes": [
+        "W140"
+    ],
+    "features": [
+        {
+            "raised_arm": "integer",
+            "description": "Which arm is raised? 0 = left, 1 = right"
+        }
+    ]
+}

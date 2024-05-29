@@ -1,0 +1,22 @@
+{
+    "id": "P040",
+    "description": "Person with U",
+    "parpola_graphemes": [
+        "V140",
+        "V096"
+    ],
+    "wells_graphemes": [
+        "W110",
+        "W111"
+    ],
+    "features": [
+        {
+            "facing": "integer",
+            "description": "Is the U on the right? (1 = yes, 0 = no)"
+        },
+        {
+            "legs": "integer",
+            "description": "Are the legs single straight lines (and not articulated)? 0 = no, 1 = yes, 2 = indeterminate"
+        }
+    ]
+}

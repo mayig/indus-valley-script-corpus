@@ -1,0 +1,23 @@
+{
+    "id": "P062",
+    "description": "Fish with extra whiskers on cheeks",
+    "parpola_graphemes": [
+        "V180",
+        "V236",
+        "V541"
+    ],
+    "wells_graphemes": [
+        "W240",
+        "W242"
+    ],
+    "features": [
+        {
+            "whisker_pairs": "integer",
+            "description": "Number of whisker pairs on cheeks"
+        },
+        {
+            "horizontal_decoration": "integer",
+            "description": "Number of horizontal lines on body"
+        }
+    ]
+}

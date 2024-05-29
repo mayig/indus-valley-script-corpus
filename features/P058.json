@@ -1,0 +1,17 @@
+{
+    "id": "P058",
+    "description": "Fish with a horizontal line through body",
+    "parpola_graphemes": [
+        "V179",
+        "V463"
+    ],
+    "wells_graphemes": [
+        "W233"
+    ],
+    "features": [
+        {
+            "angle": "integer",
+            "description": "Is the horizontal line at an angle? 0 = no, 1 = yes"
+        }
+    ]
+}

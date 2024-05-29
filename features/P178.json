@@ -1,0 +1,12 @@
+{
+    "id": "P178",
+    "description": "Right facing bow, i.e. a vertical stroke with a right-parenthesis fully attached on the right",
+    "parpola_graphemes": [
+        "V327",
+        "V794"
+    ],
+    "wells_graphemes": [
+        "W890"
+    ],
+    "features": []
+}

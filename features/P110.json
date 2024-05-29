@@ -1,0 +1,12 @@
+{
+    "id": "P110",
+    "description": "Upside-down heart symbol with horizontal hatching, with vertical stroke coming from bottom of heart. Heart has two small decorations coming off the top center",
+    "parpola_graphemes": [
+        "V094",
+        "V739"
+    ],
+    "wells_graphemes": [
+        "W388"
+    ],
+    "features": []
+}

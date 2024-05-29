@@ -1,0 +1,17 @@
+{
+    "id": "P251",
+    "description": "An X on top of a vertical stroke, with a decorated triangle hanging off the upper right",
+    "parpola_graphemes": [
+        "V287",
+        "V803"
+    ],
+    "wells_graphemes": [
+        "W081"
+    ],
+    "features": [
+        {
+            "decorations": "integer",
+            "description": "How many lines decorate the small triangle?"
+        }
+    ]
+}

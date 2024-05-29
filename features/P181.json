@@ -1,0 +1,16 @@
+{
+    "id": "P181",
+    "description": "Lyre, or a left parenthesis with multiple vertical lines inside",
+    "parpola_graphemes": [
+        "V217"
+    ],
+    "wells_graphemes": [
+        "W896"
+    ],
+    "features": [
+        {
+            "shape": "integer",
+            "description": "What shape is the box? 0 = rounded, 1 = angular, 2 = indeterminate"
+        }
+    ]
+}

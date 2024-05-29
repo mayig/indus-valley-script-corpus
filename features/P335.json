@@ -1,0 +1,16 @@
+{
+    "id": "P335",
+    "description": "U with trifurcations at the tips, with full height vertical stroke on left, connected together with horizontal stroke",
+    "parpola_graphemes": [
+        "V448"
+    ],
+    "wells_graphemes": [
+        "W765"
+    ],
+    "features": [
+        {
+            "connector": "integer",
+            "description": "Is the connector fully horizontal? 0 = no, 1 = yes (diagonal)"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "id": "P004",
+    "description": "Person carrying two burdens, jar handles for a head",
+    "parpola_graphemes": [
+        "V145",
+        "V538"
+    ],
+    "wells_graphemes": [
+        "W153",
+        "W154",
+        "W155",
+        "W156"
+    ],
+    "features": [
+        {
+            "burden_shape": "integer",
+            "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+            "ropes": "integer",
+            "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        },
+        {
+            "yoke": "integer",
+            "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+        }
+    ]
+}

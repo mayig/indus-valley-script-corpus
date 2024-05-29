@@ -1,0 +1,35 @@
+{
+    "id": "P270",
+    "description": "Rectangle, taller than wide, with vertical strokes for teeth on top and bottom",
+    "parpola_graphemes": [
+        "V066",
+        "V065",
+        "V067",
+        "V068",
+        "V396",
+        "V400",
+        "V693"
+    ],
+    "wells_graphemes": [
+        "W630",
+        "W631",
+        "W632",
+        "W633",
+        "W634",
+        "W635",
+        "W636",
+        "W637",
+        "W638",
+        "W639"
+    ],
+    "features": [
+        {
+            "teeth": "integer",
+            "description": "The number of teeth"
+        },
+        {
+            "decoration": "integer",
+            "description": "The interior decoration. 0 = none, 1 = half circle on left with two vertical teeth in mid, 2 = two horizontal teeth in mid, 3 = two horizontal teeth on left, 4 = two horizontal strokes inside, 5 = three horizontal strokes inside"
+        }
+    ]
+}

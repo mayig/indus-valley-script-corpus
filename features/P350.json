@@ -1,0 +1,14 @@
+{
+    "id": "P350",
+    "description": "Two overlapping leaves, bracketed by two small stacked vertical lines on each side",
+    "parpola_graphemes": [
+        "V506"
+    ],
+    "wells_graphemes": [],
+    "features": [
+        {
+            "bracket_design": "integer",
+            "description": "Are the brackets line or dots? 1 = lines, 0 = dots"
+        }
+    ]
+}

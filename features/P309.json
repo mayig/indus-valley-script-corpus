@@ -1,0 +1,30 @@
+{
+    "id": "P309",
+    "description": "M with the bottom of the legs connected by horizontal lines, and vertical line decoration",
+    "parpola_graphemes": [
+        "V076"
+    ],
+    "wells_graphemes": [
+        "W336",
+        "W337",
+        "W338"
+    ],
+    "features": [
+        {
+            "horizontal_line_count": "integer",
+            "description": "Number of horizontal lines across center"
+        },
+        {
+            "vertical_line_count": "integer",
+            "description": "How many vertical lines are in the 'box' in the bottom?"
+        },
+        {
+            "top_decoration": "integer",
+            "description": "What form are the triangles of the M-top? 0 = empty, 1 = hatched"
+        },
+        {
+            "bottom_decoration": "integer",
+            "description": "What form is the very bottom? 0 = no horizontal line, 1 = horizontal line"
+        }
+    ]
+}

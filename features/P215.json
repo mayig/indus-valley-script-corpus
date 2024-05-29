@@ -1,0 +1,21 @@
+{
+    "id": "P215",
+    "description": "Three tall, thin isoceles triangles",
+    "parpola_graphemes": [
+        "V105",
+        "V312"
+    ],
+    "wells_graphemes": [
+        "W460"
+    ],
+    "features": [
+        {
+            "overlap": "integer",
+            "description": "Do the side triangles obscure the central triangle? 0 = no, 1 = yes"
+        },
+        {
+            "diagonal": "integer",
+            "description": "Is the entire thing written at a diagonal? 0 = no, 1 = yes"
+        }
+    ]
+}

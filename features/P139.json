@@ -1,0 +1,12 @@
+{
+    "id": "P139",
+    "description": "Two small vertical strokes over one small vertical stroke",
+    "parpola_graphemes": [
+        "V015",
+        "V292"
+    ],
+    "wells_graphemes": [
+        "W013"
+    ],
+    "features": []
+}

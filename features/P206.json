@@ -1,0 +1,23 @@
+{
+    "id": "P206",
+    "description": "Prismed lines like P205, but with a decoration on top. Possibly with an up and down caret attached at top right",
+    "parpola_graphemes": [
+        "V457",
+        "V078"
+    ],
+    "wells_graphemes": [
+        "W307",
+        "W308",
+        "W309"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "What is the decoration above the prism? 0 = dot, 1 = jar"
+        },
+        {
+            "pincers": "integer",
+            "description": "Are there two pincers attached to the top? 0 = no, 1 = yes"
+        }
+    ]
+}

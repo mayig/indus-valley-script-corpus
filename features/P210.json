@@ -1,0 +1,19 @@
+{
+    "id": "P210",
+    "description": "Tall isoceles triangle with horizontal stripes",
+    "parpola_graphemes": [
+        "V104",
+        "V223",
+        "V389",
+        "V732"
+    ],
+    "wells_graphemes": [
+        "W503"
+    ],
+    "features": [
+        {
+            "stripes": "integer",
+            "description": "How many stripes are there?"
+        }
+    ]
+}

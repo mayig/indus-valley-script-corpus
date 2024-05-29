@@ -1,0 +1,18 @@
+{
+    "id": "P232",
+    "description": "Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle. Two leaves coming out of the connecting point.",
+    "parpola_graphemes": [
+        "V038",
+        "V583"
+    ],
+    "wells_graphemes": [
+        "W560",
+        "W561"
+    ],
+    "features": [
+        {
+            "leaves": "integer",
+            "description": "Are the interior leaves connected as one full large leaf? 0 = no, 1 = yes"
+        }
+    ]
+}

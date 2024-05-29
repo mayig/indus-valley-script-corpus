@@ -1,0 +1,29 @@
+{
+    "id": "P091",
+    "description": "Horizontal line with multiple lines out the top, lines or U out the bottom",
+    "parpola_graphemes": [
+        "V045",
+        "V044",
+        "V523"
+    ],
+    "wells_graphemes": [
+        "W350",
+        "W352",
+        "W353",
+        "W354"
+    ],
+    "features": [
+        {
+            "top_lines": "integer",
+            "description": "How many lines come off the top?"
+        },
+        {
+            "top_style": "integer",
+            "description": "Are the top lines purely vertical? yes = 0, no = 1"
+        },
+        {
+            "bottom_style": "integer",
+            "description": "What shape is the bottom? U = 0, two lines = 1, oval = 2"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "P385",
+    "description": "Diamond or leaf shape with a small diamond attached to the top",
+    "parpola_graphemes": [
+        "V162",
+        "V420",
+        "V421",
+        "V510"
+    ],
+    "wells_graphemes": [
+        "W817",
+        "W861"
+    ],
+    "features": [
+        {
+            "roundedness": "integer",
+            "description": "Are the left and right sides angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}

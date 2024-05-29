@@ -1,0 +1,12 @@
+{
+    "id": "P175",
+    "description": "Right parenthesis drawn in outline",
+    "parpola_graphemes": [
+        "V218",
+        "V416"
+    ],
+    "wells_graphemes": [
+        "W923"
+    ],
+    "features": []
+}

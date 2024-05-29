@@ -1,0 +1,17 @@
+{
+    "id": "P182",
+    "description": "Bow and arrow",
+    "parpola_graphemes": [
+        "V081",
+        "V253"
+    ],
+    "wells_graphemes": [
+        "W892"
+    ],
+    "features": [
+        {
+            "roundedness": "integer",
+            "description": "Is the bow angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}

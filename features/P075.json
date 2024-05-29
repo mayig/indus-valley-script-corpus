@@ -1,0 +1,27 @@
+{
+    "id": "P075",
+    "description": "Leaf with 'pincers' coming off the right, possibly with small stroke legs off top and bottom of leaf",
+    "parpola_graphemes": [
+        "V168",
+        "V579"
+    ],
+    "wells_graphemes": [
+        "W193",
+        "W797",
+        "W798"
+    ],
+    "features": [
+        {
+            "direction": "integer",
+            "description": "Are the pincers on the right? 0 = no, 1 = yes"
+        },
+        {
+            "legs": "integer",
+            "description": "How many legs come off top and bottom?"
+        },
+        {
+            "leaf_size": "integer",
+            "description": "How large is the leaf? 0 = small, 1 = large"
+        }
+    ]
+}

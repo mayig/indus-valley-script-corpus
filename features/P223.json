@@ -1,0 +1,20 @@
+{
+    "id": "P223",
+    "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle, with a small tree growing from the lower right",
+    "parpola_graphemes": [
+        "V343"
+    ],
+    "wells_graphemes": [
+        "W457"
+    ],
+    "features": [
+        {
+            "small_triangle_orientation": "integer",
+            "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left"
+        },
+        {
+            "branches": "integer",
+            "description": "How many branches are in the tree?"
+        }
+    ]
+}

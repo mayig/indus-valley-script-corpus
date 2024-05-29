@@ -1,0 +1,23 @@
+{
+    "id": "P202",
+    "description": "Vertical stroke with a triangular wing attached near the middle",
+    "parpola_graphemes": [
+        "V053",
+        "V582"
+    ],
+    "wells_graphemes": [
+        "W365",
+        "W367",
+        "W368"
+    ],
+    "features": [
+        {
+            "angle": "integer",
+            "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        },
+        {
+            "hatches": "integer",
+            "description": "How many vertical hatches are in the wing?"
+        }
+    ]
+}

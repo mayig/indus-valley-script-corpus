@@ -1,0 +1,12 @@
+{
+    "id": "P145",
+    "description": "Two adjacent full-height vertical strokes",
+    "parpola_graphemes": [
+        "V009",
+        "V543"
+    ],
+    "wells_graphemes": [
+        "W032"
+    ],
+    "features": []
+}

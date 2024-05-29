@@ -1,0 +1,22 @@
+{
+    "id": "P117",
+    "description": "Flowering plant with three stems that meet at the bottom",
+    "parpola_graphemes": [
+        "V215",
+        "V214",
+        "V266"
+    ],
+    "wells_graphemes": [
+        "W776",
+        "W783",
+        "W784",
+        "W785",
+        "W786"
+    ],
+    "features": [
+        {
+            "flower": "integer",
+            "description": "What shape is the flower? 0 = leaf, 1 = circle with low arms, 2 = triple horizontal bars, 3 = circle with double caret arms, 4 = circle with horn shaped leaves"
+        }
+    ]
+}

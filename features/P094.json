@@ -1,0 +1,12 @@
+{
+    "id": "P094",
+    "description": "Pitckfork with two vertical tines on ends, one triangular tine in the middle",
+    "parpola_graphemes": [
+        "V247",
+        "V464"
+    ],
+    "wells_graphemes": [
+        "W521"
+    ],
+    "features": []
+}

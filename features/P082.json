@@ -1,0 +1,28 @@
+{
+    "id": "P082",
+    "description": "Two stacked leaves, two inverted caret legs on each leaf, and wings pointing away from each other on each leaf",
+    "parpola_graphemes": [
+        "V195"
+    ],
+    "wells_graphemes": [
+        "W205",
+        "W206",
+        "W207",
+        "W208",
+        "W209"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "What is the decoration in each leaf? 0 = none, 1 = hatching, 2 = dot"
+        },
+        {
+            "direction": "integer",
+            "description": "What side do the caret legs appear on? 0 = left, 1 = right"
+        },
+        {
+            "wing_shape": "integer",
+            "description": "What shape is each wings? 0 = two curved lines, 1 = horn shaped, 2 = connected horns (wings connected to each other)"
+        }
+    ]
+}

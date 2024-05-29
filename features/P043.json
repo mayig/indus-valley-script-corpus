@@ -1,0 +1,24 @@
+{
+    "id": "P043",
+    "description": "Deer facing to the right (see also P303)",
+    "parpola_graphemes": [
+        "V288"
+    ],
+    "wells_graphemes": [
+        "W340",
+        "W341",
+        "W342",
+        "W343",
+        "W344",
+        "W345",
+        "W346",
+        "W347",
+        "W348"
+    ],
+    "features": [
+        {
+            "head_shape": "integer",
+            "description": "What shape is the head? 0 = realistic with round ears, 1 = realistic with line ears, 2 = inverted triangle, 3 = no head on neck, 4 = caret on neck, 5 = triangles on left side, 6 = triangles on both sides, 7 = plus sign"
+        }
+    ]
+}

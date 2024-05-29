@@ -1,0 +1,33 @@
+{
+    "id": "P316",
+    "description": "U with a long vertical stroke inserted into the gap of U",
+    "parpola_graphemes": [
+        "V197",
+        "V398",
+        "V532"
+    ],
+    "wells_graphemes": [
+        "W704",
+        "W705",
+        "W706",
+        "W707"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+            "u_height": "integer",
+            "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        },
+        {
+            "line_height": "integer",
+            "description": "How far into the U does the line extend? 0 = full height, 1 = partial height"
+        },
+        {
+            "stroke_decoration": "integer",
+            "description": "How is the bottom of the inserted stroke decorated? 0 = plain, 1 = triangle, 2 = circle, 3 = indeterminate"
+        }
+    ]
+}

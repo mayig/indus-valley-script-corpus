@@ -1,0 +1,12 @@
+{
+    "id": "P013",
+    "description": "Person with two arms and two legs",
+    "parpola_graphemes": [
+        "V133",
+        "V535"
+    ],
+    "wells_graphemes": [
+        "W090"
+    ],
+    "features": []
+}

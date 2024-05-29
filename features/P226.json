@@ -1,0 +1,11 @@
+{
+    "id": "P226",
+    "description": "Bowtie with another left-pointing triangle attached on the right, hatching throughout",
+    "parpola_graphemes": [
+        "V036"
+    ],
+    "wells_graphemes": [
+        "W545"
+    ],
+    "features": []
+}

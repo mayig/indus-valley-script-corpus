@@ -1,0 +1,12 @@
+{
+    "id": "P147",
+    "description": "Three adjacent full-height vertical strokes",
+    "parpola_graphemes": [
+        "V010",
+        "V424"
+    ],
+    "wells_graphemes": [
+        "W033"
+    ],
+    "features": []
+}

@@ -1,0 +1,16 @@
+{
+    "id": "P386",
+    "description": "Diamond or leaf shape directly above another, with small diamonds inside each at the center",
+    "parpola_graphemes": [
+        "V352"
+    ],
+    "wells_graphemes": [
+        "W202"
+    ],
+    "features": [
+        {
+            "roundedness": "integer",
+            "description": "Are the left and right sides angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}

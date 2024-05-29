@@ -1,0 +1,12 @@
+{
+    "id": "P089",
+    "description": "Three pronged tree with caret hat",
+    "parpola_graphemes": [
+        "V084",
+        "V801"
+    ],
+    "wells_graphemes": [
+        "W391"
+    ],
+    "features": []
+}

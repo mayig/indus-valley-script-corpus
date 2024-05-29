@@ -1,0 +1,12 @@
+{
+    "id": "P103",
+    "description": "Plant curving left, small leaf at top, larger leaf at middle forming two leaves on either side of stem",
+    "parpola_graphemes": [
+        "V187",
+        "V295"
+    ],
+    "wells_graphemes": [
+        "W374"
+    ],
+    "features": []
+}

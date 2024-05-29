@@ -1,0 +1,16 @@
+{
+    "id": "P307",
+    "description": "Box with open top, diagonal line coming off top right and outward. Bottom has a small rect with vertical lines",
+    "parpola_graphemes": [
+        "V362"
+    ],
+    "wells_graphemes": [
+        "W329"
+    ],
+    "features": [
+        {
+            "lines": "integer",
+            "description": "How many vertical lines are in the 'box' in the bottom?"
+        }
+    ]
+}

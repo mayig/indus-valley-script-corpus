@@ -1,0 +1,20 @@
+{
+    "id": "P128",
+    "description": "Eight short vertical strokes",
+    "parpola_graphemes": [
+        "V020"
+    ],
+    "wells_graphemes": [
+        "W018"
+    ],
+    "features": [
+        {
+            "vertical_position": "integer",
+            "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+            "linear": "integer",
+            "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "P217",
+    "description": "Isocolese triangle on top of vertical line (arrow? spear?)",
+    "parpola_graphemes": [
+        "V095",
+        "V549"
+    ],
+    "wells_graphemes": [
+        "W520"
+    ],
+    "features": [
+        {
+            "tip_shape": "integer",
+            "description": "What shape is the tip? 0 = triangle, 1 = caret"
+        }
+    ]
+}

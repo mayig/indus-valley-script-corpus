@@ -1,0 +1,28 @@
+{
+    "id": "P303",
+    "description": "H with two horizontal bars across the middle, with vertical lines dropping down from the crossbar",
+    "parpola_graphemes": [
+        "V275",
+        "V519"
+    ],
+    "wells_graphemes": [
+        "W322",
+        "W323",
+        "W324",
+        "W325"
+    ],
+    "features": [
+        {
+            "lines": "integer",
+            "description": "How many vertical lines are in the 'box' in the bottom?"
+        },
+        {
+            "decoration": "integer",
+            "description": "Is the top of the H solid with crosshatching? 0 = no, 1 = yes"
+        },
+        {
+            "animal": "integer",
+            "description": "Is the shape a discernable animal? 0 = no, 1 = yes"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "P247",
+    "description": "X with two vertical strokes through it, caged by inverted parentheses",
+    "parpola_graphemes": [
+        "V560"
+    ],
+    "wells_graphemes": [
+        "W688"
+    ],
+    "features": []
+}

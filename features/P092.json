@@ -1,0 +1,17 @@
+{
+    "id": "P092",
+    "description": "Pitchfork with tines",
+    "parpola_graphemes": [
+        "V042",
+        "V182"
+    ],
+    "wells_graphemes": [
+        "W415"
+    ],
+    "features": [
+        {
+            "tines": "integer",
+            "description": "How many tines come off the top?"
+        }
+    ]
+}

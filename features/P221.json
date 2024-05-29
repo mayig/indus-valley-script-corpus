@@ -1,0 +1,17 @@
+{
+    "id": "P221",
+    "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle",
+    "parpola_graphemes": [
+        "V040",
+        "V504"
+    ],
+    "wells_graphemes": [
+        "W455"
+    ],
+    "features": [
+        {
+            "small_triangle_orientation": "integer",
+            "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left"
+        }
+    ]
+}

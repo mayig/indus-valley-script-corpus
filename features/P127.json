@@ -1,0 +1,23 @@
+{
+    "id": "P127",
+    "description": "Seven short vertical strokes",
+    "parpola_graphemes": [
+        "V007",
+        "V019",
+        "V690"
+    ],
+    "wells_graphemes": [
+        "W007",
+        "W017"
+    ],
+    "features": [
+        {
+            "vertical_position": "integer",
+            "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+            "linear": "integer",
+            "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+    ]
+}

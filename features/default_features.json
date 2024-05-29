@@ -1,0 +1,19 @@
+{
+    "id": "default_features",
+    "description": "Default features for the grapheme dataset",
+    "parpola_graphemes": [],
+    "features": [
+        {
+            "damage": "integer",
+            "description": "Lowest two digits: Rough estimate of how much of the grapheme is missing or damaged. Higher digits, between 1-9, signify which parts are damaged (1 is upper left, 2 is upper mid, ...)"
+        },
+        {
+            "line": "integer",
+            "description": "On what line of the artefact is this grapheme found?"
+        },
+        {
+            "uncertainty": "integer",
+            "description": "Very subjective estimate, in the range 0-100, of how uncertain the annotator was about the grapheme"
+        }
+    ]
+}

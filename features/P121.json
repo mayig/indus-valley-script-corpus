@@ -1,0 +1,21 @@
+{
+    "id": "P121",
+    "description": "Simple, half-height vertical stroke",
+    "parpola_graphemes": [
+        "V001",
+        "V023",
+        "V258",
+        "V423",
+        "V764",
+        "V768"
+    ],
+    "wells_graphemes": [
+        "W001"
+    ],
+    "features": [
+        {
+            "vertical_position": "integer",
+            "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+    ]
+}

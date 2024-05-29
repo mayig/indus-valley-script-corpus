@@ -1,0 +1,17 @@
+{
+    "id": "P023",
+    "description": "Person with short stick",
+    "parpola_graphemes": [
+        "V135",
+        "V427"
+    ],
+    "wells_graphemes": [
+        "W095"
+    ],
+    "features": [
+        {
+            "stick_angle": "integer",
+            "description": "What angle is the stick? 0 = away from person, 1 = vertical, 2 = towards person"
+        }
+    ]
+}

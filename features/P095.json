@@ -1,0 +1,17 @@
+{
+    "id": "P095",
+    "description": "Pitckfork with two stacked heads",
+    "parpola_graphemes": [
+        "V043",
+        "V404"
+    ],
+    "wells_graphemes": [
+        "W416"
+    ],
+    "features": [
+        {
+            "tine_count": "integer",
+            "description": "Number of tines on the pitchforks"
+        }
+    ]
+}

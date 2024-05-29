@@ -1,0 +1,19 @@
+{
+    "id": "P353",
+    "description": "Three stacked leaves, possibly with vertical stroke through the center",
+    "parpola_graphemes": [
+        "V196",
+        "V296",
+        "V694"
+    ],
+    "wells_graphemes": [
+        "W215",
+        "W216"
+    ],
+    "features": [
+        {
+            "vertical_stroke": "integer",
+            "description": "Is there a vertical stroke? 1 = yes, 0 = no"
+        }
+    ]
+}

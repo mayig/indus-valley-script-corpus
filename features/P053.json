@@ -1,0 +1,11 @@
+{
+    "id": "P053",
+    "description": "Simple fish inside parentheses, with a small tooth coming off the top right or the right paren",
+    "parpola_graphemes": [
+        "V521"
+    ],
+    "wells_graphemes": [
+        "W222"
+    ],
+    "features": []
+}

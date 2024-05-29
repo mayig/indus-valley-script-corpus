@@ -1,0 +1,17 @@
+{
+    "id": "P256",
+    "description": "An X but drawn in outline",
+    "parpola_graphemes": [
+        "V123",
+        "V507"
+    ],
+    "wells_graphemes": [
+        "W692"
+    ],
+    "features": [
+        {
+            "center_vline": "integer",
+            "description": "Does the center have a solid vline? 1 = yes, 0 = no"
+        }
+    ]
+}

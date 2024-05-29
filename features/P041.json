@@ -1,0 +1,11 @@
+{
+    "id": "P041",
+    "description": "Person with U with vertical stroke inserted, stroke has a small dot at the bottom",
+    "parpola_graphemes": [
+        "V141"
+    ],
+    "wells_graphemes": [
+        "W112"
+    ],
+    "features": []
+}

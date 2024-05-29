@@ -1,0 +1,23 @@
+{
+    "id": "P204",
+    "description": "Simple lambda but reversed horizontally, and the leg may not be quite connected to the long stem",
+    "parpola_graphemes": [
+        "V156",
+        "V119"
+    ],
+    "wells_graphemes": [
+        "W061",
+        "W062",
+        "W063"
+    ],
+    "features": [
+        {
+            "connected": "integer",
+            "description": "Is the leg connected to the long stem? (0 = no, 1 = yes)"
+        },
+        {
+            "facing": "integer",
+            "description": "Is the leg of the lambda facing left or right? (0 = left, 1 = right)"
+        }
+    ]
+}

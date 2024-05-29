@@ -1,0 +1,42 @@
+[
+    {
+        "id": "M-16A",
+        "description": "unicorn II seal",
+        "graphemes": [
+            {
+                "id": "P378",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
+                "id": "P026",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    5
+                ]
+            },
+            {
+                "id": "P151",
+                "features": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "id": "P346",
+                "features": [
+                    0,
+                    1,
+                    0
+                ]
+            }
+        ]
+    }
+]

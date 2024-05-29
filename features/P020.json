@@ -1,0 +1,12 @@
+{
+    "id": "P020",
+    "description": "Person with a half-height caret coming off the right foot",
+    "parpola_graphemes": [
+        "V149",
+        "V772"
+    ],
+    "wells_graphemes": [
+        "W104"
+    ],
+    "features": []
+}

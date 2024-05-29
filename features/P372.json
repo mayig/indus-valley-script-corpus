@@ -1,0 +1,18 @@
+{
+    "id": "P372",
+    "description": "Leaf with diagonal-stroke central decoration",
+    "parpola_graphemes": [
+        "V116",
+        "V257"
+    ],
+    "wells_graphemes": [
+        "W831",
+        "W833"
+    ],
+    "features": [
+        {
+            "strokes": "integer",
+            "description": "Number of strokes in center"
+        }
+    ]
+}

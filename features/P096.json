@@ -1,0 +1,26 @@
+{
+    "id": "P096",
+    "description": "U where one arm has a double headed pitchfork, the other is a tree symbol",
+    "parpola_graphemes": [
+        "V212"
+    ],
+    "wells_graphemes": [
+        "W770",
+        "W772",
+        "W773"
+    ],
+    "features": [
+        {
+            "pitchfork_tines": "integer",
+            "description": "Number of tines on the pitchforks"
+        },
+        {
+            "tree_branches": "integer",
+            "description": "How many branches in the tree"
+        },
+        {
+            "branching shape": "integer",
+            "description": "What shape are the branches? 0 = bifurcating, 1 = off to one side, 2 = off to one side with closing horizontal line at top"
+        }
+    ]
+}

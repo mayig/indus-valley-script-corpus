@@ -1,0 +1,12 @@
+{
+    "id": "P144",
+    "description": "One full-height vertical stroke",
+    "parpola_graphemes": [
+        "V008",
+        "V501"
+    ],
+    "wells_graphemes": [
+        "W031"
+    ],
+    "features": []
+}

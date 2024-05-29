@@ -1,0 +1,21 @@
+{
+    "id": "P228",
+    "description": "X with left points connected by vertical line, with another underneath, and a vertical bar connecting the cross-point of the two X's",
+    "parpola_graphemes": [
+        "V037"
+    ],
+    "wells_graphemes": [
+        "W531",
+        "W533"
+    ],
+    "features": [
+        {
+            "separation": "integer",
+            "description": "Separation distance of the top and bottom X's. 0 = not separated, 1 = separated"
+        },
+        {
+            "center_line_length": "integer",
+            "description": "Is the center line extended past the X cross points? 0 = not extended, 1 = extended"
+        }
+    ]
+}

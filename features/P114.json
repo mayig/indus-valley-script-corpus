@@ -1,0 +1,21 @@
+{
+    "id": "P114",
+    "description": "A single vertical line, with two person arms; head may be circle or continuation of line",
+    "parpola_graphemes": [
+        "V173",
+        "V091",
+        "V373",
+        "V528"
+    ],
+    "wells_graphemes": [
+        "W070",
+        "W071",
+        "W072"
+    ],
+    "features": [
+        {
+            "head": "integer",
+            "description": "What shape is the head? 0 = circle, 1 = continuation of line, 2 = 'plus' sign"
+        }
+    ]
+}

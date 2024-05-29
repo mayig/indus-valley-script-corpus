@@ -1,0 +1,17 @@
+{
+    "id": "P272",
+    "description": "Trapezoid with inner rectangle",
+    "parpola_graphemes": [
+        "V318",
+        "V290"
+    ],
+    "wells_graphemes": [
+        "W362"
+    ],
+    "features": [
+        {
+            "inner_shape": "integer",
+            "description": "What shape is the inner shape? 0 = rectangle, 1 = trapezoid"
+        }
+    ]
+}

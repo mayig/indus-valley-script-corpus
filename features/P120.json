@@ -1,0 +1,21 @@
+{
+    "id": "P120",
+    "description": "A single small vertical line, then another vertical line with the bottom half slanting under the first line (like a Japanese 'ri' character).",
+    "parpola_graphemes": [
+        "V154",
+        "V469"
+    ],
+    "wells_graphemes": [
+        "W060"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "Is the right line rounded? 0 = rounded, 1 = angled, 2 = straight, 3 = mixed or indeterminate"
+        },
+        {
+            "height": "integer",
+            "description": "0 = full height, 1 = partial-height"
+        }
+    ]
+}

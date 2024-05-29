@@ -1,0 +1,20 @@
+{
+    "id": "P258",
+    "description": "An X but drawn in outline, with tree stemming from bottom right corner",
+    "parpola_graphemes": [
+        "V574"
+    ],
+    "wells_graphemes": [
+        "W693"
+    ],
+    "features": [
+        {
+            "center_vline": "integer",
+            "description": "Does the center have a solid vline? 1 = yes, 0 = no"
+        },
+        {
+            "branches": "integer",
+            "description": "Number of branches"
+        }
+    ]
+}

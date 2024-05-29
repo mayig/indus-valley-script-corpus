@@ -1,0 +1,12 @@
+{
+    "id": "P382",
+    "description": "Diamond with four small diamonds at each vertex",
+    "parpola_graphemes": [
+        "V164",
+        "V556"
+    ],
+    "wells_graphemes": [
+        "W877"
+    ],
+    "features": []
+}

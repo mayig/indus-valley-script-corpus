@@ -1,0 +1,24 @@
+{
+    "id": "P230",
+    "description": "Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+    "parpola_graphemes": [
+        "V241",
+        "V033",
+        "V412",
+        "V593"
+    ],
+    "wells_graphemes": [
+        "W550",
+        "W555"
+    ],
+    "features": [
+        {
+            "rounded-lhs": "integer",
+            "description": "0 = rounded, 1 = angular"
+        },
+        {
+            "lower-right-tangent": "integer",
+            "description": "Is there a lower right tangent? 0 = no, 1 = yes"
+        }
+    ]
+}

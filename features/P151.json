@@ -1,0 +1,12 @@
+{
+    "id": "P151",
+    "description": "Five adjacent simple tall vertical strokes",
+    "parpola_graphemes": [
+        "V012",
+        "V784"
+    ],
+    "wells_graphemes": [
+        "W035"
+    ],
+    "features": []
+}

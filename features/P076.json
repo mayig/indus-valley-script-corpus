@@ -1,0 +1,22 @@
+{
+    "id": "P076",
+    "description": "Squashed spider, with right two legs slightly more away from the body",
+    "parpola_graphemes": [
+        "V190",
+        "V544"
+    ],
+    "wells_graphemes": [
+        "W190",
+        "W192"
+    ],
+    "features": [
+        {
+            "curvy": "integer",
+            "description": "Are the right two legs curvy? 0 = curvy, 1 = straight"
+        },
+        {
+            "decoration": "integer",
+            "description": "Is there a small marking in the body? 0 = no, 1 = yes"
+        }
+    ]
+}

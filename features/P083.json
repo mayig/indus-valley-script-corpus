@@ -1,0 +1,16 @@
+{
+    "id": "P083",
+    "description": "Two stacked leaves, with lines coming away on the right of each leaf",
+    "parpola_graphemes": [
+        "V194"
+    ],
+    "wells_graphemes": [
+        "W204"
+    ],
+    "features": [
+        {
+            "ray_count": "integer",
+            "description": "How many rays come off each leaf?"
+        }
+    ]
+}

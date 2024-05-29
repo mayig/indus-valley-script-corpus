@@ -1,0 +1,12 @@
+{
+    "id": "P366",
+    "description": "Leaf with small vertical stroke inside",
+    "parpola_graphemes": [
+        "V158",
+        "V431"
+    ],
+    "wells_graphemes": [
+        "W832"
+    ],
+    "features": []
+}

@@ -1,0 +1,23 @@
+{
+    "id": "P364",
+    "description": "Leaf with tree at bottom",
+    "parpola_graphemes": [
+        "V161",
+        "V537"
+    ],
+    "wells_graphemes": [
+        "W803",
+        "W805",
+        "W806"
+    ],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "The number of branches on the tree"
+        },
+        {
+            "style": "integer",
+            "description": "0 = no bifurcation, 1 = bifurcation"
+        }
+    ]
+}

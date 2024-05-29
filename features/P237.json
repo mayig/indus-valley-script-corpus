@@ -1,0 +1,11 @@
+{
+    "id": "P237",
+    "description": "X with vertical connection on left two tips, right tips both have a slight vertical line toward each other, and three lines off the tip away from each other",
+    "parpola_graphemes": [
+        "V034"
+    ],
+    "wells_graphemes": [
+        "W564"
+    ],
+    "features": []
+}

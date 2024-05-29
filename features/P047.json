@@ -1,0 +1,18 @@
+{
+    "id": "P047",
+    "description": "Vertical line with rounded and hatched decoration at the middle, capped by a caret hat",
+    "parpola_graphemes": [
+        "V323",
+        "V264"
+    ],
+    "wells_graphemes": [
+        "W517",
+        "W518"
+    ],
+    "features": [
+        {
+            "shape": "integer",
+            "description": "Is the decoration a circle or an oval? 0 = circle, 1 = oval, 2 = indeterminate"
+        }
+    ]
+}

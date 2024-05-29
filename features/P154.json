@@ -1,0 +1,19 @@
+{
+    "id": "P154",
+    "description": "Right parenthesis (perhaps with a backward curve at the bottom)",
+    "parpola_graphemes": [
+        "V153",
+        "V265",
+        "V289",
+        "V511"
+    ],
+    "wells_graphemes": [
+        "W900"
+    ],
+    "features": [
+        {
+            "backward_curve": "integer",
+            "description": "Is there a backward curve at the bottom of the stroke? 0 = no, 1 = yes"
+        }
+    ]
+}

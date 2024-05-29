@@ -1,0 +1,20 @@
+{
+    "id": "P360",
+    "description": "Leaf on vertical line, with sun rays coming out from the top",
+    "parpola_graphemes": [
+        "V377"
+    ],
+    "wells_graphemes": [
+        "W373"
+    ],
+    "features": [
+        {
+            "rays": "integer",
+            "description": "Number of rays"
+        },
+        {
+            "shape": "integer",
+            "description": "What shape is the leaf? 0 = leaf, 1 = diamond, 2 = indeterminate"
+        }
+    ]
+}

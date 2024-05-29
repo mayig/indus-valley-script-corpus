@@ -1,0 +1,19 @@
+{
+    "id": "P172",
+    "description": "Two slightly nested right parentheses",
+    "parpola_graphemes": [
+        "V242",
+        "V226",
+        "V347"
+    ],
+    "wells_graphemes": [
+        "W904",
+        "W927"
+    ],
+    "features": [
+        {
+            "design": "integer",
+            "description": "0 = right-parentheses, 1 = waves"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "P384",
+    "description": "Diamond with four small diamonds at each vertex, and a wagon wheel in the center",
+    "parpola_graphemes": [
+        "V114",
+        "V797"
+    ],
+    "wells_graphemes": [
+        "W880"
+    ],
+    "features": []
+}

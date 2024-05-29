@@ -1,0 +1,17 @@
+{
+    "id": "P289",
+    "description": "Trapezoid with no bottom line, small box resting on the top middle",
+    "parpola_graphemes": [
+        "V030",
+        "V261"
+    ],
+    "wells_graphemes": [
+        "W575"
+    ],
+    "features": [
+        {
+            "trapezoid_shape": "integer",
+            "description": "Is the trapezoid angled or straight? 0 = angled, 1 = straight, 2 = indeterminate"
+        }
+    ]
+}

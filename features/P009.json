@@ -1,0 +1,17 @@
+{
+    "id": "P009",
+    "description": "Person with three heads",
+    "parpola_graphemes": [
+        "V134",
+        "V559"
+    ],
+    "wells_graphemes": [
+        "W100"
+    ],
+    "features": [
+        {
+            "heads_on_arms": "integer",
+            "description": "Do the heads come off the arms? 1 = yes, 0 = no"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "P050",
+    "description": "Fish with no other decoration",
+    "parpola_graphemes": [
+        "V177",
+        "V517"
+    ],
+    "wells_graphemes": [
+        "W220"
+    ],
+    "features": []
+}

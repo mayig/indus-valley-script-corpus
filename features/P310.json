@@ -1,0 +1,21 @@
+{
+    "id": "P310",
+    "description": "Simple U with no other decoration",
+    "parpola_graphemes": [
+        "V246",
+        "V548"
+    ],
+    "wells_graphemes": [
+        "W700"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "What shape is the U? 0 = wide mouthed and rounded, 1 = mostly vertical sides"
+        },
+        {
+            "u_height": "integer",
+            "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        }
+    ]
+}

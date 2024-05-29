@@ -1,0 +1,33 @@
+{
+    "id": "P067",
+    "description": "Large left and right parentheses surrounding an upward-pointing bird with no wings",
+    "parpola_graphemes": [
+        "V503",
+        "V263"
+    ],
+    "wells_graphemes": [
+        "W265",
+        "W267",
+        "W269",
+        "W270",
+        "W271"
+    ],
+    "features": [
+        {
+            "cage_shape": "integer",
+            "description": "Are the cage parenthesis round? 0 = round, 1 = angular, 2 = indeterminate"
+        },
+        {
+            "head_shape": "integer",
+            "description": "What shape is the bird's head? 0 = triangle, 1 = simple stroke, 2 = curved line"
+        },
+        {
+            "decoration": "integer",
+            "description": "How is the body decorated? 0 = empty, 1 = hatching"
+        },
+        {
+            "body_shape": "integer",
+            "description": "What shape is the bird's body? 0 = fat bulge, 1 = delicate oval, 2 = triangular"
+        }
+    ]
+}

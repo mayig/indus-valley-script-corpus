@@ -1,0 +1,44 @@
+{
+    "id": "P186",
+    "description": "A with right leg only partially formed, possibly with pitchfork foot on right",
+    "parpola_graphemes": [
+        "V100",
+        "V708",
+        "V782",
+        "V790"
+    ],
+    "wells_graphemes": [
+        "W465",
+        "W467",
+        "W468",
+        "W469",
+        "W470",
+        "W471",
+        "W472",
+        "W473",
+        "W474",
+        "W475"
+    ],
+    "features": [
+        {
+            "rounded_top": "integer",
+            "description": "Is the top rounded? 0 = round, 1 = angled"
+        },
+        {
+            "pitchfork": "integer",
+            "description": "How many prongs does the pitchfork have? 0 = no prongs, 1,2,... = 1,2,... prongs"
+        },
+        {
+            "missing_crossbar": "integer",
+            "description": "Is the A missing its crossbar? 0 = no, 1 = yes, 2 = indeterminate"
+        },
+        {
+            "pitchfork_crossbar": "integer",
+            "description": "Is there a connecting line for the pitchfork tines? 0 = no, 1 = yes, 2 = indeterminate"
+        },
+        {
+            "pitchfork_orientation": "integer",
+            "description": "Is the pitchfork oriented perpendicular to the A leg? 0 = no, 1 = yes, 2 = yes and facing the A, 3 = indeterminate"
+        }
+    ]
+}

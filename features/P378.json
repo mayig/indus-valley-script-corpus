@@ -1,0 +1,17 @@
+{
+    "id": "P378",
+    "description": "Wheel with 6 spokes with even angles",
+    "parpola_graphemes": [
+        "V163",
+        "V254"
+    ],
+    "wells_graphemes": [
+        "W820"
+    ],
+    "features": [
+        {
+            "roundedness": "integer",
+            "description": "Is the wheel rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}

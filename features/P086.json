@@ -1,0 +1,36 @@
+{
+    "id": "P086",
+    "description": "Simple tree with branches at the top",
+    "parpola_graphemes": [
+        "V126",
+        "V127",
+        "V151",
+        "V508"
+    ],
+    "wells_graphemes": [
+        "W390",
+        "W392",
+        "W405",
+        "W406",
+        "W407",
+        "W408"
+    ],
+    "features": [
+        {
+            "branch_factor": "integer",
+            "description": "How many branches stem from a single branching point?"
+        },
+        {
+            "branch_count": "integer",
+            "description": "How many times does the tree branch?"
+        },
+        {
+            "branch_direction": "integer",
+            "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+        },
+        {
+            "final_branch_shape": "integer",
+            "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch"
+        }
+    ]
+}

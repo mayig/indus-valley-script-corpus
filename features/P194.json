@@ -1,0 +1,29 @@
+{
+    "id": "P194",
+    "description": "Person sitting with bent knees, four small tangent lines coming off the back",
+    "parpola_graphemes": [
+        "V186",
+        "V434"
+    ],
+    "wells_graphemes": [
+        "W175",
+        "W176",
+        "W177",
+        "W178",
+        "W179"
+    ],
+    "features": [
+        {
+            "tangents": "integer",
+            "description": "How many tangent lines are coming off the back of the person?"
+        },
+        {
+            "facing": "integer",
+            "description": "Which way is the person facing? 0 = left, 1 = right"
+        },
+        {
+            "head_shape": "integer",
+            "description": "What shape is the head? 0 = leaf, 1 = diamond, 2 = upside down U, 3 = indeterminate"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "P174",
+    "description": "Right parenthesis next to left parenthesis",
+    "parpola_graphemes": [
+        "V553",
+        "V446"
+    ],
+    "wells_graphemes": [
+        "W906"
+    ],
+    "features": []
+}

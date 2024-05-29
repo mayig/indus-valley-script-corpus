@@ -1,0 +1,15 @@
+{
+    "id": "P260",
+    "description": "An octothorpe, possibly rotated 45 degrees (see similarity with P359)",
+    "parpola_graphemes": [
+        "V742",
+        "V478"
+    ],
+    "wells_graphemes": [],
+    "features": [
+        {
+            "rotated": "integer",
+            "description": "Is the symbol rotated 45 degrees? (1 = yes, 0 = no)"
+        }
+    ]
+}

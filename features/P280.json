@@ -1,0 +1,15 @@
+{
+    "id": "P280",
+    "description": "Box with vertical stroke off top center, horizontal striping",
+    "parpola_graphemes": [
+        "V028",
+        "V256"
+    ],
+    "wells_graphemes": [],
+    "features": [
+        {
+            "stripes": "integer",
+            "description": "Number of horizontal stripes"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": "P205",
+    "description": "Prismed light rays, with opposite slanting on top vs bottom, more rays on bottom",
+    "parpola_graphemes": [
+        "V129",
+        "V233"
+    ],
+    "wells_graphemes": [
+        "W289",
+        "W290",
+        "W291",
+        "W292",
+        "W293",
+        "W294",
+        "W295",
+        "W296",
+        "W297",
+        "W299",
+        "W300",
+        "W301",
+        "W302",
+        "W303",
+        "W304",
+        "W305",
+        "W306"
+    ],
+    "features": [
+        {
+            "top_ray_count": "integer",
+            "description": "How many rays are in the top half?"
+        },
+        {
+            "bottom_ray_count": "integer",
+            "description": "How many rays are in the bottom half?"
+        },
+        {
+            "connected_top": "integer",
+            "description": "Is there a horizontal connector at the top? 1 for yes, 0 for no"
+        },
+        {
+            "branching_rays": "integer",
+            "description": "Conjoined int representing which rays bifurcate between top and bottom. E.g., 13 means the first and third rays bifurcate. 0 means no bifurcation."
+        },
+        {
+            "decoration": "integer",
+            "description": "Decoration. 0 = none, 1 = fancy (as in M-9)"
+        }
+    ]
+}

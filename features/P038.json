@@ -1,0 +1,16 @@
+{
+    "id": "P038",
+    "description": "Person with diamond connected to the right",
+    "parpola_graphemes": [
+        "V366"
+    ],
+    "wells_graphemes": [
+        "W119"
+    ],
+    "features": [
+        {
+            "connection": "integer",
+            "description": "Does the person have a stick as well? 0 = no, 1 = yes"
+        }
+    ]
+}

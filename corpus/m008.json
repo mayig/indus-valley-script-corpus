@@ -1,0 +1,39 @@
+[
+    {
+        "id": "M-8A",
+        "description": "unicorn I seal",
+        "graphemes": [
+            {
+                "id": "P316",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    2
+                ]
+            },
+            {
+                "id": "P011",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            {
+                "id": "P270",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    3,
+                    0
+                ]
+            }
+        ]
+    }
+]

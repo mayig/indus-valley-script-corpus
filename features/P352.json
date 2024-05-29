@@ -1,0 +1,21 @@
+{
+    "id": "P352",
+    "description": "Two overlapping leaves with diagonal hatches across the three midsections, possibly with a cage of small vertical strokes",
+    "parpola_graphemes": [
+        "V170",
+        "V309"
+    ],
+    "wells_graphemes": [
+        "W845"
+    ],
+    "features": [
+        {
+            "hatch_angle": "integer",
+            "description": "Are the hatches diagonal? 1 = yes, 0 = no"
+        },
+        {
+            "cage": "integer",
+            "description": "Is there a cage of small vertical strokes? 1 = yes, 0 = no"
+        }
+    ]
+}

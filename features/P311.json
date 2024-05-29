@@ -1,0 +1,21 @@
+{
+    "id": "P311",
+    "description": "U with two small vertical strokes inside the top",
+    "parpola_graphemes": [
+        "V201",
+        "V720"
+    ],
+    "wells_graphemes": [
+        "W701"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+            "u_height": "integer",
+            "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "P313",
+    "description": "U with several small strokes off the bottom",
+    "parpola_graphemes": [
+        "V359",
+        "V267"
+    ],
+    "wells_graphemes": [
+        "W732",
+        "W734"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+            "stroke_count": "integer",
+            "description": "How many strokes come off the bottom?"
+        }
+    ]
+}

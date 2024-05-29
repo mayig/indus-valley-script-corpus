@@ -1,0 +1,24 @@
+{
+    "id": "P126",
+    "description": "Six short vertical strokes",
+    "parpola_graphemes": [
+        "V006",
+        "V018",
+        "V670",
+        "V723"
+    ],
+    "wells_graphemes": [
+        "W006",
+        "W016"
+    ],
+    "features": [
+        {
+            "vertical_position": "integer",
+            "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+            "linear": "integer",
+            "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+    ]
+}

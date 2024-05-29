@@ -1,0 +1,22 @@
+{
+    "id": "P188",
+    "description": "Vertical line with diagonal going down from top right, diagonal going up from bottom left",
+    "parpola_graphemes": [
+        "V101",
+        "V306"
+    ],
+    "wells_graphemes": [
+        "W435",
+        "W436"
+    ],
+    "features": [
+        {
+            "facing": "integer",
+            "description": "Does the top diagonal go left? (0 = no, 1 = yes)"
+        },
+        {
+            "tilt": "integer",
+            "description": "Is the central line purely vertical or tilted? 0 = vertical, 1 = titled"
+        }
+    ]
+}

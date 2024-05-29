@@ -1,0 +1,24 @@
+{
+    "id": "P268",
+    "description": "A grid of x by y cells",
+    "parpola_graphemes": [
+        "V069",
+        "V062",
+        "V092",
+        "V554",
+        "V696"
+    ],
+    "wells_graphemes": [
+        "W615"
+    ],
+    "features": [
+        {
+            "columns": "integer",
+            "description": "The number of columns in the grid"
+        },
+        {
+            "rows": "integer",
+            "description": "The number of rows in the grid"
+        }
+    ]
+}

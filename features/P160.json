@@ -1,0 +1,12 @@
+{
+    "id": "P160",
+    "description": "Right parenthesis with small leaf at middle",
+    "parpola_graphemes": [
+        "V220",
+        "V155"
+    ],
+    "wells_graphemes": [
+        "W920"
+    ],
+    "features": []
+}

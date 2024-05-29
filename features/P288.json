@@ -1,0 +1,10 @@
+{
+    "id": "P288",
+    "description": "Trapezoid with no bottom line, two short outward perpendiculars off bottom left and right and from top center, bird-foot in bottom",
+    "parpola_graphemes": [
+        "V050",
+        "V683"
+    ],
+    "wells_graphemes": [],
+    "features": []
+}

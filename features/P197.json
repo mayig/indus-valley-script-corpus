@@ -1,0 +1,12 @@
+{
+    "id": "P197",
+    "description": "Tall caret drawn in outline, with diamond inscribed at the point",
+    "parpola_graphemes": [
+        "V109",
+        "V308"
+    ],
+    "wells_graphemes": [
+        "W482"
+    ],
+    "features": []
+}

@@ -1,0 +1,12 @@
+{
+    "id": "P060",
+    "description": "Fish with a caret shaped hat",
+    "parpola_graphemes": [
+        "V086",
+        "V568"
+    ],
+    "wells_graphemes": [
+        "W235"
+    ],
+    "features": []
+}

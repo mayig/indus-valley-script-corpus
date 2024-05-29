@@ -1,0 +1,12 @@
+{
+    "id": "P031",
+    "description": "Person with staff",
+    "parpola_graphemes": [
+        "V136",
+        "V450"
+    ],
+    "wells_graphemes": [
+        "W142"
+    ],
+    "features": []
+}

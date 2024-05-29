@@ -1,0 +1,12 @@
+{
+    "id": "P234",
+    "description": "Left-pointing isocoles triangle on right, right-pointing isosceles triangle on left, with small part of left line removed in middle.",
+    "parpola_graphemes": [
+        "V350",
+        "V793"
+    ],
+    "wells_graphemes": [
+        "W551"
+    ],
+    "features": []
+}

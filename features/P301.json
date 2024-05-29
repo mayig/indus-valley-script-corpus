@@ -1,0 +1,22 @@
+{
+    "id": "P301",
+    "description": "Small box with horizontal hatching, vertical lines coming from top left and bottom right corners",
+    "parpola_graphemes": [
+        "V041",
+        "V479"
+    ],
+    "wells_graphemes": [
+        "W526",
+        "W527"
+    ],
+    "features": [
+        {
+            "hatches": "integer",
+            "description": "How many horizontal lines are in the 'box' in the middle?"
+        },
+        {
+            "flipped": "integer",
+            "description": "Is the entire symbol in mirror image along the vertical axis? 0 = no, 1 = yes"
+        }
+    ]
+}

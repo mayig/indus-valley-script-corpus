@@ -1,0 +1,27 @@
+[
+    {
+        "id": "M-60A",
+        "description": "unicorn III seal",
+        "graphemes": [
+            {
+                "id": "P001",
+                "features": [
+                    20,
+                    1,
+                    70,
+                    0,
+                    0
+                ]
+            },
+            {
+                "id": "P000",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    40
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "id": "P122",
+    "description": "Two adjacent simple vertical strokes",
+    "parpola_graphemes": [
+        "V002",
+        "V231",
+        "V765",
+        "V769"
+    ],
+    "wells_graphemes": [
+        "W002"
+    ],
+    "features": [
+        {
+            "vertical_position": "integer",
+            "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": "P332",
+    "description": "U with decorated branching at top",
+    "parpola_graphemes": [
+        "V248",
+        "V210",
+        "V211",
+        "V276",
+        "V395",
+        "V428",
+        "V480"
+    ],
+    "wells_graphemes": [
+        "W752",
+        "W760"
+    ],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "Number of branches on each lip"
+        },
+        {
+            "closed": "integer",
+            "description": "Are the branches closed with horizontal strokes? 0 = no, 1 = yes"
+        },
+        {
+            "sided": "integer",
+            "description": "Do the branches only occur on left or right, inside or outside? 0 = balanced, 1 = left, 2 = right, 3 = inside, 4 = outside"
+        },
+        {
+            "decoration": "integer",
+            "description": "Do the branches have horizontal lines decorating them? 0 = no, 1 = yes"
+        }
+    ]
+}

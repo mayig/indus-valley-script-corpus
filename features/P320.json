@@ -1,0 +1,18 @@
+{
+    "id": "P320",
+    "description": "A cat's paw perhaps, two vertical strokes on each side, and four fingers, with fingers on one side a little shorter than the other",
+    "parpola_graphemes": [
+        "V203",
+        "V484"
+    ],
+    "wells_graphemes": [
+        "W716",
+        "W717"
+    ],
+    "features": [
+        {
+            "hatches": "integer",
+            "description": "How many vertical hatches make up the fingers?"
+        }
+    ]
+}

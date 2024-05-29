@@ -1,0 +1,21 @@
+{
+    "id": "P073",
+    "description": "Unknown asymmetric animal? Perhaps a fish with asymmetric fins and legs?",
+    "parpola_graphemes": [
+        "V184",
+        "V460"
+    ],
+    "wells_graphemes": [
+        "W255"
+    ],
+    "features": [
+        {
+            "ul_hatches": "integer",
+            "description": "How many horizontal hatches are in the upper left wing?"
+        },
+        {
+            "mirror": "integer",
+            "description": "Is the 'foot' pointed to the left? 0 = no, 1 = yes"
+        }
+    ]
+}

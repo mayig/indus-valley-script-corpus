@@ -1,0 +1,39 @@
+[
+    {
+        "id": "M-97A",
+        "description": "unicorn IV seal",
+        "graphemes": [
+            {
+                "id": "P004",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            {
+                "id": "P188",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "id": "P073",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    1
+                ]
+            }
+        ]
+    }
+]

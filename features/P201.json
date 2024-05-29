@@ -1,0 +1,17 @@
+{
+    "id": "P201",
+    "description": "Vertical stroke with a small slightly downward horizontal stroke at the left middle",
+    "parpola_graphemes": [
+        "V052",
+        "V108"
+    ],
+    "wells_graphemes": [
+        "W065"
+    ],
+    "features": [
+        {
+            "angle": "integer",
+            "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        }
+    ]
+}

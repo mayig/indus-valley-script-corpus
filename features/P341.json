@@ -1,0 +1,16 @@
+{
+    "id": "P341",
+    "description": "Four rounded lines going upward, curving into each other at top, with a caret hat above all, and two diagonal strokes across the four lines",
+    "parpola_graphemes": [
+        "V089"
+    ],
+    "wells_graphemes": [
+        "W932"
+    ],
+    "features": [
+        {
+            "diagonals": "integer",
+            "description": "What direction are the diagonals? 0 = up&right, 1 = up&left"
+        }
+    ]
+}

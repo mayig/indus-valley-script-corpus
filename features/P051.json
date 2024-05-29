@@ -1,0 +1,12 @@
+{
+    "id": "P051",
+    "description": "Fish with four small vertical strokes around the four corners",
+    "parpola_graphemes": [
+        "V513",
+        "V321"
+    ],
+    "wells_graphemes": [
+        "W226"
+    ],
+    "features": []
+}
