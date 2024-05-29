@@ -10,6 +10,9 @@
     "wells_graphemes": [
         "W151"
     ],
+    "mahadevan_graphemes": [
+        "M012"
+    ],
     "features": [
         {
             "burden_shape": "integer",

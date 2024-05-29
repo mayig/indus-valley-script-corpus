@@ -10,6 +10,9 @@
         "W797",
         "W798"
     ],
+    "mahadevan_graphemes": [
+        "M053"
+    ],
     "features": [
         {
             "direction": "integer",

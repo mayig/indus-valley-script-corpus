@@ -9,6 +9,9 @@
         "W772",
         "W773"
     ],
+    "mahadevan_graphemes": [
+        "M348"
+    ],
     "features": [
         {
             "pitchfork_tines": "integer",

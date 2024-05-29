@@ -8,6 +8,9 @@
     "wells_graphemes": [
         "W095"
     ],
+    "mahadevan_graphemes": [
+        "M018"
+    ],
     "features": [
         {
             "stick_angle": "integer",

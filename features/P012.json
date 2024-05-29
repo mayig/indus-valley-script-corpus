@@ -8,6 +8,9 @@
     "wells_graphemes": [
         "W098"
     ],
+    "mahadevan_graphemes": [
+        "M007"
+    ],
     "features": [
         {
             "raised_arm": "integer",

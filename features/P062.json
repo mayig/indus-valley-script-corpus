@@ -10,6 +10,9 @@
         "W240",
         "W242"
     ],
+    "mahadevan_graphemes": [
+        "M067"
+    ],
     "features": [
         {
             "whisker_pairs": "integer",

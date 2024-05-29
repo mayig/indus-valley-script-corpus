@@ -9,6 +9,10 @@
         "W190",
         "W192"
     ],
+    "mahadevan_graphemes": [
+        "M054",
+        "M055"
+    ],
     "features": [
         {
             "curvy": "integer",

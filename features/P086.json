@@ -15,6 +15,13 @@
         "W407",
         "W408"
     ],
+    "mahadevan_graphemes": [
+        "M161",
+        "M162",
+        "M167",
+        "M168",
+        "M169"
+    ],
     "features": [
         {
             "branch_factor": "integer",

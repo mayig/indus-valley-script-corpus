@@ -13,6 +13,9 @@
         "W785",
         "W786"
     ],
+    "mahadevan_graphemes": [
+        "M367"
+    ],
     "features": [
         {
             "flower": "integer",

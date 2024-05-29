@@ -10,6 +10,10 @@
         "W106",
         "W107"
     ],
+    "mahadevan_graphemes": [
+        "M004",
+        "M005"
+    ],
     "features": [
         {
             "wand": "integer",

@@ -12,6 +12,9 @@
         "W071",
         "W072"
     ],
+    "mahadevan_graphemes": [
+        "M155"
+    ],
     "features": [
         {
             "head": "integer",

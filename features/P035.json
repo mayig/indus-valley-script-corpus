@@ -9,6 +9,9 @@
         "W125",
         "W126"
     ],
+    "mahadevan_graphemes": [
+        "M028"
+    ],
     "features": [
         {
             "roundedness": "integer",

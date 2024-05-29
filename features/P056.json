@@ -8,6 +8,9 @@
     "wells_graphemes": [
         "W231"
     ],
+    "mahadevan_graphemes": [
+        "M070"
+    ],
     "features": [
         {
             "dot_or_stroke": "integer",

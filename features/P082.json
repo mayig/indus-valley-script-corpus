@@ -11,6 +11,9 @@
         "W208",
         "W209"
     ],
+    "mahadevan_graphemes": [
+        "M057"
+    ],
     "features": [
         {
             "decoration": "integer",

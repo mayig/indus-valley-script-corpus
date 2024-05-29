@@ -10,6 +10,9 @@
         "W371",
         "W372"
     ],
+    "mahadevan_graphemes": [
+        "M397"
+    ],
     "features": [
         {
             "roundedness": "integer",
