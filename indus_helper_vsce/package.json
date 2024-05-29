@@ -1,8 +1,8 @@
 {
-  "name": "parpolatest",
+  "name": "indushelper",
   "repository": "https://github.com/mayig/indus-valley-script-corpus",
   "license": "MIT",
-  "displayName": "indus_helper",
+  "displayName": "Indus Symbol Feature Helper",
   "description": "Hover support to show features over P123 style identifiers",
   "version": "0.0.7",
   "engines": {
@@ -20,7 +20,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "indus_helper.reload",
+        "command": "indushelper.reload",
         "title": "Reload Features"
       }
     ]
