@@ -1,12 +1,15 @@
 {
     "id": "P228",
-    "description": "X with left points connected by vertical line, with another underneath, and a vertical bar connecting the cross-point of the two X's",
+    "description": "X with left points connected by vertical line, with another such X underneath, and a vertical bar connecting the cross-point of the two X's",
     "parpola_graphemes": [
         "V037"
     ],
     "wells_graphemes": [
         "W531",
         "W533"
+    ],
+    "mahadevan_graphemes": [
+        "M228"
     ],
     "features": [
         {

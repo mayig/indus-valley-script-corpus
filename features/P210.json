@@ -10,6 +10,9 @@
     "wells_graphemes": [
         "W503"
     ],
+    "mahadevan_graphemes": [
+        "M204"
+    ],
     "features": [
         {
             "stripes": "integer",

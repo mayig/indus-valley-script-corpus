@@ -10,6 +10,9 @@
         "W367",
         "W368"
     ],
+    "mahadevan_graphemes": [
+        "M402"
+    ],
     "features": [
         {
             "angle": "integer",

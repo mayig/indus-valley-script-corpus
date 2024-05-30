@@ -12,6 +12,10 @@
         "W178",
         "W179"
     ],
+    "mahadevan_graphemes": [
+        "M047",
+        "M048"
+    ],
     "features": [
         {
             "tangents": "integer",

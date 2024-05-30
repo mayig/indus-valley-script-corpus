@@ -11,6 +11,9 @@
         "W550",
         "W555"
     ],
+    "mahadevan_graphemes": [
+        "M216"
+    ],
     "features": [
         {
             "rounded-lhs": "integer",

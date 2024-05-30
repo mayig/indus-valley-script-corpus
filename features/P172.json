@@ -10,6 +10,9 @@
         "W904",
         "W927"
     ],
+    "mahadevan_graphemes": [
+        "M294"
+    ],
     "features": [
         {
             "design": "integer",

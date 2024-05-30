@@ -9,6 +9,9 @@
         "W435",
         "W436"
     ],
+    "mahadevan_graphemes": [
+        "M130"
+    ],
     "features": [
         {
             "facing": "integer",

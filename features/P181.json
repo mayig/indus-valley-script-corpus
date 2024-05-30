@@ -7,6 +7,9 @@
     "wells_graphemes": [
         "W896"
     ],
+    "mahadevan_graphemes": [
+        "M311"
+    ],
     "features": [
         {
             "shape": "integer",

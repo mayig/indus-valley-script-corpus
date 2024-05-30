@@ -19,6 +19,9 @@
         "W474",
         "W475"
     ],
+    "mahadevan_graphemes": [
+        "M178"
+    ],
     "features": [
         {
             "rounded_top": "integer",

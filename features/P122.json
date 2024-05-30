@@ -1,6 +1,6 @@
 {
     "id": "P122",
-    "description": "Two adjacent simple vertical strokes",
+    "description": "Two adjacent half-height simple vertical strokes",
     "parpola_graphemes": [
         "V002",
         "V231",
@@ -9,6 +9,10 @@
     ],
     "wells_graphemes": [
         "W002"
+    ],
+    "mahadevan_graphemes": [
+        "M099",
+        "M100"
     ],
     "features": [
         {

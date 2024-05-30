@@ -7,6 +7,9 @@
     "wells_graphemes": [
         "W457"
     ],
+    "mahadevan_graphemes": [
+        "M235"
+    ],
     "features": [
         {
             "small_triangle_orientation": "integer",

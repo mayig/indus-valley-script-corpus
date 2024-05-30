@@ -10,6 +10,10 @@
         "W007",
         "W017"
     ],
+    "mahadevan_graphemes": [
+        "M110",
+        "M112"
+    ],
     "features": [
         {
             "vertical_position": "integer",
