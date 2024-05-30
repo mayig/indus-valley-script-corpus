@@ -47,7 +47,7 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<Grapheme>> {
             .to_str()
             .ok_or_else(|| anyhow!("Failed to get feature name"))?
             .to_owned();
-        println!("Feature {feature_name}");
+        //println!("Feature {feature_name}");
         // get the feature name without extension
         let feature_name = feature_name
             .split('.')
