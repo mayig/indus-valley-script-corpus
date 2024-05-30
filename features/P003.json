@@ -1,0 +1,37 @@
+{
+    "id": "P003",
+    "description": "Person carrying two burdens, triangle or diamond for a head",
+    "parpola_graphemes": [
+        "V244",
+        "V320",
+        "V341",
+        "V465"
+    ],
+    "wells_graphemes": [
+        "W159",
+        "W160",
+        "W161"
+    ],
+    "mahadevan_graphemes": [
+        "M011",
+        "M014"
+    ],
+    "features": [
+        {
+            "burden_shape": "integer",
+            "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = triangle, 3 = indeterminate"
+        },
+        {
+            "ropes": "integer",
+            "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        },
+        {
+            "yoke": "integer",
+            "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+        },
+        {
+            "head_shape": "integer",
+            "description": "What shape is the head? 0 = triangle, 1 = diamond"
+        }
+    ]
+}
