@@ -9,6 +9,9 @@
         "W560",
         "W561"
     ],
+    "mahadevan_graphemes": [
+        "M219"
+    ],
     "features": [
         {
             "leaves": "integer",

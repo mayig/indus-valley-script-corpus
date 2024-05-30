@@ -10,6 +10,10 @@
         "W062",
         "W063"
     ],
+    "mahadevan_graphemes": [
+        "M124",
+        "M125"
+    ],
     "features": [
         {
             "connected": "integer",

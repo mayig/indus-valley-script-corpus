@@ -24,6 +24,9 @@
         "W305",
         "W306"
     ],
+    "mahadevan_graphemes": [
+        "M180"
+    ],
     "features": [
         {
             "top_ray_count": "integer",

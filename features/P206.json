@@ -10,6 +10,9 @@
         "W308",
         "W309"
     ],
+    "mahadevan_graphemes": [
+        "M181"
+    ],
     "features": [
         {
             "decoration": "integer",

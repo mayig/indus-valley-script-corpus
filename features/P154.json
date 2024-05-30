@@ -10,6 +10,9 @@
     "wells_graphemes": [
         "W900"
     ],
+    "mahadevan_graphemes": [
+        "M287"
+    ],
     "features": [
         {
             "backward_curve": "integer",
