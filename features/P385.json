@@ -11,6 +11,9 @@
         "W817",
         "W861"
     ],
+    "mahadevan_graphemes": [
+        "M267"
+    ],
     "features": [
         {
             "roundedness": "integer",

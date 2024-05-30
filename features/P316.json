@@ -12,6 +12,9 @@
         "W706",
         "W707"
     ],
+    "mahadevan_graphemes": [
+        "M336"
+    ],
     "features": [
         {
             "rounded": "integer",

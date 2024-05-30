@@ -11,6 +11,9 @@
         "W324",
         "W325"
     ],
+    "mahadevan_graphemes": [
+        "M182"
+    ],
     "features": [
         {
             "lines": "integer",

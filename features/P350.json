@@ -5,6 +5,9 @@
         "V506"
     ],
     "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M404"
+    ],
     "features": [
         {
             "bracket_design": "integer",

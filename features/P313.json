@@ -9,6 +9,9 @@
         "W732",
         "W734"
     ],
+    "mahadevan_graphemes": [
+        "M332"
+    ],
     "features": [
         {
             "rounded": "integer",

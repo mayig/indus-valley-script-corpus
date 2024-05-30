@@ -1,6 +1,6 @@
 {
     "id": "P270",
-    "description": "Rectangle, taller than wide, with vertical strokes for teeth on top and bottom",
+    "description": "Rectangle, taller than wide, with vertical strokes for teeth inside on top and bottom",
     "parpola_graphemes": [
         "V066",
         "V065",
@@ -21,6 +21,9 @@
         "W637",
         "W638",
         "W639"
+    ],
+    "mahadevan_graphemes": [
+        "M244"
     ],
     "features": [
         {

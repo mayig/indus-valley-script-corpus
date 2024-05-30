@@ -9,6 +9,10 @@
         "W337",
         "W338"
     ],
+    "mahadevan_graphemes": [
+        "M192",
+        "M193"
+    ],
     "features": [
         {
             "horizontal_line_count": "integer",

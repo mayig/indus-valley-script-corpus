@@ -9,6 +9,9 @@
         "W831",
         "W833"
     ],
+    "mahadevan_graphemes": [
+        "M379"
+    ],
     "features": [
         {
             "strokes": "integer",

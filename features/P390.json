@@ -8,6 +8,13 @@
         "W869",
         "W871"
     ],
+    "mahadevan_graphemes": [
+        "M277",
+        "M279",
+        "M280",
+        "M282",
+        "M283"
+    ],
     "features": [
         {
             "decoration": "integer",

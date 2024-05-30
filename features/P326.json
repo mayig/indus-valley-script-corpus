@@ -10,6 +10,9 @@
         "W743",
         "W744"
     ],
+    "mahadevan_graphemes": [
+        "M344"
+    ],
     "features": [
         {
             "round_sides": "integer",
