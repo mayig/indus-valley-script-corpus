@@ -11,6 +11,10 @@
     "wells_graphemes": [
         "W615"
     ],
+    "mahadevan_graphemes": [
+        "M241",
+        "M245"
+    ],
     "features": [
         {
             "columns": "integer",

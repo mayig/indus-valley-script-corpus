@@ -10,6 +10,9 @@
         "W805",
         "W806"
     ],
+    "mahadevan_graphemes": [
+        "M387"
+    ],
     "features": [
         {
             "branches": "integer",

@@ -6,6 +6,9 @@
         "V478"
     ],
     "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M264"
+    ],
     "features": [
         {
             "rotated": "integer",

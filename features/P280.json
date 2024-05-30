@@ -6,6 +6,9 @@
         "V256"
     ],
     "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M252"
+    ],
     "features": [
         {
             "stripes": "integer",

@@ -7,6 +7,9 @@
     "wells_graphemes": [
         "W765"
     ],
+    "mahadevan_graphemes": [
+        "M349"
+    ],
     "features": [
         {
             "connector": "integer",

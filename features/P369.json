@@ -11,6 +11,9 @@
         "W814",
         "W815"
     ],
+    "mahadevan_graphemes": [
+        "M381"
+    ],
     "features": [
         {
             "decoration": "integer",
