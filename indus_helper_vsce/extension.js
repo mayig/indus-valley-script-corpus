@@ -15,16 +15,16 @@ function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "parpolatest" is now active!');
+	console.log('Congratulations, your extension "indushelper" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('parpolatest.reload', async function () {
+	let disposable = vscode.commands.registerCommand('indushelper.reload', async function () {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Reloading parpolatest!');
+		vscode.window.showInformationMessage('Reloading indushelper!');
 		await updateDecorations();
 	});
 
@@ -52,7 +52,7 @@ function activate(context) {
 
 	// create a diagnostic collection
 	// this will be used to show errors in the problems tab
-	const collection = vscode.languages.createDiagnosticCollection('parpolatest');
+	const collection = vscode.languages.createDiagnosticCollection('indushelper');
 
 	let activeEditor = vscode.window.activeTextEditor;
 	async function updateDecorations() {
@@ -194,7 +194,36 @@ function activate(context) {
 		}
 	}, null, context.subscriptions);
 
+	async function resetFeatureValues() {
+		const editor = vscode.window.activeTextEditor;
+
+		if (editor) {
+			const document = editor.document;
+			const text = document.getText();
+			// Here, we want to change the contents of every feature array to [0,1,0]
+			const regEx = /(P\d\d\d\"\,.\s*\"features\"\:\s*\[)([^\]]*)\]/sg;
+			let match;
+			let rangesToReplace = [];
+			while ((match = regEx.exec(text))) {
+				const startPos = document.positionAt(match.index + match[1].length);
+				const endPos = document.positionAt(match.index + match[1].length + match[2].length);
+				rangesToReplace.push(new vscode.Range(startPos, endPos));
+
+			}
+			rangesToReplace.reverse();
+			for (const range of rangesToReplace) {
+				await editor.edit(editBuilder => {
+					editBuilder.replace(range, '0,1,0');
+				});
+			}
+			await vscode.commands.executeCommand('editor.action.formatDocument');
+		}
+	}
+
+	let reset_disposable = vscode.commands.registerCommand('indushelper.reset', resetFeatureValues);
+
 	context.subscriptions.push(disposable);
+	context.subscriptions.push(reset_disposable);
 }
 
 // This method is called when your extension is deactivated

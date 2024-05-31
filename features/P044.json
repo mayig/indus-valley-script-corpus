@@ -1,0 +1,14 @@
+{
+    "id": "P044",
+    "description": "Deer facing to the left",
+    "parpola_graphemes": [
+        "V077"
+    ],
+    "wells_graphemes": [
+        "W346"
+    ],
+    "mahadevan_graphemes": [
+        "M050"
+    ],
+    "features": []
+}
