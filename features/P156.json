@@ -1,0 +1,20 @@
+{
+    "id": "P156",
+    "description": "Right parenthesis with small, slightly inward-and-downward horizontal line from middle",
+    "parpola_graphemes": [
+        "V445",
+        "V681"
+    ],
+    "wells_graphemes": [
+        "W901"
+    ],
+    "mahadevan_graphemes": [
+        "M288"
+    ],
+    "features": [
+        {
+            "line_location": "integer",
+            "description": "Where is the small line? 0 = top third of paren, 1 = middle third, 2 = bottom third"
+        }
+    ]
+}
