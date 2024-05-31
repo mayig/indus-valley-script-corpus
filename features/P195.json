@@ -1,0 +1,15 @@
+{
+    "id": "P195",
+    "description": "Tall caret drawn in outline, with hatching throughout",
+    "parpola_graphemes": [
+        "V329",
+        "V300"
+    ],
+    "wells_graphemes": [
+        "W484"
+    ],
+    "mahadevan_graphemes": [
+        "M136"
+    ],
+    "features": []
+}

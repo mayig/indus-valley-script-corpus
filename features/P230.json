@@ -22,6 +22,10 @@
         {
             "lower-right-tangent": "integer",
             "description": "Is there a lower right tangent? 0 = no, 1 = yes"
+        },
+        {
+            "decoration": "integer",
+            "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
         }
     ]
 }
