@@ -50,6 +50,8 @@ function activate(context) {
 		overviewRulerLane: vscode.OverviewRulerLane.Right
 	});
 
+	// create a diagnostic collection
+	// this will be used to show errors in the problems tab
 	const collection = vscode.languages.createDiagnosticCollection('parpolatest');
 
 	let activeEditor = vscode.window.activeTextEditor;
@@ -57,37 +59,55 @@ function activate(context) {
 		if (!activeEditor) {
 			return;
 		}
+
 		const primary_document = activeEditor.document;
 		if (!primary_document) {
 			return;
 		}
-		const regEx = /(P\d\d\d)\"\,.\s*\"features\"\:\s*\[((.\s*\d+\,?)*?).\s*\]/sg;
+
 		const text = primary_document.getText();
+
 		const parpolaSymbols = [];
 		const parpolaErrorSymbols = [];
 		const parpolaMissingSymbols = [];
 		const parpolaErrorItems = [];
+
+		const regEx = /(P\d\d\d)\"\,.\s*\"features\"\:\s*\[((.\s*\d+\,?)*?).\s*\]/sg;
 		let match;
 		while ((match = regEx.exec(text))) {
+			// parpola_id will look something like "P123"
 			const parpola_id = match[1];
+			// parpola_feature_count will be the number of features found in the parpola sign
 			const parpola_feature_count = match[2].split(',').length;
+
+			// start and end pos are the positions of the parpola sign in the primary document
 			const startPos = primary_document.positionAt(match.index);
 			const endPos = primary_document.positionAt(match.index + parpola_id.length);
+
 			const decoration = { range: new vscode.Range(startPos, endPos), hoverMessage: 'Parpola sign ' + parpola_id + ' not found.' };
 			const parpola_file = parpola_id + '.json';
 			const tsUri = primary_document.uri;
-			const jsPath = posix.join(tsUri.path, '../../features', parpola_file);
-			const jsUri = tsUri.with({ path: jsPath });
+			const jsPath = posix.join(tsUri.path, '../../../features', parpola_file);
+			const featureFileUri = tsUri.with({ path: jsPath });
+
 			try {
-				if (await vscode.workspace.fs.stat(jsUri)) {
-					let document = await vscode.workspace.openTextDocument(jsUri);
-					const json = JSON.parse(document.getText());
-					const description = json.description;
-					const features = json.features;
+				// this await will throw an error if the file is not found
+				if (await vscode.workspace.fs.stat(featureFileUri)) {
+					// load the file and parse it as JSON
+					let document = await vscode.workspace.openTextDocument(featureFileUri);
+					const featureFileJson = JSON.parse(document.getText());
+
+					// get the description and features from the JSON
+					const description = featureFileJson.description;
+					const features = featureFileJson.features;
+
+					// build up our hovertext message
 					let message = 'Parpola sign ' + parpola_id + ': ' + description;
 					for (const feature of features) {
 						message += '\n- ' + feature.description;
 					}
+
+					// check if the number of features in the parpola sign matches the expected number
 					const expected_feature_count = features.length + 3;
 					if (expected_feature_count != parpola_feature_count) {
 						message += '\n\nWarning: Found ' + parpola_feature_count + ' features, expected ' + expected_feature_count + '.';
@@ -101,14 +121,18 @@ function activate(context) {
 						};
 						parpolaErrorItems.push(error_item);
 					}
+
+					// set the message
 					decoration.hoverMessage = message;
+
+					// add this to the appropriate list of decorations
 					if (expected_feature_count != parpola_feature_count) {
 						parpolaErrorSymbols.push(decoration);
 					} else {
 						parpolaSymbols.push(decoration);
 					}
 				} else {
-					console.log('File not read ' + parpola_id, jsUri);
+					console.log('File not read ' + parpola_id, featureFileUri);
 					parpolaMissingSymbols.push(decoration);
 				}
 			}
@@ -130,12 +154,14 @@ function activate(context) {
 		activeEditor.setDecorations(parpolaErrorDecorationType, parpolaErrorSymbols);
 		activeEditor.setDecorations(parpolaMissingDecorationType, parpolaMissingSymbols);
 
+		// set our errors
 		if (primary_document) {
 			collection.set(primary_document.uri, parpolaErrorItems);
 		} else {
 			collection.clear();
 		}
 	}
+
 	function triggerUpdateDecorations(throttle = false) {
 		if (timeout) {
 			clearTimeout(timeout);
@@ -148,15 +174,20 @@ function activate(context) {
 			updateDecorations();
 		}
 	}
+
 	if (activeEditor) {
 		triggerUpdateDecorations();
 	}
+
+	// whenever the active editor changes, trigger an update
 	vscode.window.onDidChangeActiveTextEditor(editor => {
 		activeEditor = editor;
 		if (editor) {
 			triggerUpdateDecorations();
 		}
 	}, null, context.subscriptions);
+
+	// whenever the document changes, trigger an update
 	vscode.workspace.onDidChangeTextDocument(event => {
 		if (activeEditor && event.document === activeEditor.document) {
 			triggerUpdateDecorations();
