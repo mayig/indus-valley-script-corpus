@@ -1,0 +1,23 @@
+{
+    "id": "P099",
+    "description": "Vertical line with small horizontal lines crossing it across the entire height",
+    "parpola_graphemes": [
+        "V026"
+    ],
+    "wells_graphemes": [
+        "W413"
+    ],
+    "mahadevan_graphemes": [
+        "M177"
+    ],
+    "features": [
+        {
+            "tines": "integer",
+            "description": "Number of tines coming off the vertical line"
+        },
+        {
+            "extent": "integer",
+            "description": "Do the tines run the full height of the vertical line? 0 = no, 1 = yes"
+        }
+    ]
+}
