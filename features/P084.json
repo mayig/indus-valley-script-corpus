@@ -1,0 +1,26 @@
+{
+    "id": "P084",
+    "description": "Oval with several short strokes coming off the bottom, and a very small tree-like shape at the top.",
+    "parpola_graphemes": [
+        "V191",
+        "V557"
+    ],
+    "wells_graphemes": [
+        "W285",
+        "W286",
+        "W287"
+    ],
+    "mahadevan_graphemes": [
+        "M395"
+    ],
+    "features": [
+        {
+            "ray_count": "integer",
+            "description": "How many rays come off the bottom?"
+        },
+        {
+            "branch_count": "integer",
+            "description": "How many branches come off the tree? (0 = indeterminate)"
+        }
+    ]
+}

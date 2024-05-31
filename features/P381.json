@@ -1,0 +1,12 @@
+{
+    "id": "P381",
+    "description": "Diamond with gridding, each grid cell has a small stroke in it",
+    "parpola_graphemes": [
+        "V113"
+    ],
+    "wells_graphemes": [
+        "W879"
+    ],
+    "mahadevan_graphemes": [],
+    "features": []
+}
