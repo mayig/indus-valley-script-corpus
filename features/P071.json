@@ -1,0 +1,15 @@
+{
+    "id": "P071",
+    "description": "Leftward-pointing bird with vertical tail",
+    "parpola_graphemes": [
+        "V189",
+        "V489"
+    ],
+    "wells_graphemes": [
+        "W260"
+    ],
+    "mahadevan_graphemes": [
+        "M076"
+    ],
+    "features": []
+}

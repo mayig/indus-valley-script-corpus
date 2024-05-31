@@ -1,0 +1,15 @@
+{
+    "id": "P054",
+    "description": "Simple fish and bird inside parentheses",
+    "parpola_graphemes": [
+        "V588",
+        "V325"
+    ],
+    "wells_graphemes": [
+        "W940"
+    ],
+    "mahadevan_graphemes": [
+        "M064"
+    ],
+    "features": []
+}
