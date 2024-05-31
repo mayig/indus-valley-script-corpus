@@ -1,0 +1,26 @@
+{
+    "id": "P254",
+    "description": "Two or more crossed lines (line an X or *) with small perpendicular decorations (ovals? lines) at each tip",
+    "parpola_graphemes": [
+        "V125",
+        "V736"
+    ],
+    "wells_graphemes": [
+        "W683",
+        "W684"
+    ],
+    "mahadevan_graphemes": [
+        "M146",
+        "M147"
+    ],
+    "features": [
+        {
+            "line_count": "integer",
+            "description": "How many lines cross at the center?"
+        },
+        {
+            "perpendicular_decorations": "string",
+            "description": "What are the decorations at the tips of the lines? 0 = oval, 1 = line, 2 = other"
+        }
+    ]
+}

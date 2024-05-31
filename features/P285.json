@@ -1,0 +1,14 @@
+{
+    "id": "P285",
+    "description": "Trapezoid with no bottom line, bird-foot in bottom",
+    "parpola_graphemes": [
+        "V049"
+    ],
+    "wells_graphemes": [
+        "W572"
+    ],
+    "mahadevan_graphemes": [
+        "M195"
+    ],
+    "features": []
+}
