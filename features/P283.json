@@ -1,0 +1,15 @@
+{
+    "id": "P283",
+    "description": "Rectangle, but with bottom line missing, and bottom-half of left line missing (like backward greek capital gamma with a prominent serif)",
+    "parpola_graphemes": [
+        "V031",
+        "V502"
+    ],
+    "wells_graphemes": [
+        "W440"
+    ],
+    "mahadevan_graphemes": [
+        "M127"
+    ],
+    "features": []
+}
