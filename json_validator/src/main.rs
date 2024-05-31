@@ -139,8 +139,22 @@ type Artefact = Vec<ArtefactFace>;
 fn load_corpus(corpus_directory: &str, graphemes: &[Grapheme]) -> Result<Vec<Artefact>> {
     let corpus = std::fs::read_dir(corpus_directory)?;
     let mut files = Vec::new();
+
     for corpus_file in corpus {
         let corpus_file_dir_entry = corpus_file?;
+        if corpus_file_dir_entry.file_type()?.is_dir() {
+            // recurse into subdirectories
+            let subdirectory = corpus_file_dir_entry.path();
+            let subfiles = load_corpus(
+                subdirectory
+                    .to_str()
+                    .ok_or_else(|| anyhow!("Failed to get subdir str"))?,
+                graphemes,
+            )?;
+            files.extend(subfiles);
+            continue;
+        }
+
         let corpus_file_path = corpus_file_dir_entry.path();
         let corpus_file_name = corpus_file_path
             .file_name()
@@ -148,15 +162,19 @@ fn load_corpus(corpus_directory: &str, graphemes: &[Grapheme]) -> Result<Vec<Art
             .to_str()
             .ok_or_else(|| anyhow!("Failed to get corpus file name"))?
             .to_owned();
+
         // get the corpus file name without extension
         let corpus_file_name = corpus_file_name
             .split('.')
             .next()
             .ok_or_else(|| anyhow!("Failed to get corpus file name"))?;
+
         //println!("Loading corpus file {corpus_file_name}");
+
         // deserialize the file to a CorpusFile
         let corpus_file: Artefact =
             serde_json::from_reader(std::fs::File::open(corpus_file_path)?)?;
+
         for face in &corpus_file {
             // validate that the numerical part of the grapheme id is the same as the corpus file name
             let file_number = corpus_file_name
@@ -178,6 +196,7 @@ fn load_corpus(corpus_directory: &str, graphemes: &[Grapheme]) -> Result<Vec<Art
                     face.id
                 ));
             }
+
             // now validate that the number of features in the graphemes match the number of features in the corpus file
             for glink in &face.graphemes {
                 let grapheme = graphemes
@@ -198,7 +217,9 @@ fn load_corpus(corpus_directory: &str, graphemes: &[Grapheme]) -> Result<Vec<Art
                 }
             }
         }
+
         files.push(corpus_file);
     }
+
     Ok(files)
 }
