@@ -1,0 +1,32 @@
+{
+    "id": "P355",
+    "description": "Simple leaf or diamond, possibly rotated 45 degrees",
+    "parpola_graphemes": [
+        "V381",
+        "V098",
+        "V111",
+        "V157",
+        "V387",
+        "V415",
+        "V684"
+    ],
+    "wells_graphemes": [
+        "W790",
+        "W850"
+    ],
+    "mahadevan_graphemes": [
+        "M261",
+        "M373",
+        "M374"
+    ],
+    "features": [
+        {
+            "size": "integer",
+            "description": "What size is the symbol? 0 = small, 1 = medium, 2 = large"
+        },
+        {
+            "rotation": "integer",
+            "description": "What is the rotation of the symbol? 0 = 0 degrees, 1 = 45 degrees"
+        }
+    ]
+}
