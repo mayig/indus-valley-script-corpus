@@ -1,0 +1,14 @@
+{
+    "id": "P080",
+    "description": "Two stacked leaves, connected on left to a tall vertical stroke",
+    "parpola_graphemes": [
+        "V419"
+    ],
+    "wells_graphemes": [
+        "W203"
+    ],
+    "mahadevan_graphemes": [
+        "M413"
+    ],
+    "features": []
+}
