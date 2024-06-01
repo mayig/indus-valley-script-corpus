@@ -1,0 +1,14 @@
+{
+    "id": "P085",
+    "description": "Singly, symetrically bifurcated tall vertical stroke",
+    "parpola_graphemes": [
+        "V443"
+    ],
+    "wells_graphemes": [
+        "W064"
+    ],
+    "mahadevan_graphemes": [
+        "M161"
+    ],
+    "features": []
+}
