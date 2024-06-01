@@ -1,0 +1,21 @@
+{
+    "id": "P112",
+    "description": "Upside-down heart symbol, possibly with vertical stroke coming from bottom of heart, vertical stroke decoration",
+    "parpola_graphemes": [
+        "V093",
+        "V293"
+    ],
+    "wells_graphemes": [
+        "W384",
+        "W385"
+    ],
+    "mahadevan_graphemes": [
+        "M326"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "Does the decoration span the entire interior of the heart symbol? 0 = no, 1 = yes"
+        }
+    ]
+}

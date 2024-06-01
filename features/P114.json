@@ -9,7 +9,6 @@
     ],
     "wells_graphemes": [
         "W070",
-        "W071",
         "W072"
     ],
     "mahadevan_graphemes": [
@@ -18,7 +17,7 @@
     "features": [
         {
             "head": "integer",
-            "description": "What shape is the head? 0 = circle, 1 = continuation of line, 2 = 'plus' sign"
+            "description": "What shape is the head? 0 = circle, 1 = continuation of line"
         }
     ]
 }

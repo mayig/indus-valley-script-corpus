@@ -1,0 +1,24 @@
+{
+    "id": "P118",
+    "description": "Flowering plant with two stems that meet at the bottom. Leaf with pincers between stems",
+    "parpola_graphemes": [
+        "V497",
+        "V724"
+    ],
+    "wells_graphemes": [
+        "W777",
+        "W778",
+        "W782"
+    ],
+    "mahadevan_graphemes": [
+        "M362",
+        "M363",
+        "M364"
+    ],
+    "features": [
+        {
+            "flower": "integer",
+            "description": "What shape is the flower? 0 = leaf, 1 = pair of small hatches, 2 = two pairs of small hatches, 3 = upside down solid heart, 4 = upside down hatched heart"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "P113",
+    "description": "Upside-down heart symbol, possibly with vertical stroke coming from bottom of heart, vertical stroke decoration. On top of three horizontally adjacent triangles",
+    "parpola_graphemes": [
+        "V745"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "Does the decoration span the entire interior of the heart symbol? 0 = no, 1 = yes"
+        }
+    ]
+}
