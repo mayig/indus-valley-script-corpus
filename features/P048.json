@@ -1,0 +1,19 @@
+{
+    "id": "P048",
+    "description": "Fish with no arms, caret hat, diagonal hatching throughout",
+    "parpola_graphemes": [
+        "V087"
+    ],
+    "wells_graphemes": [
+        "W243"
+    ],
+    "mahadevan_graphemes": [
+        "M075"
+    ],
+    "features": [
+        {
+            "hatch_count": "integer",
+            "description": "How many diagonal hatches are there?"
+        }
+    ]
+}

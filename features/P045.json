@@ -1,0 +1,20 @@
+{
+    "id": "P045",
+    "description": "Cow's leg with horizontal hatching",
+    "parpola_graphemes": [
+        "V328",
+        "V269"
+    ],
+    "wells_graphemes": [
+        "W280"
+    ],
+    "mahadevan_graphemes": [
+        "M084"
+    ],
+    "features": [
+        {
+            "hatch_count": "integer",
+            "description": "Number of horizontal hatches"
+        }
+    ]
+}
