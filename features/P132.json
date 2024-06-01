@@ -1,0 +1,13 @@
+{
+    "id": "P132",
+    "description": "Two tiny stacked carets",
+    "parpola_graphemes": [
+        "V498",
+        "V311"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M313"
+    ],
+    "features": []
+}

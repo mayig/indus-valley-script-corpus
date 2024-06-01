@@ -1,0 +1,28 @@
+{
+    "id": "P136",
+    "description": "Seven short vertical strokes, bracketed by parentheses",
+    "parpola_graphemes": [
+        "V529",
+        "V397",
+        "V717",
+        "V796"
+    ],
+    "wells_graphemes": [
+        "W048",
+        "W049"
+    ],
+    "mahadevan_graphemes": [
+        "M111",
+        "M113"
+    ],
+    "features": [
+        {
+            "vertical_position": "integer",
+            "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+            "linear": "integer",
+            "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+    ]
+}

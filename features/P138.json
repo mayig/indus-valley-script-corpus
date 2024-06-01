@@ -1,0 +1,13 @@
+{
+    "id": "P138",
+    "description": "Caret above a small vertical stroke",
+    "parpola_graphemes": [
+        "V082",
+        "V459"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M153"
+    ],
+    "features": []
+}

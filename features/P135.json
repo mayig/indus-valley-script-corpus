@@ -1,0 +1,15 @@
+{
+    "id": "P135",
+    "description": "Many tiny stacked carets",
+    "parpola_graphemes": [
+        "V500"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "count": "integer",
+            "description": "Number of stacked carets"
+        }
+    ]
+}
