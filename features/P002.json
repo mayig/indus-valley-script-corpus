@@ -1,0 +1,21 @@
+{
+    "id": "P002",
+    "description": "Person carrying two burdens, small vertical stroke between legs",
+    "parpola_graphemes": [
+        "V586"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M013"
+    ],
+    "features": [
+        {
+            "burden_shape": "integer",
+            "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+            "ropes": "integer",
+            "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        }
+    ]
+}

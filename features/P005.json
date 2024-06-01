@@ -1,0 +1,27 @@
+{
+    "id": "P005",
+    "description": "Person carrying two burdens, jar handles for a head. Pitchfork off shoulder",
+    "parpola_graphemes": [
+        "V750"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "burden_shape": "integer",
+            "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+            "ropes": "integer",
+            "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        },
+        {
+            "yoke": "integer",
+            "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+        },
+        {
+            "tines": "integer",
+            "description": "How many tines are on the pitchfork?"
+        }
+    ]
+}

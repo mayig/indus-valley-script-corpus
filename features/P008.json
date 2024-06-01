@@ -1,0 +1,14 @@
+{
+    "id": "P008",
+    "description": "Person with two flags for a head",
+    "parpola_graphemes": [
+        "V147"
+    ],
+    "wells_graphemes": [
+        "W106"
+    ],
+    "mahadevan_graphemes": [
+        "M005"
+    ],
+    "features": []
+}
