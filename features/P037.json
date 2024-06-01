@@ -1,0 +1,15 @@
+{
+    "id": "P037",
+    "description": "Person with triangular 'pincer'",
+    "parpola_graphemes": [
+        "V316",
+        "V718"
+    ],
+    "wells_graphemes": [
+        "W122"
+    ],
+    "mahadevan_graphemes": [
+        "M036"
+    ],
+    "features": []
+}

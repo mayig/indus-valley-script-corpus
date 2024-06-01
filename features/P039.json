@@ -1,0 +1,14 @@
+{
+    "id": "P039",
+    "description": "Person with large leaf, dot in leaf",
+    "parpola_graphemes": [
+        "V417"
+    ],
+    "wells_graphemes": [
+        "W117"
+    ],
+    "mahadevan_graphemes": [
+        "M031"
+    ],
+    "features": []
+}
