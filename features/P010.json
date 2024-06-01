@@ -1,0 +1,27 @@
+{
+    "id": "P010",
+    "description": "Person with three heads, bracketed by right parentheses",
+    "parpola_graphemes": [
+        "V505",
+        "V071",
+        "V252",
+        "V685"
+    ],
+    "wells_graphemes": [
+        "W101",
+        "W103"
+    ],
+    "mahadevan_graphemes": [
+        "M009"
+    ],
+    "features": [
+        {
+            "heads_on_arms": "integer",
+            "description": "Do the heads come off the arms? 1 = yes, 0 = no"
+        },
+        {
+            "paren_style": "integer",
+            "description": "Style of the right parentheses. 0 = normal, 1 = extra wavy bit on bottom"
+        }
+    ]
+}
