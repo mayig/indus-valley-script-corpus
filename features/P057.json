@@ -1,0 +1,15 @@
+{
+    "id": "P057",
+    "description": "Fish with a small vertical stroke in the body, caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V522",
+        "V669"
+    ],
+    "wells_graphemes": [
+        "W232"
+    ],
+    "mahadevan_graphemes": [
+        "M071"
+    ],
+    "features": []
+}

@@ -1,0 +1,20 @@
+{
+    "id": "P059",
+    "description": "Fish with a horizontal line through body, caged by four small vertical lines",
+    "parpola_graphemes": [
+        "V530",
+        "V172"
+    ],
+    "wells_graphemes": [
+        "W234"
+    ],
+    "mahadevan_graphemes": [
+        "M073"
+    ],
+    "features": [
+        {
+            "angle": "integer",
+            "description": "Is the horizontal line at an angle? 0 = no, 1 = yes"
+        }
+    ]
+}

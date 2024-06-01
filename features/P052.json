@@ -1,0 +1,14 @@
+{
+    "id": "P052",
+    "description": "Fish and 'table' with four small vertical strokes around the four corners, 'table' has a small box on top",
+    "parpola_graphemes": [
+        "V546"
+    ],
+    "wells_graphemes": [
+        "W944"
+    ],
+    "mahadevan_graphemes": [
+        "M061"
+    ],
+    "features": []
+}

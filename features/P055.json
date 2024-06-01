@@ -1,0 +1,20 @@
+{
+    "id": "P055",
+    "description": "Simple bird and fish inside parentheses",
+    "parpola_graphemes": [
+        "V558"
+    ],
+    "wells_graphemes": [
+        "W942",
+        "W943"
+    ],
+    "mahadevan_graphemes": [
+        "M064"
+    ],
+    "features": [
+        {
+            "bird_decoration": "integer",
+            "description": "How is the bird decorated? 0 = nothing, 1 = hatching"
+        }
+    ]
+}
