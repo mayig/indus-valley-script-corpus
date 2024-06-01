@@ -7,21 +7,15 @@
     ],
     "wells_graphemes": [
         "W105",
-        "W106",
         "W107"
     ],
     "mahadevan_graphemes": [
-        "M004",
-        "M005"
+        "M004"
     ],
     "features": [
         {
             "wand": "integer",
             "description": "Is the person also holding a wand? 1 = yes, 0 = no"
-        },
-        {
-            "flag": "integer",
-            "description": "Is the flag on the both sides of the person's head? 1 = yes, 0 = no"
         }
     ]
 }

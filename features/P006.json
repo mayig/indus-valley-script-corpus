@@ -1,0 +1,31 @@
+{
+    "id": "P006",
+    "description": "Two people, each carrying two burdens, carrying a tall hatched triangle between them",
+    "parpola_graphemes": [
+        "V370"
+    ],
+    "wells_graphemes": [
+        "W123"
+    ],
+    "mahadevan_graphemes": [
+        "M016"
+    ],
+    "features": [
+        {
+            "burden_shape": "integer",
+            "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+            "ropes": "integer",
+            "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        },
+        {
+            "yoke": "integer",
+            "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+        },
+        {
+            "lines": "integer",
+            "description": "How many lines are in the central triangle?"
+        }
+    ]
+}
