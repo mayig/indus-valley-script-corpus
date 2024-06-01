@@ -1,0 +1,19 @@
+{
+    "id": "P115",
+    "description": "A single vertical line, with two person arms; head may be circle or continuation of line. Bracketed by inverted parentheses",
+    "parpola_graphemes": [
+        "V555"
+    ],
+    "wells_graphemes": [
+        "W073"
+    ],
+    "mahadevan_graphemes": [
+        "M156"
+    ],
+    "features": [
+        {
+            "head": "integer",
+            "description": "What shape is the head? 0 = circle, 1 = continuation of line, 2 = 'plus' sign"
+        }
+    ]
+}

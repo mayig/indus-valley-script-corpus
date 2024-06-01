@@ -1,0 +1,13 @@
+{
+    "id": "P119",
+    "description": "Two top-aligned small vertical strokes (prefer P122)",
+    "parpola_graphemes": [
+        "V025",
+        "V509"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M099"
+    ],
+    "features": []
+}

@@ -1,0 +1,19 @@
+{
+    "id": "P116",
+    "description": "A single vertical line, with two person arms; head is crossed by a horizontal decoration",
+    "parpola_graphemes": [
+        "V326"
+    ],
+    "wells_graphemes": [
+        "W071"
+    ],
+    "mahadevan_graphemes": [
+        "M157"
+    ],
+    "features": [
+        {
+            "head": "integer",
+            "description": "What shape is the head decoration? 0 = straight line, 1 = flag head with hair, 2 = single stroke on left, 3 = indeterminate"
+        }
+    ]
+}
