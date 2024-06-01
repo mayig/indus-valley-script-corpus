@@ -1,0 +1,14 @@
+{
+    "id": "P068",
+    "description": "Duck in circular pond",
+    "parpola_graphemes": [
+        "V515"
+    ],
+    "wells_graphemes": [
+        "W952"
+    ],
+    "mahadevan_graphemes": [
+        "M082"
+    ],
+    "features": []
+}

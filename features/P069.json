@@ -1,0 +1,19 @@
+{
+    "id": "P069",
+    "description": "Semi-realistic bird with no wings, swan's neck pointing backwards",
+    "parpola_graphemes": [
+        "V524"
+    ],
+    "wells_graphemes": [
+        "W262"
+    ],
+    "mahadevan_graphemes": [
+        "M079"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "How is the body decorated? 0 = empty, 1 = hatching"
+        }
+    ]
+}
