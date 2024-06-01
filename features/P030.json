@@ -1,0 +1,22 @@
+{
+    "id": "P030",
+    "description": "Person with short stick, several small vertical strokes coming away from stick",
+    "parpola_graphemes": [
+        "V340",
+        "V305"
+    ],
+    "wells_graphemes": [
+        "W145"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "stick_angle": "integer",
+            "description": "What angle is the stick? 0 = away from person, 1 = vertical, 2 = towards person"
+        },
+        {
+            "number_of_strokes": "integer",
+            "description": "How many strokes are coming away from the stick?"
+        }
+    ]
+}

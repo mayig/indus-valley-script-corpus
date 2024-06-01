@@ -1,0 +1,14 @@
+{
+    "id": "P034",
+    "description": "Person with bow and arrow, but no bowstring",
+    "parpola_graphemes": [
+        "V137"
+    ],
+    "wells_graphemes": [
+        "W146"
+    ],
+    "mahadevan_graphemes": [
+        "M027"
+    ],
+    "features": []
+}

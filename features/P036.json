@@ -1,0 +1,14 @@
+{
+    "id": "P036",
+    "description": "Person with two bows and arrows",
+    "parpola_graphemes": [
+        "V304"
+    ],
+    "wells_graphemes": [
+        "W127"
+    ],
+    "mahadevan_graphemes": [
+        "M029"
+    ],
+    "features": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "P032",
+    "description": "Person with staff, caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V570"
+    ],
+    "wells_graphemes": [
+        "W144"
+    ],
+    "mahadevan_graphemes": [
+        "M026"
+    ],
+    "features": []
+}
