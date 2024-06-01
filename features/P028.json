@@ -1,0 +1,19 @@
+{
+    "id": "P028",
+    "description": "Person with antenna",
+    "parpola_graphemes": [
+        "V336"
+    ],
+    "wells_graphemes": [
+        "W133"
+    ],
+    "mahadevan_graphemes": [
+        "M023"
+    ],
+    "features": [
+        {
+            "tines": "integer",
+            "description": "Number of tines on the antenna"
+        }
+    ]
+}

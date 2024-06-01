@@ -1,0 +1,19 @@
+{
+    "id": "P022",
+    "description": "Person with pitchfork head across waist",
+    "parpola_graphemes": [
+        "V307"
+    ],
+    "wells_graphemes": [
+        "W094"
+    ],
+    "mahadevan_graphemes": [
+        "M038"
+    ],
+    "features": [
+        {
+            "tines": "integer",
+            "description": "Number of tines on pitchfork"
+        }
+    ]
+}
