@@ -1,0 +1,25 @@
+{
+    "id": "P148",
+    "description": "Three adjacent full-height vertical strokes. Small 'tree' off right side",
+    "parpola_graphemes": [
+        "V331"
+    ],
+    "wells_graphemes": [
+        "W045",
+        "W046"
+    ],
+    "mahadevan_graphemes": [
+        "M090",
+        "M091"
+    ],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "Number of branches"
+        },
+        {
+            "branch_style": "integer",
+            "description": "How are the branches drawn? 0 = to one side, 1 = to both sides"
+        }
+    ]
+}

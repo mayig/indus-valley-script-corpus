@@ -1,0 +1,38 @@
+{
+    "id": "P141",
+    "description": "Three rows of off-center or slanted small vertical strokes",
+    "parpola_graphemes": [
+        "V492",
+        "V130",
+        "V729"
+    ],
+    "wells_graphemes": [
+        "W025",
+        "W026",
+        "W027",
+        "W028",
+        "W029"
+    ],
+    "mahadevan_graphemes": [
+        "M119",
+        "M120"
+    ],
+    "features": [
+        {
+            "first_row_count": "integer",
+            "description": "Number of strokes in the first row"
+        },
+        {
+            "second_row_count": "integer",
+            "description": "Number of strokes in the second row"
+        },
+        {
+            "third_row_count": "integer",
+            "description": "Number of strokes in the third row"
+        },
+        {
+            "slant": "integer",
+            "description": "Are some of the lines slanted? 0 = no, 1 = yes, 2 = indeterminate"
+        }
+    ]
+}

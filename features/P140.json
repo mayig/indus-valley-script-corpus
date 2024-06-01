@@ -1,0 +1,14 @@
+{
+    "id": "P140",
+    "description": "Two stacked small vertical strokes",
+    "parpola_graphemes": [
+        "V014"
+    ],
+    "wells_graphemes": [
+        "W012"
+    ],
+    "mahadevan_graphemes": [
+        "M101"
+    ],
+    "features": []
+}

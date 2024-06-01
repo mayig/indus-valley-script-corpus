@@ -1,0 +1,14 @@
+{
+    "id": "P149",
+    "description": "Three adjacent full-height vertical strokes. Caret hat",
+    "parpola_graphemes": [
+        "V759"
+    ],
+    "wells_graphemes": [
+        "W044"
+    ],
+    "mahadevan_graphemes": [
+        "M092"
+    ],
+    "features": []
+}
