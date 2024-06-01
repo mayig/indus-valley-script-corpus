@@ -1,0 +1,15 @@
+{
+    "id": "P015",
+    "description": "Person with two arms and two legs, bracketed by tall vertical lines",
+    "parpola_graphemes": [
+        "V518",
+        "V150"
+    ],
+    "wells_graphemes": [
+        "W097"
+    ],
+    "mahadevan_graphemes": [
+        "M002"
+    ],
+    "features": []
+}

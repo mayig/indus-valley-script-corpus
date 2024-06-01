@@ -1,0 +1,15 @@
+{
+    "id": "P019",
+    "description": "Person with two arms and two legs, small leaf almost like a phallus on right thigh",
+    "parpola_graphemes": [
+        "V148",
+        "V786"
+    ],
+    "wells_graphemes": [
+        "W137"
+    ],
+    "mahadevan_graphemes": [
+        "M040"
+    ],
+    "features": []
+}

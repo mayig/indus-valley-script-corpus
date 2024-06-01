@@ -1,0 +1,15 @@
+{
+    "id": "P016",
+    "description": "Two simple persons standing side by side",
+    "parpola_graphemes": [
+        "V110",
+        "V692"
+    ],
+    "wells_graphemes": [
+        "W091"
+    ],
+    "mahadevan_graphemes": [
+        "M002"
+    ],
+    "features": []
+}
