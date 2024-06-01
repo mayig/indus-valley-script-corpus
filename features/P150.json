@@ -1,0 +1,14 @@
+{
+    "id": "P150",
+    "description": "Four adjacent full-height vertical strokes",
+    "parpola_graphemes": [
+        "V294"
+    ],
+    "wells_graphemes": [
+        "W034"
+    ],
+    "mahadevan_graphemes": [
+        "M095"
+    ],
+    "features": []
+}

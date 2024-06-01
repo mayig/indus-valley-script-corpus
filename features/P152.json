@@ -1,0 +1,18 @@
+{
+    "id": "P152",
+    "description": "Three adjacent full-height vertical strokes, third (and maybe second) stroke is angled away slightly",
+    "parpola_graphemes": [
+        "V250"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M093",
+        "M094"
+    ],
+    "features": [
+        {
+            "second_stroke": "integer",
+            "description": "Is the second stroke vertical? 0 = no, 1 = yes"
+        }
+    ]
+}

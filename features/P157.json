@@ -1,0 +1,15 @@
+{
+    "id": "P157",
+    "description": "Right parenthesis with small, diagonal stroke through it",
+    "parpola_graphemes": [
+        "V495"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "line_location": "integer",
+            "description": "Where is the small line? 0 = top third of paren, 1 = middle third, 2 = bottom third"
+        }
+    ]
+}
