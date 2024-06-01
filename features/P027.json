@@ -1,0 +1,19 @@
+{
+    "id": "P027",
+    "description": "Person with pitchfork, small vertical stroke between feet",
+    "parpola_graphemes": [
+        "V353"
+    ],
+    "wells_graphemes": [
+        "W131"
+    ],
+    "mahadevan_graphemes": [
+        "M020"
+    ],
+    "features": [
+        {
+            "tines": "integer",
+            "description": "Number of tines on the pitchfork"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "P025",
+    "description": "Person holding tree with branches",
+    "parpola_graphemes": [
+        "V388",
+        "V237"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M021"
+    ],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "Number of branches on tree"
+        }
+    ]
+}

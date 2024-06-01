@@ -1,0 +1,14 @@
+{
+    "id": "P024",
+    "description": "Person with large animal leg",
+    "parpola_graphemes": [
+        "V449"
+    ],
+    "wells_graphemes": [
+        "W121"
+    ],
+    "mahadevan_graphemes": [
+        "M037"
+    ],
+    "features": []
+}
