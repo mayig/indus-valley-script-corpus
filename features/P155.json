@@ -1,0 +1,23 @@
+{
+    "id": "P155",
+    "description": "Wavy line caged by short double vertical strokes, possibly with a stroke missing",
+    "parpola_graphemes": [
+        "V514"
+    ],
+    "wells_graphemes": [
+        "W926"
+    ],
+    "mahadevan_graphemes": [
+        "M289"
+    ],
+    "features": [
+        {
+            "curve": "integer",
+            "description": "Is the top of the wavy line pointed right? 0 = no, 1 = yes"
+        },
+        {
+            "missing_stroke": "integer",
+            "description": "Which cage stroke is missing? 0 = none, 1 = top left, 2 = top right, 3 = bottom left, 4 = bottom right"
+        }
+    ]
+}

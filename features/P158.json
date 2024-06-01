@@ -1,0 +1,15 @@
+{
+    "id": "P158",
+    "description": "Right parenthesis with small tooth on it facing right",
+    "parpola_graphemes": [
+        "V319"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "line_location": "integer",
+            "description": "Where is the small tooth? 0 = top third of paren, 1 = middle third, 2 = bottom third"
+        }
+    ]
+}
