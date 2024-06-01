@@ -1,0 +1,19 @@
+{
+    "id": "P093",
+    "description": "Two pitchforks with tines, facing each other vertically",
+    "parpola_graphemes": [
+        "V360"
+    ],
+    "wells_graphemes": [
+        "W417"
+    ],
+    "mahadevan_graphemes": [
+        "M172"
+    ],
+    "features": [
+        {
+            "tines": "integer",
+            "description": "How many tines come off the pitchfork tops?"
+        }
+    ]
+}

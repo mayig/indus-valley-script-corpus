@@ -1,0 +1,21 @@
+{
+    "id": "P097",
+    "description": "Pitckfork with two stacked heads, inside a rectangular box, possibly with a small tooth off the right edge of the box",
+    "parpola_graphemes": [
+        "V733"
+    ],
+    "wells_graphemes": [
+        "W642"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "tine_count": "integer",
+            "description": "Number of tines on the pitchforks"
+        },
+        {
+            "tooth": "integer",
+            "description": "Is there a tooth? 0 = no, 1 = yes, 2 = indeterminate"
+        }
+    ]
+}
