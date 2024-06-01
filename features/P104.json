@@ -1,0 +1,19 @@
+{
+    "id": "P104",
+    "description": "Plant curving left, small leaf at top, larger leaf at middle forming two leaves on either side of stem. Bracketed by two inward taperd vertical lines",
+    "parpola_graphemes": [
+        "V476"
+    ],
+    "wells_graphemes": [
+        "W375"
+    ],
+    "mahadevan_graphemes": [
+        "M401"
+    ],
+    "features": [
+        {
+            "taper": "integer",
+            "description": "How are the vertical bars tapered? 0 = none, 1 = slightly, 2 = moderately"
+        }
+    ]
+}

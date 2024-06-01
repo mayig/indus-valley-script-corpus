@@ -1,0 +1,17 @@
+{
+    "id": "P102",
+    "description": "Curved wheat shaft in two long vertical strokes. Wheat shaft is: curved stroke with upward pointing diagonal strokes on both sides, going the full length of the shaft",
+    "parpola_graphemes": [
+        "V382"
+    ],
+    "wells_graphemes": [
+        "W412"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "taper": "integer",
+            "description": "Do the leaves get smaller toward the top? 0 = no, 1 = yes, 2 = indeterminate"
+        }
+    ]
+}

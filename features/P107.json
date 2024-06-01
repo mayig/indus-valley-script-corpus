@@ -1,0 +1,14 @@
+{
+    "id": "P107",
+    "description": "Flowering plant with 'sapling' on left, 'tree branch' on right, 'garlic' in center",
+    "parpola_graphemes": [
+        "V342"
+    ],
+    "wells_graphemes": [
+        "W768"
+    ],
+    "mahadevan_graphemes": [
+        "M372"
+    ],
+    "features": []
+}
