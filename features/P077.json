@@ -1,0 +1,20 @@
+{
+    "id": "P077",
+    "description": "Two stacked leaves, with ladder going up and to the right from the center",
+    "parpola_graphemes": [
+        "V193",
+        "V490"
+    ],
+    "wells_graphemes": [
+        "W201"
+    ],
+    "mahadevan_graphemes": [
+        "M412"
+    ],
+    "features": [
+        {
+            "rungs": "integer",
+            "description": "How many rungs are on the ladder?"
+        }
+    ]
+}
