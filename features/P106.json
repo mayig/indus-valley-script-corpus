@@ -1,0 +1,14 @@
+{
+    "id": "P106",
+    "description": "Flowering plant with 'sapling' on right, 'tree branch' on left",
+    "parpola_graphemes": [
+        "V238"
+    ],
+    "wells_graphemes": [
+        "W767"
+    ],
+    "mahadevan_graphemes": [
+        "M351"
+    ],
+    "features": []
+}

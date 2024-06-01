@@ -1,0 +1,19 @@
+{
+    "id": "P100",
+    "description": "Wheat shaft. Vertical stroke with upward pointing diagonal strokes on both sides, going the full length of the shaft",
+    "parpola_graphemes": [
+        "V470"
+    ],
+    "wells_graphemes": [
+        "W411"
+    ],
+    "mahadevan_graphemes": [
+        "M168"
+    ],
+    "features": [
+        {
+            "taper": "integer",
+            "description": "Do the leaves get smaller toward the top? 0 = no, 1 = yes, 2 = indeterminate"
+        }
+    ]
+}

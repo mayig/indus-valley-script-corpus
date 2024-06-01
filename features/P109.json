@@ -1,0 +1,19 @@
+{
+    "id": "P109",
+    "description": "The 'garlic' motif next to a leaf with a small vertical center decoration, all inside a cage of four small vertical strokes",
+    "parpola_graphemes": [
+        "V561"
+    ],
+    "wells_graphemes": [
+        "W946"
+    ],
+    "mahadevan_graphemes": [
+        "M377"
+    ],
+    "features": [
+        {
+            "orientation": "integer",
+            "description": "Is the garlic on the left? 0 = no, 1 = yes"
+        }
+    ]
+}
