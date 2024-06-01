@@ -1,0 +1,23 @@
+{
+    "id": "P074",
+    "description": "Unknown asymmetric animal? Perhaps a fish with asymmetric fins and legs? Attached on left to a tall vertical stroke",
+    "parpola_graphemes": [
+        "V368"
+    ],
+    "wells_graphemes": [
+        "W256"
+    ],
+    "mahadevan_graphemes": [
+        "M052"
+    ],
+    "features": [
+        {
+            "ul_hatches": "integer",
+            "description": "How many horizontal hatches are in the upper left wing?"
+        },
+        {
+            "mirror": "integer",
+            "description": "Is the 'foot' pointed to the left? 0 = no, 1 = yes"
+        }
+    ]
+}

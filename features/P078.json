@@ -1,0 +1,19 @@
+{
+    "id": "P078",
+    "description": "Two stacked half-leaves (just the right half), with long stroke going up and to the right from the center",
+    "parpola_graphemes": [
+        "V357"
+    ],
+    "wells_graphemes": [
+        "W894"
+    ],
+    "mahadevan_graphemes": [
+        "M310"
+    ],
+    "features": [
+        {
+            "curve": "integer",
+            "description": "Is the stroke going away curved? 0 = no, 1 = yes"
+        }
+    ]
+}
