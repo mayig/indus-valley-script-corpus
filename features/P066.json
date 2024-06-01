@@ -1,0 +1,36 @@
+{
+    "id": "P066",
+    "description": "Semi-realistic bird with no wings",
+    "parpola_graphemes": [
+        "V188",
+        "V531"
+    ],
+    "wells_graphemes": [
+        "W264",
+        "W266",
+        "W268"
+    ],
+    "mahadevan_graphemes": [
+        "M076",
+        "M077",
+        "M078"
+    ],
+    "features": [
+        {
+            "head_shape": "integer",
+            "description": "What shape is the bird's head? 0 = triangle, 1 = simple stroke, 2 = curved line"
+        },
+        {
+            "decoration": "integer",
+            "description": "How is the body decorated? 0 = empty, 1 = hatching"
+        },
+        {
+            "body_shape": "integer",
+            "description": "What shape is the bird's body? 0 = fat bulge, 1 = delicate oval, 2 = triangular"
+        },
+        {
+            "direction": "integer",
+            "description": "Which way is the bird facing? 0 = left, 1 = upward"
+        }
+    ]
+}

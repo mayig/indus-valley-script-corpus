@@ -1,0 +1,14 @@
+{
+    "id": "P061",
+    "description": "Fish with a caret shaped hat, caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V520"
+    ],
+    "wells_graphemes": [
+        "W236"
+    ],
+    "mahadevan_graphemes": [
+        "M066"
+    ],
+    "features": []
+}

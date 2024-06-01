@@ -1,0 +1,24 @@
+{
+    "id": "P063",
+    "description": "Fish with extra whiskers on cheeks, caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V512",
+        "V120"
+    ],
+    "wells_graphemes": [
+        "W241"
+    ],
+    "mahadevan_graphemes": [
+        "M068"
+    ],
+    "features": [
+        {
+            "whisker_pairs": "integer",
+            "description": "Number of whisker pairs on cheeks"
+        },
+        {
+            "horizontal_decoration": "integer",
+            "description": "Number of horizontal lines on body"
+        }
+    ]
+}

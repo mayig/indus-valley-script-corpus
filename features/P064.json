@@ -1,0 +1,20 @@
+{
+    "id": "P064",
+    "description": "Fish with extra legs",
+    "parpola_graphemes": [
+        "V181"
+    ],
+    "wells_graphemes": [
+        "W227",
+        "W228"
+    ],
+    "mahadevan_graphemes": [
+        "M074"
+    ],
+    "features": [
+        {
+            "leg_pairs": "integer",
+            "description": "Number of leg pairs on the body"
+        }
+    ]
+}
