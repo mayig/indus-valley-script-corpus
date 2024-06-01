@@ -1,0 +1,15 @@
+{
+    "id": "P042",
+    "description": "Person with cat's paw",
+    "parpola_graphemes": [
+        "V142",
+        "V780"
+    ],
+    "wells_graphemes": [
+        "W113"
+    ],
+    "mahadevan_graphemes": [
+        "M035"
+    ],
+    "features": []
+}
