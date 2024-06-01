@@ -1,0 +1,12 @@
+{
+    "id": "P090",
+    "description": "Tall vertical stroke, with M shaped diagonal wiggle through middle",
+    "parpola_graphemes": [
+        "V592"
+    ],
+    "wells_graphemes": [
+        "W956"
+    ],
+    "mahadevan_graphemes": [],
+    "features": []
+}
