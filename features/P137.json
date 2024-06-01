@@ -1,0 +1,23 @@
+{
+    "id": "P137",
+    "description": "Nine short vertical strokes, capped by 'table' hat",
+    "parpola_graphemes": [
+        "V437"
+    ],
+    "wells_graphemes": [
+        "W051"
+    ],
+    "mahadevan_graphemes": [
+        "M117"
+    ],
+    "features": [
+        {
+            "vertical_position": "integer",
+            "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+            "linear": "integer",
+            "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+    ]
+}

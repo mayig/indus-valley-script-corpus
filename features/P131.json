@@ -1,0 +1,13 @@
+{
+    "id": "P131",
+    "description": "One tiny caret",
+    "parpola_graphemes": [
+        "V594",
+        "V310"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M312"
+    ],
+    "features": []
+}
