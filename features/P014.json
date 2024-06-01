@@ -1,0 +1,14 @@
+{
+    "id": "P014",
+    "description": "Person with two arms and two legs, small vertical stroke between legs",
+    "parpola_graphemes": [
+        "V394"
+    ],
+    "wells_graphemes": [
+        "W093"
+    ],
+    "mahadevan_graphemes": [
+        "M003"
+    ],
+    "features": []
+}
