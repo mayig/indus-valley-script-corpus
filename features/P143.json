@@ -1,0 +1,14 @@
+{
+    "id": "P143",
+    "description": "Four small vertical strokes above the same, above the same. Bracketed by right parentheses",
+    "parpola_graphemes": [
+        "V493"
+    ],
+    "wells_graphemes": [
+        "W057"
+    ],
+    "mahadevan_graphemes": [
+        "M122"
+    ],
+    "features": []
+}
