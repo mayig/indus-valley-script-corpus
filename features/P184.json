@@ -1,0 +1,20 @@
+{
+    "id": "P184",
+    "description": "Tall, slightly narrow caret (mountain motif)",
+    "parpola_graphemes": [
+        "V299",
+        "V475"
+    ],
+    "wells_graphemes": [
+        "W480"
+    ],
+    "mahadevan_graphemes": [
+        "M134"
+    ],
+    "features": [
+        {
+            "height": "integer",
+            "description": "How tall is the caret? 0 = full height, 1 = partial height"
+        }
+    ]
+}
