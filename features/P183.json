@@ -1,0 +1,19 @@
+{
+    "id": "P183",
+    "description": "Bow and arrow, caged by pairs of small vertical strokes",
+    "parpola_graphemes": [
+        "V757"
+    ],
+    "wells_graphemes": [
+        "W895"
+    ],
+    "mahadevan_graphemes": [
+        "M308"
+    ],
+    "features": [
+        {
+            "roundedness": "integer",
+            "description": "Is the bow angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "P189",
+    "description": "Caret with diagonal continuing upwards and left from the bottom left. Under a 'table' motif",
+    "parpola_graphemes": [
+        "V303"
+    ],
+    "wells_graphemes": [
+        "W454"
+    ],
+    "mahadevan_graphemes": [
+        "M131"
+    ],
+    "features": []
+}
