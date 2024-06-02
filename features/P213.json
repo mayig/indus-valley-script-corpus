@@ -1,0 +1,19 @@
+{
+    "id": "P213",
+    "description": "Horizontally striped isocolese triange, with serifed T on top, capped by a 'table' motif",
+    "parpola_graphemes": [
+        "V324"
+    ],
+    "wells_graphemes": [
+        "W505"
+    ],
+    "mahadevan_graphemes": [
+        "M208"
+    ],
+    "features": [
+        {
+            "stripes": "integer",
+            "description": "How many stripes are there?"
+        }
+    ]
+}

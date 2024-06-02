@@ -1,0 +1,14 @@
+{
+    "id": "P216",
+    "description": "Three short isoceles triangles, above three short isocoles triangles but pointed downward",
+    "parpola_graphemes": [
+        "V580"
+    ],
+    "wells_graphemes": [
+        "W461"
+    ],
+    "mahadevan_graphemes": [
+        "M231"
+    ],
+    "features": []
+}

@@ -1,0 +1,17 @@
+{
+    "id": "P212",
+    "description": "Horizontally striped isocolese triange, with serifed T on top, caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V048"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M207"
+    ],
+    "features": [
+        {
+            "stripes": "integer",
+            "description": "How many stripes are there?"
+        }
+    ]
+}
