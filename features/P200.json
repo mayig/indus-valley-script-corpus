@@ -1,0 +1,25 @@
+{
+    "id": "P200",
+    "description": "Tall box with horizontal hatching throughout, possibly a small handle off right hand side",
+    "parpola_graphemes": [
+        "V054",
+        "V701"
+    ],
+    "wells_graphemes": [
+        "W604",
+        "W605"
+    ],
+    "mahadevan_graphemes": [
+        "M258"
+    ],
+    "features": [
+        {
+            "count": "integer",
+            "description": "How many horizontal strokes are there?"
+        },
+        {
+            "handle": "integer",
+            "description": "What is the handle like? (0 = none, 1 = orthogonal, 2 = slanted a bit)"
+        }
+    ]
+}
