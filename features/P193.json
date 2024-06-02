@@ -1,24 +1,17 @@
 {
-    "id": "P194",
-    "description": "Person sitting with bent knees, four small tangent lines coming off the back",
+    "id": "P193",
+    "description": "Person sitting with bent knees, no small tangent lines coming off the back",
     "parpola_graphemes": [
-        "V186",
-        "V434"
+        "V185",
+        "V676"
     ],
     "wells_graphemes": [
-        "W176",
-        "W177",
-        "W178",
-        "W179"
+        "W175"
     ],
     "mahadevan_graphemes": [
-        "M048"
+        "M047"
     ],
     "features": [
-        {
-            "tangents": "integer",
-            "description": "How many tangent lines are coming off the back of the person?"
-        },
         {
             "facing": "integer",
             "description": "Which way is the person facing? 0 = left, 1 = right"

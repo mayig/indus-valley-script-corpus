@@ -1,0 +1,17 @@
+{
+    "id": "P190",
+    "description": "A 'W' symbol",
+    "parpola_graphemes": [
+        "V403"
+    ],
+    "wells_graphemes": [
+        "W452"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "style": "integer",
+            "description": "How straight are the strokes? 0 = rounded, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}

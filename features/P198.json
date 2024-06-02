@@ -1,0 +1,19 @@
+{
+    "id": "P198",
+    "description": "Tall lambda drawn in outline, with V or diamond inscribed at the connector",
+    "parpola_graphemes": [
+        "V131"
+    ],
+    "wells_graphemes": [
+        "W483"
+    ],
+    "mahadevan_graphemes": [
+        "M259"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "Is the center a full diamond? 0 = no, 1 = yes"
+        }
+    ]
+}

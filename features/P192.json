@@ -1,0 +1,19 @@
+{
+    "id": "P192",
+    "description": "Two vertically stacked 'wave' motifs (see P191)",
+    "parpola_graphemes": [
+        "V516"
+    ],
+    "wells_graphemes": [
+        "W451"
+    ],
+    "mahadevan_graphemes": [
+        "M133"
+    ],
+    "features": [
+        {
+            "style": "integer",
+            "description": "How straight are the strokes? 0 = rounded, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}

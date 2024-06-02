@@ -1,0 +1,14 @@
+{
+    "id": "P196",
+    "description": "Upside-down heart symbol",
+    "parpola_graphemes": [
+        "V302"
+    ],
+    "wells_graphemes": [
+        "W380"
+    ],
+    "mahadevan_graphemes": [
+        "M323"
+    ],
+    "features": []
+}
