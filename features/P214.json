@@ -1,0 +1,11 @@
+{
+    "id": "P214",
+    "description": "Two adjacent carets",
+    "parpola_graphemes": [
+        "V380",
+        "V775"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": []
+}
