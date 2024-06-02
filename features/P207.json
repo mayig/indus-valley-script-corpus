@@ -1,0 +1,17 @@
+{
+    "id": "P207",
+    "description": "Tall triangle with no decoration, either isocolese or more horn-shaped",
+    "parpola_graphemes": [
+        "V349"
+    ],
+    "wells_graphemes": [
+        "W490"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "shape": "integer",
+            "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped"
+        }
+    ]
+}

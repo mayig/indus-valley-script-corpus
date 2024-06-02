@@ -1,0 +1,13 @@
+{
+    "id": "P203",
+    "description": "Upside down 'Y' motif",
+    "parpola_graphemes": [
+        "V090",
+        "V698"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M126"
+    ],
+    "features": []
+}

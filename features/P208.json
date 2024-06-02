@@ -1,0 +1,20 @@
+{
+    "id": "P208",
+    "description": "Tall triangle with vertical divider, either isocolese or more horn-shaped",
+    "parpola_graphemes": [
+        "V102",
+        "V703"
+    ],
+    "wells_graphemes": [
+        "W500"
+    ],
+    "mahadevan_graphemes": [
+        "M209"
+    ],
+    "features": [
+        {
+            "shape": "integer",
+            "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped"
+        }
+    ]
+}

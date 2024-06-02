@@ -1,0 +1,24 @@
+{
+    "id": "P209",
+    "description": "Tall triangle with vertical divider, horizontal hatching throughout, either isocolese or more horn-shaped",
+    "parpola_graphemes": [
+        "V103",
+        "V245"
+    ],
+    "wells_graphemes": [
+        "W502"
+    ],
+    "mahadevan_graphemes": [
+        "M210"
+    ],
+    "features": [
+        {
+            "shape": "integer",
+            "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped"
+        },
+        {
+            "count": "integer",
+            "description": "How many horizontal hatches are there?"
+        }
+    ]
+}
