@@ -1,0 +1,15 @@
+{
+    "id": "P227",
+    "description": "A 'Bowtie' motif, but without the vertical line connecting the right points",
+    "parpola_graphemes": [
+        "V229",
+        "V298"
+    ],
+    "wells_graphemes": [
+        "W530"
+    ],
+    "mahadevan_graphemes": [
+        "M225"
+    ],
+    "features": []
+}

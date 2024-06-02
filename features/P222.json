@@ -1,0 +1,20 @@
+{
+    "id": "P222",
+    "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle. Capped by a 'table' motif",
+    "parpola_graphemes": [
+        "V046",
+        "V422"
+    ],
+    "wells_graphemes": [
+        "W456"
+    ],
+    "mahadevan_graphemes": [
+        "M234"
+    ],
+    "features": [
+        {
+            "small_triangle_orientation": "integer",
+            "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left"
+        }
+    ]
+}
