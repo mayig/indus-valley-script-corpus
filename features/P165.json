@@ -1,0 +1,14 @@
+{
+    "id": "P165",
+    "description": "Left parenthesis with small semicircle against the very middle",
+    "parpola_graphemes": [
+        "V216"
+    ],
+    "wells_graphemes": [
+        "W921"
+    ],
+    "mahadevan_graphemes": [
+        "M301"
+    ],
+    "features": []
+}

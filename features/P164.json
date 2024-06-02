@@ -1,0 +1,14 @@
+{
+    "id": "P164",
+    "description": "Left parenthesis with small inward pointing tooth near top",
+    "parpola_graphemes": [
+        "V399"
+    ],
+    "wells_graphemes": [
+        "W902"
+    ],
+    "mahadevan_graphemes": [
+        "M300"
+    ],
+    "features": []
+}

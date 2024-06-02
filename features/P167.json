@@ -1,0 +1,10 @@
+{
+    "id": "P167",
+    "description": "Left parenthesis with small semicircle against the very middle, diagonal line extending past the paren from the bottom of the semicircle. T-bar diagonally against top of parenthesis",
+    "parpola_graphemes": [
+        "V777"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": []
+}

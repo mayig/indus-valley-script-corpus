@@ -1,0 +1,19 @@
+{
+    "id": "P162",
+    "description": "Right parenthesis with small lines away from it at top",
+    "parpola_graphemes": [
+        "V591"
+    ],
+    "wells_graphemes": [
+        "W903"
+    ],
+    "mahadevan_graphemes": [
+        "M290"
+    ],
+    "features": [
+        {
+            "count": "integer",
+            "description": "Number of small lines away from the top of the right parenthesis"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "P161",
+    "description": "Right parenthesis with small leaf at middle, stroke crossing top part of paren",
+    "parpola_graphemes": [
+        "V355"
+    ],
+    "wells_graphemes": [
+        "W922"
+    ],
+    "mahadevan_graphemes": [],
+    "features": []
+}

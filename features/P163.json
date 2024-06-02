@@ -1,0 +1,15 @@
+{
+    "id": "P163",
+    "description": "Left parenthesis",
+    "parpola_graphemes": [
+        "V152",
+        "V332"
+    ],
+    "wells_graphemes": [
+        "W909"
+    ],
+    "mahadevan_graphemes": [
+        "M299"
+    ],
+    "features": []
+}
