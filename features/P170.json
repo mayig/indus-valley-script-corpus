@@ -1,0 +1,10 @@
+{
+    "id": "P170",
+    "description": "Left parenthesis with small semicircle against the very middle, caret extending from top of semicircle",
+    "parpola_graphemes": [
+        "V291"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": []
+}
