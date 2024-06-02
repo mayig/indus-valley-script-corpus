@@ -1,0 +1,15 @@
+{
+    "id": "P224",
+    "description": "A 'Bowtie' motif. Or, an 'X' with vertical line connecting the left points, and same on right",
+    "parpola_graphemes": [
+        "V234",
+        "V235"
+    ],
+    "wells_graphemes": [
+        "W540"
+    ],
+    "mahadevan_graphemes": [
+        "M214"
+    ],
+    "features": []
+}
