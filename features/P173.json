@@ -1,0 +1,22 @@
+{
+    "id": "P173",
+    "description": "Two slightly nested right parentheses, small tooth facing outward from top of right parenthesis",
+    "parpola_graphemes": [
+        "V455",
+        "V365",
+        "V682"
+    ],
+    "wells_graphemes": [
+        "W905",
+        "W928"
+    ],
+    "mahadevan_graphemes": [
+        "M295"
+    ],
+    "features": [
+        {
+            "design": "integer",
+            "description": "0 = right-parentheses, 1 = waves"
+        }
+    ]
+}

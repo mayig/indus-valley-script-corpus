@@ -1,0 +1,20 @@
+{
+    "id": "P179",
+    "description": "Right facing bow, i.e. a vertical stroke with a right-parenthesis fully attached on the right. Several small perpendiculars coming off top",
+    "parpola_graphemes": [
+        "V330",
+        "V789"
+    ],
+    "wells_graphemes": [
+        "W891"
+    ],
+    "mahadevan_graphemes": [
+        "M305"
+    ],
+    "features": [
+        {
+            "count": "integer",
+            "description": "Number of perpendiculars coming off the top of the bow"
+        }
+    ]
+}
