@@ -1,22 +1,20 @@
 {
     "id": "P111",
-    "description": "Upside-down heart symbol, possibly with vertical stroke coming from bottom of heart",
+    "description": "Upside-down heart symbol, with vertical stroke coming from bottom of heart",
     "parpola_graphemes": [
         "V167",
         "V483"
     ],
     "wells_graphemes": [
-        "W380",
         "W382"
     ],
     "mahadevan_graphemes": [
-        "M323",
         "M325"
     ],
     "features": [
         {
             "stroke": "integer",
-            "description": "How long is the vertical stroke? (0 = none, 1 = long, 2 = indeterminate)"
+            "description": "How long is the vertical stroke? (0 = short, 1 = long, 2 = indeterminate)"
         }
     ]
 }

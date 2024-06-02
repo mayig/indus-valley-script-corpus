@@ -1,0 +1,17 @@
+{
+    "id": "P199",
+    "description": "Two or three tall vertical strokes, with a small box off the right center of the second stroke",
+    "parpola_graphemes": [
+        "V384"
+    ],
+    "wells_graphemes": [
+        "W058"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "count": "integer",
+            "description": "How many vertical strokes are there?"
+        }
+    ]
+}

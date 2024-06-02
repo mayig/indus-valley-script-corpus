@@ -1,0 +1,19 @@
+{
+    "id": "P191",
+    "description": "A 'W' symbol with an extra stroke going down and left from the left tip ('wave' motif)",
+    "parpola_graphemes": [
+        "V107"
+    ],
+    "wells_graphemes": [
+        "W450"
+    ],
+    "mahadevan_graphemes": [
+        "M132"
+    ],
+    "features": [
+        {
+            "style": "integer",
+            "description": "How straight are the strokes? 0 = rounded, 1 = angular, 2 = mixed or indeterminate"
+        }
+    ]
+}
