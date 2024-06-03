@@ -4,7 +4,9 @@
     "parpola_graphemes": [
         "V259"
     ],
-    "wells_graphemes": [],
+    "wells_graphemes": [
+        "W950"
+    ],
     "mahadevan_graphemes": [
         "M170"
     ],

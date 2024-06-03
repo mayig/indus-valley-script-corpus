@@ -1,0 +1,17 @@
+{
+    "id": "P290",
+    "description": "Tall table. Underside has a horizontal line enclosing the top part of the underside, with vertical hatches inside. Small box on top of the table.",
+    "parpola_graphemes": [
+        "V436"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M198"
+    ],
+    "features": [
+        {
+            "trapezoid_shape": "integer",
+            "description": "Is the trapezoid angled or straight? 0 = angled, 1 = straight, 2 = indeterminate"
+        }
+    ]
+}

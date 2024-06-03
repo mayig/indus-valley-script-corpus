@@ -1,0 +1,22 @@
+{
+    "id": "P292",
+    "description": "Tall table. Small decoration on top",
+    "parpola_graphemes": [
+        "V371",
+        "V773"
+    ],
+    "wells_graphemes": [
+        "W570",
+        "W571"
+    ],
+    "mahadevan_graphemes": [
+        "M199",
+        "M200"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "What is the decoration? 0 = bird foot, 1 = pitchfork head"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": "P294",
+    "description": "Large 'H', possibly with top points connected by horizontal bar. Table for a hat.",
+    "parpola_graphemes": [
+        "V334"
+    ],
+    "wells_graphemes": [
+        "W361"
+    ],
+    "mahadevan_graphemes": [
+        "M203"
+    ],
+    "features": [
+        {
+            "top": "integer",
+            "description": "Is the top enclosed? 0 = no, 1 = yes"
+        }
+    ]
+}

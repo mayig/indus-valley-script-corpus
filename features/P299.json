@@ -1,0 +1,17 @@
+{
+    "id": "P299",
+    "description": "Two 'H's, but the crossbars are multiple small boxes. H's share one of the vertical lines.",
+    "parpola_graphemes": [
+        "V444"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M185"
+    ],
+    "features": [
+        {
+            "boxes": "integer",
+            "description": "How many boxes go across the middle?"
+        }
+    ]
+}

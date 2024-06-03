@@ -1,0 +1,22 @@
+{
+    "id": "P293",
+    "description": "Large 'H', possibly with top points connected by horizontal bar",
+    "parpola_graphemes": [
+        "V057",
+        "V055",
+        "V447"
+    ],
+    "wells_graphemes": [
+        "W315",
+        "W360"
+    ],
+    "mahadevan_graphemes": [
+        "M199"
+    ],
+    "features": [
+        {
+            "top": "integer",
+            "description": "Is the top enclosed? 0 = no, 1 = yes"
+        }
+    ]
+}
