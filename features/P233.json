@@ -1,0 +1,19 @@
+{
+    "id": "P233",
+    "description": "The 'pincer' motif, with two vertically stacked leaves intersecting at the middle point. Caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V564"
+    ],
+    "wells_graphemes": [
+        "W562"
+    ],
+    "mahadevan_graphemes": [
+        "M220"
+    ],
+    "features": [
+        {
+            "rounded-lhs": "integer",
+            "description": "0 = rounded, 1 = angular"
+        }
+    ]
+}

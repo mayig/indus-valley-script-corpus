@@ -1,0 +1,19 @@
+{
+    "id": "P235",
+    "description": "The 'pincer' motif with 'rake' coming from lower left. Rake is a long stroke with multiple short perpendiculars coming off one side. Pincer is missing at least one of the pincer teeth",
+    "parpola_graphemes": [
+        "V117"
+    ],
+    "wells_graphemes": [
+        "W532"
+    ],
+    "mahadevan_graphemes": [
+        "M227"
+    ],
+    "features": [
+        {
+            "missing_pincers": "integer",
+            "description": "Which pincer teeth are missing? 0 = top, 1 = bottom, 2 = both"
+        }
+    ]
+}

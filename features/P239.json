@@ -1,0 +1,16 @@
+{
+    "id": "P239",
+    "description": "An 'X' where each arm is decorated with wheat sheaves",
+    "parpola_graphemes": [
+        "V688",
+        "V689"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "count": "integer",
+            "description": "How many wheat sheaves are there on each arm of the 'X'?"
+        }
+    ]
+}

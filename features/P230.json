@@ -1,6 +1,6 @@
 {
     "id": "P230",
-    "description": "Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+    "description": "The 'pincer' motif. Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
     "parpola_graphemes": [
         "V241",
         "V033",
@@ -26,6 +26,10 @@
         {
             "decoration": "integer",
             "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
+        },
+        {
+            "pincer_angle": "integer",
+            "description": "Angle of the pincer. 0 = vertical, 1 = outward, 2 = mixed or indeterminate"
         }
     ]
 }
