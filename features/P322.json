@@ -1,0 +1,24 @@
+{
+    "id": "P322",
+    "description": "Tall vertical on left, half vertical on top right, the right vertical then continues in a curve to connect to the bottom of the left vertical. Top is closed by a horizontal. Top is a sequence of small boxes",
+    "parpola_graphemes": [
+        "V337",
+        "V705"
+    ],
+    "wells_graphemes": [
+        "W721"
+    ],
+    "mahadevan_graphemes": [
+        "M338"
+    ],
+    "features": [
+        {
+            "boxes": "integer",
+            "description": "How many boxes are in the top?"
+        },
+        {
+            "curve": "integer",
+            "description": "Which side is the curve on? 0 = left, 1 = right"
+        }
+    ]
+}
