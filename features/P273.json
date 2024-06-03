@@ -1,0 +1,11 @@
+{
+    "id": "P273",
+    "description": "Wide rectangle, with an X from corner to corner",
+    "parpola_graphemes": [
+        "V731",
+        "V792"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": []
+}

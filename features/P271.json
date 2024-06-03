@@ -1,0 +1,17 @@
+{
+    "id": "P271",
+    "description": "Rectangle, taller than wide, with vertical strokes for teeth inside on top and bottom. Two right parentheses inside everything",
+    "parpola_graphemes": [
+        "V405"
+    ],
+    "wells_graphemes": [
+        "W640"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "teeth": "integer",
+            "description": "The number of teeth"
+        }
+    ]
+}
