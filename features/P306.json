@@ -1,0 +1,32 @@
+{
+    "id": "P306",
+    "description": "Long horizontal at bottom, multiple vertical lines coming off for the entire length. Each vertical decorated near top, low horizontal is made of abutting small rectangles, possibly decorated",
+    "parpola_graphemes": [
+        "V080",
+        "V474"
+    ],
+    "wells_graphemes": [
+        "W421",
+        "W422",
+        "W423",
+        "W425",
+        "W426",
+        "W427",
+        "W428",
+        "W429",
+        "W430"
+    ],
+    "mahadevan_graphemes": [
+        "M190"
+    ],
+    "features": [
+        {
+            "vertical_decoration": "integer",
+            "description": "How are the vertical lines decorated? 0 = none, 1 = top bifurcation, 2 = tail on one side at middle"
+        },
+        {
+            "horizontal_decoration": "integer",
+            "description": "How is the low horizontal decorated? 0 = none, 1 = abutting small rectangles, 2 = abutting small rectangles with a diagonal, 3 = extra horizontal lines, 4 = extra vertical lines"
+        }
+    ]
+}

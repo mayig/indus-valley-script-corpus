@@ -1,0 +1,14 @@
+{
+    "id": "P302",
+    "description": "Box in center. Vertical lines coming from top left and right. Vertical coming from bottom right, extended by a horizontal at the bottom.",
+    "parpola_graphemes": [
+        "V567"
+    ],
+    "wells_graphemes": [
+        "W363"
+    ],
+    "mahadevan_graphemes": [
+        "M255"
+    ],
+    "features": []
+}

@@ -1,0 +1,13 @@
+{
+    "id": "P300",
+    "description": "Two narrow vertical lines, three diagonals connecting them. Tail coming horizontally off top, right edge has a thin triangle sharing part of the edge",
+    "parpola_graphemes": [
+        "V270",
+        "V333"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M187"
+    ],
+    "features": []
+}

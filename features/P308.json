@@ -1,0 +1,19 @@
+{
+    "id": "P308",
+    "description": "M with the bottom of the legs connected by a horizontal line, and vertical lines connected at midpoint by horizontal line",
+    "parpola_graphemes": [
+        "V075"
+    ],
+    "wells_graphemes": [
+        "W335"
+    ],
+    "mahadevan_graphemes": [
+        "M192"
+    ],
+    "features": [
+        {
+            "diagonal_style": "integer",
+            "description": "What shape are the diagonals of the 'M'? 0 = straight, 1 = curved"
+        }
+    ]
+}
