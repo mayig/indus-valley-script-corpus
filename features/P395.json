@@ -1,0 +1,17 @@
+{
+    "id": "P395",
+    "description": "Diamond with small diamond in top vertex, rakes coming from top vertex, one on each side",
+    "parpola_graphemes": [
+        "V406"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M273"
+    ],
+    "features": [
+        {
+            "teeth": "integer",
+            "description": "How many teeth are there on the rake?"
+        }
+    ]
+}
