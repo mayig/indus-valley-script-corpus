@@ -1,0 +1,20 @@
+{
+    "id": "P284",
+    "description": "Backward capital Gamma with serif, small vertical stroke inside the area",
+    "parpola_graphemes": [
+        "V477",
+        "V171"
+    ],
+    "wells_graphemes": [
+        "W443"
+    ],
+    "mahadevan_graphemes": [
+        "M128"
+    ],
+    "features": [
+        {
+            "stroke_style": "integer",
+            "description": "What orientation is the central stroke? 0 = vertical, 1 = horiztonal, 2 = mixed or indeterminate"
+        }
+    ]
+}
