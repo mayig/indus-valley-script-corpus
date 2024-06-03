@@ -1,0 +1,28 @@
+{
+    "id": "P304",
+    "description": "H with two horizontal bars across the middle, with vertical lines dropping down from the crossbar. All connected by a short diagonal to a tall vertical stroke on left",
+    "parpola_graphemes": [
+        "V079",
+        "V800"
+    ],
+    "wells_graphemes": [
+        "W321"
+    ],
+    "mahadevan_graphemes": [
+        "M183"
+    ],
+    "features": [
+        {
+            "lines": "integer",
+            "description": "How many vertical lines are in the 'box' in the bottom?"
+        },
+        {
+            "decoration": "integer",
+            "description": "Is the top of the H solid with crosshatching? 0 = no, 1 = yes"
+        },
+        {
+            "animal": "integer",
+            "description": "Is the shape a discernable animal? 0 = no, 1 = yes"
+        }
+    ]
+}
