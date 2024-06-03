@@ -1,0 +1,19 @@
+{
+    "id": "P392",
+    "description": "Diamond with small diamond in top vertex, bird foot or tree coming off top left edge",
+    "parpola_graphemes": [
+        "V677"
+    ],
+    "wells_graphemes": [
+        "W863"
+    ],
+    "mahadevan_graphemes": [
+        "M270"
+    ],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "How many branches are in the bird foot?"
+        }
+    ]
+}

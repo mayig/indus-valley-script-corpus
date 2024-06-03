@@ -1,0 +1,23 @@
+{
+    "id": "P391",
+    "description": "Diamond with small diamond at top (and maybe even smaller diamond on right), small diamond at top has decoration off the bottom, all caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V487"
+    ],
+    "wells_graphemes": [
+        "W870"
+    ],
+    "mahadevan_graphemes": [
+        "M278"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "What is the decoration hanging on the small top diamond? 0 = bird foot, 1 = diag stroke"
+        },
+        {
+            "right_diamond": "integer",
+            "description": "Is there a small diamond on the right? 0 = no, 1 = yes"
+        }
+    ]
+}

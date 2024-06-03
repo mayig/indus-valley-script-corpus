@@ -1,0 +1,19 @@
+{
+    "id": "P393",
+    "description": "Diamond with small diamond in top vertex, multiple trees off top right edge",
+    "parpola_graphemes": [
+        "V351"
+    ],
+    "wells_graphemes": [
+        "W864"
+    ],
+    "mahadevan_graphemes": [
+        "M271"
+    ],
+    "features": [
+        {
+            "trees": "integer",
+            "description": "How many trees are present in the inscription?"
+        }
+    ]
+}

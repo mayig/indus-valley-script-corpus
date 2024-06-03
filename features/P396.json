@@ -1,0 +1,19 @@
+{
+    "id": "P396",
+    "description": "Square with small square inside top left vertex, 9 slanted vertical strokes in a 3x3 pattern inside",
+    "parpola_graphemes": [
+        "V753"
+    ],
+    "wells_graphemes": [
+        "W628"
+    ],
+    "mahadevan_graphemes": [
+        "M236"
+    ],
+    "features": [
+        {
+            "style": "integer",
+            "description": "Are the vertical strokes connected in waves? 0 = no, 1 = yes"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "P394",
+    "description": "Diamond with small diamond in top vertex, jar handles or trees coming from top vertex, one on each side",
+    "parpola_graphemes": [
+        "V468",
+        "V409"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M274"
+    ],
+    "features": [
+        {
+            "style": "integer",
+            "description": "What style is the top? 0 = jar handles, 1 = trees"
+        }
+    ]
+}
