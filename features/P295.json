@@ -1,0 +1,23 @@
+{
+    "id": "P295",
+    "description": "Large 'H', possibly with top points connected by horizontal bar. Vertical lines come down from the crossbar.",
+    "parpola_graphemes": [
+        "V279"
+    ],
+    "wells_graphemes": [
+        "W318"
+    ],
+    "mahadevan_graphemes": [
+        "M188"
+    ],
+    "features": [
+        {
+            "top": "integer",
+            "description": "Is the top enclosed? 0 = no, 1 = yes"
+        },
+        {
+            "count": "integer",
+            "description": "Number of vertical lines"
+        }
+    ]
+}

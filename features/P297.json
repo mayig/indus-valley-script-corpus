@@ -1,0 +1,15 @@
+{
+    "id": "P297",
+    "description": "Ladder motif. Two nearby vertical lines with a number of horizontal lines going across the middle, going the length of the verticals.",
+    "parpola_graphemes": [
+        "V725"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "lines": "integer",
+            "description": "How many horizontal lines go across the middle?"
+        }
+    ]
+}

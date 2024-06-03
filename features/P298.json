@@ -1,0 +1,18 @@
+{
+    "id": "P298",
+    "description": "An 'H', but the crossbar is multiple small boxes. Possibly with an upward tail coming from the bottom left",
+    "parpola_graphemes": [
+        "V379",
+        "V704"
+    ],
+    "wells_graphemes": [
+        "W319"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "boxes": "integer",
+            "description": "How many boxes go across the middle?"
+        }
+    ]
+}
