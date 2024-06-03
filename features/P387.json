@@ -1,0 +1,12 @@
+{
+    "id": "P387",
+    "description": "Diamond with a small diamond attached to the top, two orthogonal strokes going through bottom left edge",
+    "parpola_graphemes": [
+        "V433"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M276"
+    ],
+    "features": []
+}
