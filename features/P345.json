@@ -1,0 +1,19 @@
+{
+    "id": "P345",
+    "description": "The 'headphones' motif. Upside down U with small cirles on each end. Tall 'Y' inscribed and attached inside",
+    "parpola_graphemes": [
+        "V286"
+    ],
+    "wells_graphemes": [
+        "W168"
+    ],
+    "mahadevan_graphemes": [
+        "M322"
+    ],
+    "features": [
+        {
+            "angularity": "integer",
+            "description": "How angular is the 'U'? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        }
+    ]
+}
