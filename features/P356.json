@@ -1,0 +1,15 @@
+{
+    "id": "P356",
+    "description": "Simple leaf or diamond, possibly rotated 45 degrees. Small tree of right hand side",
+    "parpola_graphemes": [
+        "V175"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "Number of branches on the symbol"
+        }
+    ]
+}
