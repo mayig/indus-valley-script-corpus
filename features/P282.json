@@ -1,0 +1,12 @@
+{
+    "id": "P282",
+    "description": "Box on top left, vertical extender from bottom left, horizontal extenders all along the right side",
+    "parpola_graphemes": [
+        "V259"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M170"
+    ],
+    "features": []
+}

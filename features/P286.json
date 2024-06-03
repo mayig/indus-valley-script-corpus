@@ -1,0 +1,19 @@
+{
+    "id": "P286",
+    "description": "Trapezoid with no bottom line, bird-foot in bottom, 'table' hat",
+    "parpola_graphemes": [
+        "V589"
+    ],
+    "wells_graphemes": [
+        "W573"
+    ],
+    "mahadevan_graphemes": [
+        "M196"
+    ],
+    "features": [
+        {
+            "table_style": "integer",
+            "description": "What style is the 'table' hat? 0 = normal, 1 = flared legs, 2 = flared legs and slanted top"
+        }
+    ]
+}
