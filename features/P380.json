@@ -1,0 +1,15 @@
+{
+    "id": "P380",
+    "description": "2x2 grid, each cell has a small vertical stroke",
+    "parpola_graphemes": [
+        "V063",
+        "V284"
+    ],
+    "wells_graphemes": [
+        "W626"
+    ],
+    "mahadevan_graphemes": [
+        "M247"
+    ],
+    "features": []
+}

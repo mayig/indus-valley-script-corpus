@@ -1,0 +1,15 @@
+{
+    "id": "P383",
+    "description": "Diamond with four small diamonds at each vertex, caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V584",
+        "V788"
+    ],
+    "wells_graphemes": [
+        "W878"
+    ],
+    "mahadevan_graphemes": [
+        "M285"
+    ],
+    "features": []
+}

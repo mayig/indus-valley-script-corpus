@@ -1,0 +1,15 @@
+{
+    "id": "P388",
+    "description": "Diamond with a small diamond attached to the top, lower left edge has a doubling parallel line inside the diamond",
+    "parpola_graphemes": [
+        "V430",
+        "V802"
+    ],
+    "wells_graphemes": [
+        "W868"
+    ],
+    "mahadevan_graphemes": [
+        "M275"
+    ],
+    "features": []
+}
