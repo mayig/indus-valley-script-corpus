@@ -1,0 +1,19 @@
+{
+    "id": "P231",
+    "description": "The 'pincer' motif, with vertical stroke through the middle point",
+    "parpola_graphemes": [
+        "V240"
+    ],
+    "wells_graphemes": [
+        "W556"
+    ],
+    "mahadevan_graphemes": [
+        "M221"
+    ],
+    "features": [
+        {
+            "rounded-lhs": "integer",
+            "description": "0 = rounded, 1 = angular"
+        }
+    ]
+}
