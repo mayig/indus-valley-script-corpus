@@ -1,0 +1,17 @@
+{
+    "id": "P318",
+    "description": "U with upward-bowed line or wagon wheel near the bottom",
+    "parpola_graphemes": [
+        "V283"
+    ],
+    "wells_graphemes": [
+        "W712"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "What is the decoration near the bottom? 0 = circle, 1 = wagon wheel"
+        }
+    ]
+}

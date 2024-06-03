@@ -1,0 +1,24 @@
+{
+    "id": "P314",
+    "description": "U with several small strokes off the bottom, caret hat",
+    "parpola_graphemes": [
+        "V088",
+        "V779"
+    ],
+    "wells_graphemes": [
+        "W731"
+    ],
+    "mahadevan_graphemes": [
+        "M334"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+            "stroke_count": "integer",
+            "description": "How many strokes come off the bottom?"
+        }
+    ]
+}
