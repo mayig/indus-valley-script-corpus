@@ -1,0 +1,19 @@
+{
+    "id": "P351",
+    "description": "Two vertical leaves, slightly overlapping. Small tree motif coming from right hand side",
+    "parpola_graphemes": [
+        "V496"
+    ],
+    "wells_graphemes": [
+        "W841"
+    ],
+    "mahadevan_graphemes": [
+        "M405"
+    ],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "Number of branches"
+        }
+    ]
+}
