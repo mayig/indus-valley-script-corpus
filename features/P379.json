@@ -1,0 +1,13 @@
+{
+    "id": "P379",
+    "description": "Wheel with 6 spokes with even angles, two tall vertical strokes on left, all caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V569",
+        "V338"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M392"
+    ],
+    "features": []
+}

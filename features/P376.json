@@ -1,0 +1,14 @@
+{
+    "id": "P376",
+    "description": "Leaf with diagonal overlapping cross hatching throughout",
+    "parpola_graphemes": [
+        "V297"
+    ],
+    "wells_graphemes": [
+        "W825"
+    ],
+    "mahadevan_graphemes": [
+        "M380"
+    ],
+    "features": []
+}

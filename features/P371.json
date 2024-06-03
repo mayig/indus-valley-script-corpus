@@ -1,0 +1,28 @@
+{
+    "id": "P371",
+    "description": "Leaf with small square hatched decoration inside, pitchfork head inside",
+    "parpola_graphemes": [
+        "V251"
+    ],
+    "wells_graphemes": [
+        "W815",
+        "W816"
+    ],
+    "mahadevan_graphemes": [
+        "M383"
+    ],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "0 = 2x1 angled grid, 1 = 2x3 grid, 2 = 2x1 angled grid with top cells making a single cell"
+        },
+        {
+            "pitchfork": "integer",
+            "description": "Where is the pitchfork head? 0 = left, 1 = bottom-right"
+        },
+        {
+            "tines": "integer",
+            "description": "Number of tines on the pitchfork head"
+        }
+    ]
+}
