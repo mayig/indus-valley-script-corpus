@@ -1,0 +1,10 @@
+{
+    "id": "P263",
+    "description": "Tall rectangle with no decoration, connected to a tall vertical stroke on the left by a short diagonal line",
+    "parpola_graphemes": [
+        "V721"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": []
+}

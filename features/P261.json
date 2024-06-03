@@ -1,0 +1,10 @@
+{
+    "id": "P261",
+    "description": "Box with inward facing triangles on each corner, filled with small U's and X's",
+    "parpola_graphemes": [
+        "V441"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": []
+}

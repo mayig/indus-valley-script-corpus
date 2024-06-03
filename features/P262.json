@@ -1,0 +1,15 @@
+{
+    "id": "P262",
+    "description": "Tall rectangle with no decoration",
+    "parpola_graphemes": [
+        "V059"
+    ],
+    "wells_graphemes": [
+        "W600",
+        "W625"
+    ],
+    "mahadevan_graphemes": [
+        "M237"
+    ],
+    "features": []
+}

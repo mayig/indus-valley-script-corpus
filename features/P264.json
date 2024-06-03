@@ -1,0 +1,15 @@
+{
+    "id": "P264",
+    "description": "Tall rectangle with two horizontal hatches going across the center",
+    "parpola_graphemes": [
+        "V060",
+        "V545"
+    ],
+    "wells_graphemes": [
+        "W603"
+    ],
+    "mahadevan_graphemes": [
+        "M238"
+    ],
+    "features": []
+}

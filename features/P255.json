@@ -1,0 +1,15 @@
+{
+    "id": "P255",
+    "description": "Two nested greater-than symbols, touching two nested less-than symbols",
+    "parpola_graphemes": [
+        "V232",
+        "V712"
+    ],
+    "wells_graphemes": [
+        "W690"
+    ],
+    "mahadevan_graphemes": [
+        "M149"
+    ],
+    "features": []
+}

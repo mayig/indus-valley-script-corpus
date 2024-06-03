@@ -1,0 +1,21 @@
+{
+    "id": "P265",
+    "description": "Tall rectangle with vertical full height bar inside, and a horizontal bar across the left or right area",
+    "parpola_graphemes": [
+        "V061",
+        "V687"
+    ],
+    "wells_graphemes": [
+        "W621",
+        "W622"
+    ],
+    "mahadevan_graphemes": [
+        "M242"
+    ],
+    "features": [
+        {
+            "crossbar_location": "integer",
+            "description": "Location of the crossbar, 0 for left, 1 for right"
+        }
+    ]
+}

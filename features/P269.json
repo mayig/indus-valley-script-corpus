@@ -1,0 +1,27 @@
+{
+    "id": "P269",
+    "description": "A grid of x by y cells, with a tall vertical stroke on one side, both connected by a short diagonal line",
+    "parpola_graphemes": [
+        "V758"
+    ],
+    "wells_graphemes": [
+        "W616"
+    ],
+    "mahadevan_graphemes": [
+        "M246"
+    ],
+    "features": [
+        {
+            "columns": "integer",
+            "description": "The number of columns in the grid"
+        },
+        {
+            "rows": "integer",
+            "description": "The number of rows in the grid"
+        },
+        {
+            "stroke": "string",
+            "description": "The side of the grid with the tall vertical stroke. 0 = left, 1 = right"
+        }
+    ]
+}

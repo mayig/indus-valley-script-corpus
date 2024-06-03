@@ -1,0 +1,14 @@
+{
+    "id": "P257",
+    "description": "An X but drawn in outline. Three small adjacent triangles affixed diagonally to the top right arm",
+    "parpola_graphemes": [
+        "V372"
+    ],
+    "wells_graphemes": [
+        "W694"
+    ],
+    "mahadevan_graphemes": [
+        "M151"
+    ],
+    "features": []
+}

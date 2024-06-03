@@ -1,0 +1,19 @@
+{
+    "id": "P266",
+    "description": "Tall rectangle with vertical full height bar inside, and a horizontal bar across the left or right area. Small U in the other area",
+    "parpola_graphemes": [
+        "V345"
+    ],
+    "wells_graphemes": [
+        "W623"
+    ],
+    "mahadevan_graphemes": [
+        "M243"
+    ],
+    "features": [
+        {
+            "crossbar_location": "integer",
+            "description": "Location of the crossbar, 0 for left, 1 for right"
+        }
+    ]
+}

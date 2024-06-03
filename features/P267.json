@@ -1,0 +1,14 @@
+{
+    "id": "P267",
+    "description": "Tall rectangle a box affixed to the left interior, the box has a horizontal crossbar",
+    "parpola_graphemes": [
+        "V064"
+    ],
+    "wells_graphemes": [
+        "W602"
+    ],
+    "mahadevan_graphemes": [
+        "M239"
+    ],
+    "features": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "P250",
+    "description": "A vertical stroke with a smallish X centered on the top",
+    "parpola_graphemes": [
+        "V335"
+    ],
+    "wells_graphemes": [
+        "W080"
+    ],
+    "mahadevan_graphemes": [
+        "M158"
+    ],
+    "features": []
+}
