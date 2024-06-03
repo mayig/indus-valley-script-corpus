@@ -1,0 +1,20 @@
+{
+    "id": "P368",
+    "description": "Leaf with small dot inside",
+    "parpola_graphemes": [
+        "V159",
+        "V691"
+    ],
+    "wells_graphemes": [
+        "W808",
+        "W809",
+        "W810"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "What shape is the dot? 0 = circular, 1 = square, 2 = diamond"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "P363",
+    "description": "Diamond with two horizontally adjacent boxes on a short vertical stick inside near bottom",
+    "parpola_graphemes": [
+        "V112"
+    ],
+    "wells_graphemes": [
+        "W858"
+    ],
+    "mahadevan_graphemes": [
+        "M266"
+    ],
+    "features": []
+}

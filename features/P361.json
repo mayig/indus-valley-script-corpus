@@ -1,0 +1,14 @@
+{
+    "id": "P361",
+    "description": "Diamond with diagonal line crossing lower right edge",
+    "parpola_graphemes": [
+        "V118"
+    ],
+    "wells_graphemes": [
+        "W851"
+    ],
+    "mahadevan_graphemes": [
+        "M263"
+    ],
+    "features": []
+}

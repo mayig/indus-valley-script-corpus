@@ -1,0 +1,15 @@
+{
+    "id": "P367",
+    "description": "Leaf with small vertical stroke inside, small tooth coming off top right",
+    "parpola_graphemes": [
+        "V200",
+        "V727"
+    ],
+    "wells_graphemes": [
+        "W834"
+    ],
+    "mahadevan_graphemes": [
+        "M376"
+    ],
+    "features": []
+}
