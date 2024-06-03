@@ -1,0 +1,14 @@
+{
+    "id": "P343",
+    "description": "A left and right paren connected only at the top, with the left paren swooping upward into the center from the bottom. Small diagonal coming off top-right",
+    "parpola_graphemes": [
+        "V471"
+    ],
+    "wells_graphemes": [
+        "W166"
+    ],
+    "mahadevan_graphemes": [
+        "M320"
+    ],
+    "features": []
+}

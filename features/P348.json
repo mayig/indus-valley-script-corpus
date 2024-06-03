@@ -1,0 +1,14 @@
+{
+    "id": "P348",
+    "description": "Two leaves horizontally adjacent, with a small horizontal line connecting them. Caged by two inward sloping vertical lines",
+    "parpola_graphemes": [
+        "V737"
+    ],
+    "wells_graphemes": [
+        "W170"
+    ],
+    "mahadevan_graphemes": [
+        "M409"
+    ],
+    "features": []
+}
