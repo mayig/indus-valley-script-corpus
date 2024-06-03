@@ -1,0 +1,13 @@
+{
+    "id": "P248",
+    "description": "An 'X' with vertical lines connected to each arm, forming two 'fat arrows' pointed toward each other. All under a 'table' hat",
+    "parpola_graphemes": [
+        "V432",
+        "V791"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [
+        "M142"
+    ],
+    "features": []
+}
