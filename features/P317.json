@@ -1,0 +1,29 @@
+{
+    "id": "P317",
+    "description": "U with several small strokes off the bottom, vertical line with possible decoration at bottom inserted into the U",
+    "parpola_graphemes": [
+        "V407",
+        "V322"
+    ],
+    "wells_graphemes": [
+        "W735",
+        "W736"
+    ],
+    "mahadevan_graphemes": [
+        "M335"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+            "stroke_count": "integer",
+            "description": "How many strokes come off the bottom?"
+        },
+        {
+            "decoration": "integer",
+            "description": "What is the decoration on the inserted line? 0 = none, 1 = circle"
+        }
+    ]
+}

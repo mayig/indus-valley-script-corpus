@@ -1,0 +1,24 @@
+{
+    "id": "P312",
+    "description": "U with three small vertical strokes inside the top",
+    "parpola_graphemes": [
+        "V202",
+        "V707"
+    ],
+    "wells_graphemes": [
+        "W703"
+    ],
+    "mahadevan_graphemes": [
+        "M330"
+    ],
+    "features": [
+        {
+            "rounded": "integer",
+            "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+            "u_height": "integer",
+            "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        }
+    ]
+}
