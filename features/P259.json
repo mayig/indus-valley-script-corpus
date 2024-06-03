@@ -1,0 +1,17 @@
+{
+    "id": "P259",
+    "description": "A central box, with orthogonal lines coming off in a pinwheel manner",
+    "parpola_graphemes": [
+        "V453"
+    ],
+    "wells_graphemes": [
+        "W528"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "orientation": "integer",
+            "description": "Which side is the top extension on? 0 = left, 1 = right"
+        }
+    ]
+}
