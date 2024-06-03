@@ -1,0 +1,14 @@
+{
+    "id": "P336",
+    "description": "U with trifurcated trees for handles, small check-mark on right side",
+    "parpola_graphemes": [
+        "V361"
+    ],
+    "wells_graphemes": [
+        "W764"
+    ],
+    "mahadevan_graphemes": [
+        "M350"
+    ],
+    "features": []
+}

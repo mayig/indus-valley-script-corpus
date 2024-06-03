@@ -1,0 +1,14 @@
+{
+    "id": "P338",
+    "description": "Upside down U, with five small vertical strokes within",
+    "parpola_graphemes": [
+        "V401"
+    ],
+    "wells_graphemes": [
+        "W931"
+    ],
+    "mahadevan_graphemes": [
+        "M317"
+    ],
+    "features": []
+}

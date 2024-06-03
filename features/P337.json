@@ -1,0 +1,20 @@
+{
+    "id": "P337",
+    "description": "U with trifurcated trees for handles, wagon wheel circumscribed fully within",
+    "parpola_graphemes": [
+        "V213",
+        "V281"
+    ],
+    "wells_graphemes": [
+        "W753"
+    ],
+    "mahadevan_graphemes": [
+        "M355"
+    ],
+    "features": [
+        {
+            "handles": "integer",
+            "description": "What shape are the handles? 0 = trifurcated, 1 = branching to one side only"
+        }
+    ]
+}

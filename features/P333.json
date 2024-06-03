@@ -1,0 +1,14 @@
+{
+    "id": "P333",
+    "description": "U with trifurcated trees for handles, very low X connecting the U legs near the bottom",
+    "parpola_graphemes": [
+        "V364"
+    ],
+    "wells_graphemes": [
+        "W761"
+    ],
+    "mahadevan_graphemes": [
+        "M357"
+    ],
+    "features": []
+}
