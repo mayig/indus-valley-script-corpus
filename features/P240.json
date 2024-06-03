@@ -1,0 +1,15 @@
+{
+    "id": "P240",
+    "description": "An 'X' with no decoration",
+    "parpola_graphemes": [
+        "V122",
+        "V728"
+    ],
+    "wells_graphemes": [
+        "W645"
+    ],
+    "mahadevan_graphemes": [
+        "M137"
+    ],
+    "features": []
+}

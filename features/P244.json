@@ -1,0 +1,14 @@
+{
+    "id": "P244",
+    "description": "An 'X' with a 'caret' hat",
+    "parpola_graphemes": [
+        "V282"
+    ],
+    "wells_graphemes": [
+        "W678"
+    ],
+    "mahadevan_graphemes": [
+        "M138"
+    ],
+    "features": []
+}

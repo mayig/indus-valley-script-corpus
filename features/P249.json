@@ -1,0 +1,14 @@
+{
+    "id": "P249",
+    "description": "An 'X' with vertical lines connected to each arm, forming two 'fat arrows' pointed toward each other. Pitchfork head going across the center",
+    "parpola_graphemes": [
+        "V672"
+    ],
+    "wells_graphemes": [
+        "W686"
+    ],
+    "mahadevan_graphemes": [
+        "M145"
+    ],
+    "features": []
+}

@@ -1,0 +1,15 @@
+{
+    "id": "P245",
+    "description": "An 'X' with vertical lines connected to each arm, forming two 'fat arrows' pointed toward each other",
+    "parpola_graphemes": [
+        "V313",
+        "V393"
+    ],
+    "wells_graphemes": [
+        "W685"
+    ],
+    "mahadevan_graphemes": [
+        "M141"
+    ],
+    "features": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "P242",
+    "description": "An 'X' with two vertical strokes inside each angle of the X",
+    "parpola_graphemes": [
+        "V124"
+    ],
+    "wells_graphemes": [
+        "W680"
+    ],
+    "mahadevan_graphemes": [
+        "M140"
+    ],
+    "features": []
+}
