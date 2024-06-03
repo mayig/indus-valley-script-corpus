@@ -1,0 +1,19 @@
+{
+    "id": "P274",
+    "description": "Tall central rectangle, flanked by two small boxes on the bottom",
+    "parpola_graphemes": [
+        "V029"
+    ],
+    "wells_graphemes": [
+        "W610"
+    ],
+    "mahadevan_graphemes": [
+        "M257"
+    ],
+    "features": [
+        {
+            "bottom_decoration": "integer",
+            "description": "Is the bottom of the central rectangle also a box? 0 = no, 1 = yes"
+        }
+    ]
+}
