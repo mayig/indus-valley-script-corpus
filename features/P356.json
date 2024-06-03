@@ -4,8 +4,12 @@
     "parpola_graphemes": [
         "V175"
     ],
-    "wells_graphemes": [],
-    "mahadevan_graphemes": [],
+    "wells_graphemes": [
+        "W860"
+    ],
+    "mahadevan_graphemes": [
+        "M262"
+    ],
     "features": [
         {
             "branches": "integer",

@@ -1,0 +1,26 @@
+{
+    "id": "P365",
+    "description": "Leaf with tree at bottom, caged by four small vertical strokes",
+    "parpola_graphemes": [
+        "V540",
+        "V255"
+    ],
+    "wells_graphemes": [
+        "W804",
+        "W807"
+    ],
+    "mahadevan_graphemes": [
+        "M388",
+        "M390"
+    ],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "The number of branches on the tree"
+        },
+        {
+            "style": "integer",
+            "description": "0 = no bifurcation, 1 = bifurcation"
+        }
+    ]
+}

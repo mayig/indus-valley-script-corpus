@@ -1,0 +1,12 @@
+{
+    "id": "P362",
+    "description": "Diamond with small flag coming from bottom",
+    "parpola_graphemes": [
+        "V525"
+    ],
+    "wells_graphemes": [
+        "W859"
+    ],
+    "mahadevan_graphemes": [],
+    "features": []
+}
