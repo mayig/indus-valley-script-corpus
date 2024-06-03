@@ -1,0 +1,14 @@
+{
+    "id": "P375",
+    "description": "Leaf. Diamond in center with vertical strokes out each edge to edge of leaf. Vertical lines similarly from top and bottom vertices",
+    "parpola_graphemes": [
+        "V301"
+    ],
+    "wells_graphemes": [
+        "W823"
+    ],
+    "mahadevan_graphemes": [
+        "M384"
+    ],
+    "features": []
+}

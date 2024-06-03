@@ -1,0 +1,15 @@
+{
+    "id": "P370",
+    "description": "Leaf with small square hatched decoration inside, small tooth off top right",
+    "parpola_graphemes": [
+        "V671"
+    ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "decoration": "integer",
+            "description": "0 = 2x1 angled grid, 1 = 2x3 grid, 2 = 2x1 angled grid with top cells making a single cell"
+        }
+    ]
+}
