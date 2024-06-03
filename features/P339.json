@@ -1,0 +1,19 @@
+{
+    "id": "P339",
+    "description": "Upside down U, with a wagon wheel above two small vertical strokes within",
+    "parpola_graphemes": [
+        "V121"
+    ],
+    "wells_graphemes": [
+        "W930"
+    ],
+    "mahadevan_graphemes": [
+        "M393"
+    ],
+    "features": [
+        {
+            "crossbar": "integer",
+            "description": "Is there a crossbar above the vertical strokes? 0 = no, 1 = yes"
+        }
+    ]
+}

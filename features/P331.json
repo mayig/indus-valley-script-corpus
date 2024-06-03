@@ -1,0 +1,14 @@
+{
+    "id": "P331",
+    "description": "U with jar handles on left, trifurcated tree on right",
+    "parpola_graphemes": [
+        "V386"
+    ],
+    "wells_graphemes": [
+        "W750"
+    ],
+    "mahadevan_graphemes": [
+        "M352"
+    ],
+    "features": []
+}
