@@ -1,0 +1,24 @@
+{
+    "id": "P323",
+    "description": "U with 'tree' motif sprouting from the bottom",
+    "parpola_graphemes": [
+        "V128",
+        "V776"
+    ],
+    "wells_graphemes": [
+        "W708",
+        "W709",
+        "W710"
+    ],
+    "mahadevan_graphemes": [],
+    "features": [
+        {
+            "branches": "integer",
+            "description": "How many branches are on the tree?"
+        },
+        {
+            "sprout_location": "integer",
+            "description": "Where does the tree come from? 0 = bottom, 1 = a bit up the side"
+        }
+    ]
+}
