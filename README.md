@@ -16,6 +16,12 @@ This repo is a (currently WIP) digitization of the CISI by Parpola et al.
 My intention is to create a friendly, free, open digital dataset for Indus script studies. To this end, I will use the CISI text numbering scheme,
 where for instance the second Mohenjo-daro text is denoted "M-2".
 
+The initial goal I hope to work toward is refining the graphemic and allographic understanding of the script. It is my belief that this is a fundamental
+pre-requisite for a more global understanding of the artefacts. By producing a corpus like the one here, I hope others will be able to use the
+data herein to work toward this goal. Of course, many other important insights can be gleaned from having another corpus available, such as verifying
+the data between the various corpuses. By releasing this corpus under the MIT and/or Apache licenses, it is my hope that others can use this data
+in whatever way they wish, through careful analysis and cross-referencing with other well-established information and corpora.
+
 I will use the most inclusive allographs provided by Parpola (1982), but provide additional digital information to distinguish more finely between
 graphemes that may be important. For instance, the tree sign with symmetric trifurcation at the top is allographed by Parpolo to the tree sign
 with multiple repeated bifurcations along one side. I will use Parpola's numbering system, which would give sign `P086` to both of these graphemes.
