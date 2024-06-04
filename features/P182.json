@@ -15,6 +15,10 @@
         {
             "roundedness": "integer",
             "description": "Is the bow angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        },
+        {
+            "direction": "integer",
+            "description": "What direction is the bow facing? 0 = left, 1 = right"
         }
     ]
 }

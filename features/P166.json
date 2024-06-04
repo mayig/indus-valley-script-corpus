@@ -6,5 +6,10 @@
     ],
     "wells_graphemes": [],
     "mahadevan_graphemes": [],
-    "features": []
+    "features": [
+        {
+            "paren_style": "integer",
+            "description": "What shape is the paren? 0 = round, 1 = angular"
+        }
+    ]
 }

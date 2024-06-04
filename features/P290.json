@@ -12,6 +12,10 @@
         {
             "trapezoid_shape": "integer",
             "description": "Is the trapezoid angled or straight? 0 = angled, 1 = straight, 2 = indeterminate"
+        },
+        {
+            "top_interior": "integer",
+            "description": "How is the top box decorated? 0 = none, 1 = horizontal hatching"
         }
     ]
 }
