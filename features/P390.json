@@ -18,7 +18,7 @@
     "features": [
         {
             "decoration": "integer",
-            "description": "What is the decoration hanging on the small top diamond? 0 = bird foot, 1 = diag stroke"
+            "description": "What is the decoration hanging on the small top diamond? 0 = bird foot, 1 = diag stroke, 2 = tree"
         },
         {
             "right_diamond": "integer",
