@@ -15,6 +15,10 @@
         {
             "count": "integer",
             "description": "Number of nested right parentheses"
+        },
+        {
+            "wedge": "integer",
+            "description": "Is there a small wedge at the front? 0 = no, 1 = yes"
         }
     ]
 }
