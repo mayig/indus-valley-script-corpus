@@ -72,6 +72,34 @@ function activate(context) {
 		const parpolaMissingSymbols = [];
 		const parpolaErrorItems = [];
 
+		// check the document id against the document file name
+		// for instance, the file "m141.json" should have a line that looks like:
+		//   "id": "M-1412A",   // n.b. i've used a four digit id here to prevent the error from showing up in this very comment
+		// we can drop an error otherwise
+		const regExId = /\"id\"\:\s*\"[A-Z]\-(\d+)[A-Za-z]\"/g;
+		let matchId;
+		if ((matchId = regExId.exec(text))) {
+			const id = matchId[1];
+			const fileName = primary_document.fileName;
+			// get the file name only with no path
+			const fileNameOnly = posix.basename(fileName);
+			// left-pad id with zeroes to length three
+			const paddedId = id.padStart(3, '0');
+			const expectedFileName = 'm' + paddedId + '.json';
+			if (fileNameOnly !== expectedFileName) {
+				let error_item = {
+					code: '',
+					message: 'Document id ' + paddedId + ' does not match file name ' + fileNameOnly + '.',
+					range: new vscode.Range(primary_document.positionAt(matchId.index), primary_document.positionAt(matchId.index + matchId[0].length)),
+					severity: vscode.DiagnosticSeverity.Error,
+					source: '',
+					relatedInformation: []
+				};
+				parpolaErrorItems.push(error_item);
+			}
+		}
+
+		// check all Parpola signs in the document
 		const regEx = /(P\d\d\d)\"\,.\s*\"features\"\:\s*\[((.\s*\d+\,?)*?).\s*\]/sg;
 		let match;
 		while ((match = regEx.exec(text))) {

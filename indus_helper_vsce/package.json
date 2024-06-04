@@ -4,7 +4,7 @@
   "license": "MIT",
   "displayName": "Indus Symbol Feature Helper",
   "description": "Hover support to show features over P123 style identifiers",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.89.0"
   },
