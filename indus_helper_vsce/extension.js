@@ -74,7 +74,7 @@ function activate(context) {
 
 		// check the document id against the document file name
 		// for instance, the file "m141.json" should have a line that looks like:
-		//   "id": "M-1412A",   // n.b. i've used a four digit id here to prevent the error from showing up in this very comment
+		//   "id": "M-xxxA",   // n.b. the 'xxx' has no leading zeroes
 		// we can drop an error otherwise
 		const regExId = /\"id\"\:\s*\"[A-Z]\-(\d+)[A-Za-z]\"/g;
 		let matchId;
@@ -228,6 +228,7 @@ function activate(context) {
 		if (editor) {
 			const document = editor.document;
 			const text = document.getText();
+
 			// Here, we want to change the contents of every feature array to [0,1,0]
 			const regEx = /(P\d\d\d\"\,.\s*\"features\"\:\s*\[)([^\]]*)\]/sg;
 			let match;
@@ -244,6 +245,28 @@ function activate(context) {
 					editBuilder.replace(range, '0,1,0');
 				});
 			}
+
+			const modifiedText = vscode.window.activeTextEditor.document.getText();
+			const regExId = /(\"id\"\:\s*\"[A-Z]\-)(\d+)[A-Za-z]\"/g;
+			let matchId;
+			if ((matchId = regExId.exec(modifiedText))) {
+				const id = matchId[2];
+				console.log('id', id);
+				const fileName = document.fileName;
+				// get the numbers from the file name, so m123.json will give us 123
+				const regExFileName = /[a-z](\d\d\d)\.json/;
+				const matchFileName = regExFileName.exec(fileName);
+				const fileNameId = matchFileName[1];
+				// parse as an int
+				const fileNameInt = parseInt(fileNameId);
+				console.log('fileNameInt', fileNameInt);
+
+				// now we replace the id in the document with the file name id integer
+				await vscode.window.activeTextEditor.edit(editBuilder => {
+					editBuilder.replace(new vscode.Range(document.positionAt(matchId.index + matchId[1].length), document.positionAt(matchId.index + matchId[1].length + matchId[2].length)), fileNameInt.toString());
+				});
+			}
+
 			await vscode.commands.executeCommand('editor.action.formatDocument');
 		}
 	}
