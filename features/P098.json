@@ -20,6 +20,10 @@
         {
             "direction": "integer",
             "description": "Direction of the tines. 0 is left, 1 is right"
+        },
+        {
+            "stroke_angle": "integer",
+            "description": "Angle of the tines. 0 = straight, 1 = angled"
         }
     ]
 }
