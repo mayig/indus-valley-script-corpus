@@ -19,19 +19,19 @@
     "features": [
         {
             "burden_shape": "integer",
-            "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = triangle, 3 = indeterminate"
+            "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = triangle, 3 = indeterminate, 4 = none"
         },
         {
             "ropes": "integer",
-            "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+            "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes, 2 = N/A"
         },
         {
             "yoke": "integer",
-            "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+            "description": "Are there both arms and a yoke support? 0 = no, 1 = yes, 2 = arms look like the yoke"
         },
         {
             "head_shape": "integer",
-            "description": "What shape is the head? 0 = triangle, 1 = diamond"
+            "description": "What shape is the head? 0 = triangle, 1 = diamond, 2 = caret"
         }
     ]
 }
