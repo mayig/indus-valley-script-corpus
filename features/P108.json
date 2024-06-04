@@ -24,7 +24,7 @@
         },
         {
             "circle_decoration": "integer",
-            "description": "How is the circle decorated? 0 = dot, 1 = hatches, nothing"
+            "description": "How is the circle decorated? 0 = dot, 1 = hatches, 2 = mixed or indeterminate"
         }
     ]
 }
