@@ -7,7 +7,8 @@
     ],
     "wells_graphemes": [
         "W190",
-        "W192"
+        "W192",
+        "W194"
     ],
     "mahadevan_graphemes": [
         "M054",
@@ -21,6 +22,10 @@
         {
             "decoration": "integer",
             "description": "Is there a small marking in the body? 0 = no, 1 = yes"
+        },
+        {
+            "legs": "integer",
+            "description": "How many legs are there (including the right two)?"
         }
     ]
 }
