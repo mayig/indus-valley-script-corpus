@@ -13,6 +13,14 @@ Valley scripts. While their work is less represented here, that is most certainl
 
 This repo is a (currently WIP) digitization of the CISI by Parpola et al.
 
+### Usage
+
+In each file in the `corpus` subdirectories, the `json` file represents a single artefact. The highest level is an array of "sides" of the artefact.
+Each array entry is one side of the artefact, with a json object containing the object id, a short description of the artefact type, and a list of graphemes.
+The graphemes are recorded from the left of the artefact side to the right with the understanding that the script is read right-to-left.
+
+### Goals
+
 My intention is to create a friendly, free, open digital dataset for Indus script studies. To this end, I will use the CISI text numbering scheme,
 where for instance the second Mohenjo-daro text is denoted "M-2".
 
