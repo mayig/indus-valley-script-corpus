@@ -19,6 +19,12 @@ In each file in the `corpus` subdirectories, the `json` file represents a single
 Each array entry is one side of the artefact, with a json object containing the object id, a short description of the artefact type, and a list of graphemes.
 The graphemes are recorded from the left of the artefact side to the right with the understanding that the script is read right-to-left.
 
+To get a human-readable description of a given artefact, I have provided a small utility in the `artefact_finder` folder. This is a Rust language command
+line utility. When run from the `artefact_finder` folder, you can provide command line arguments like `-a m102` to display the corpus entry for the
+Mohenjo-Daro `M102` artefact as per the Corpus of Indus Seals and Inscriptions (CISI). If you would like to use this utility but are not familiar with
+the Rust prgramming language, I am happy to provide pre-built binaries upon request. The source code is provided by default here so users can compile
+the utility for any operating system via the usual Rust build techniques.
+
 ### Goals
 
 My intention is to create a friendly, free, open digital dataset for Indus script studies. To this end, I will use the CISI text numbering scheme,
