@@ -20,3 +20,7 @@ keywords = [
     "rust",
 ]
 categories = ["linguistics"]
+
+[workspace.dependencies]
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.117"
