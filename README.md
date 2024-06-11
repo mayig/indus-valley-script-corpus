@@ -1,5 +1,12 @@
 # Corpus of Indus Seals and Inscriptions digitization
 
+## Overview
+
+This repo is a (currently WIP) digitization of the Corpus of Indus Seals and Inscriptions (CISI) by Parpola et al.
+
+The corpus is in `json` format, which can be read by humans with a little training, and is consumed easily by applications. This format was chosen
+due to the popularity of `json` in the programming community, and most programming languages have robust support for handling `json` data.
+
 ## Acknowledgements
 
 I'd like to thank Dr Asko Parpola for his tireless efforts into the preservation and dissemination of the Indus Valley corpus. It is largely due
@@ -9,15 +16,12 @@ Thank you, Dr Parpola.
 I'd also like to acknowledge both Dr Andreas Fuls and Bryan K Wells for their many contributions, both in theory and in pedagogy, of the Indus
 Valley scripts. While their work is less represented here, that is most certainly not due to any lack of significance or importance.
 
-## Overview
-
-This repo is a (currently WIP) digitization of the CISI by Parpola et al.
-
 ### Usage
 
 In each file in the `corpus` subdirectories, the `json` file represents a single artefact. The highest level is an array of "sides" of the artefact.
 Each array entry is one side of the artefact, with a json object containing the object id, a short description of the artefact type, and a list of graphemes.
-The graphemes are recorded from the left of the artefact side to the right with the understanding that the script is read right-to-left.
+The graphemes are recorded from the left of the artefact side to the right with the understanding that the script is read right-to-left. Note that
+for seals, I have transcribed the sealing as opposed to the seal itself, as this was the intended way the inscriptions would be used.
 
 To get a human-readable description of a given artefact, I have provided a small utility in the `artefact_finder` folder. This is a Rust language command
 line utility. When run from the `artefact_finder` folder, you can provide command line arguments like `-a m102` to display the corpus entry for the
