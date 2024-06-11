@@ -1,5 +1,5 @@
 [package]
-name = "indus_corpus"
+name = "analysis"
 version = "0.1.0"
 authors.workspace = true
 edition.workspace = true
@@ -12,5 +12,6 @@ categories.workspace = true
 
 [dependencies]
 anyhow = { workspace = true }
+indus_corpus = { path = "../indus_corpus" }
 serde = { workspace = true }
 serde_json = { workspace = true }

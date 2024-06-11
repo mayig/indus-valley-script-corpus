@@ -3,6 +3,16 @@
 version = 3
 
 [[package]]
+name = "analysis"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "indus_corpus",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "anstream"
 version = "0.6.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -123,6 +133,7 @@ checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 name = "indus_corpus"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "serde",
  "serde_json",
 ]

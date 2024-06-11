@@ -4,6 +4,8 @@ use std::collections::HashMap;
 
 use serde::Deserialize;
 
+pub mod corpus;
+
 /// Represents a single artefact, which is a collection of faces
 pub type Artefact = Vec<ArtefactFace>;
 
