@@ -5,7 +5,9 @@
         "V028",
         "V256"
     ],
-    "wells_graphemes": [],
+    "wells_graphemes": [
+        "W595"
+    ],
     "mahadevan_graphemes": [
         "M252"
     ],
