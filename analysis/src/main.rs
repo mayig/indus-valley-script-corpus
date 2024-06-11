@@ -26,6 +26,10 @@ fn main() -> Result<()> {
         sign_ids.push(sign_id);
     }
 
+    // print the total number of signs in the corpus
+    let total_signs: usize = sign_ids.iter().map(Vec::len).sum();
+    println!("Total number of signs in the corpus: {total_signs}");
+
     // now let's get the 10 most common bigrams and print them out
     let mut bigram_counts: std::collections::HashMap<(u32, u32), u32> =
         std::collections::HashMap::new();
