@@ -3,32 +3,36 @@
 use std::collections::HashSet;
 
 use anyhow::{anyhow, Result};
-use indus_corpus::FeatureFile;
-use serde::Deserialize;
+use indus_corpus::{Artefact, FeatureFile};
 
 fn main() -> Result<()> {
-    let features = load_graphemes("features")?;
-    println!("Loaded {} features", features.len());
+    let prefix = if std::env::current_dir()?.ends_with("json_validator") {
+        "../"
+    } else {
+        ""
+    };
+    let feature_files = load_graphemes(&format!("{prefix}features"))?;
+    println!("Loaded {} feature files", feature_files.len());
 
-    let corpus = load_corpus("corpus", &features)?;
-    println!("Loaded {} corpus files", corpus.len());
+    let artefacts = load_corpus(&format!("{prefix}corpus"), &feature_files)?;
+    println!("Loaded {} corpus files", artefacts.len());
 
     Ok(())
 }
 
 fn load_graphemes(features_directory: &str) -> Result<Vec<FeatureFile>> {
     let mut graphemes = Vec::new();
-    let features = std::fs::read_dir(features_directory)?;
+    let feature_files = std::fs::read_dir(features_directory)?;
     let mut parpola_graphemes = HashSet::new();
     let mut wells_graphemes = HashSet::new();
-    for feature in features {
-        let feature_dir_entry = feature?;
+    for feature_file in feature_files {
+        let feature_dir_entry = feature_file?;
         let feature_path = feature_dir_entry.path();
         let feature_name = feature_path
             .file_name()
-            .ok_or_else(|| anyhow!("Failed to get feature name"))?
+            .ok_or_else(|| anyhow!("Failed to get feature file path"))?
             .to_str()
-            .ok_or_else(|| anyhow!("Failed to get feature name"))?
+            .ok_or_else(|| anyhow!("Failed to get feature file name"))?
             .to_owned();
         //println!("Feature {feature_name}");
         // get the feature name without extension
@@ -37,19 +41,20 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<FeatureFile>> {
             .next()
             .ok_or_else(|| anyhow!("Failed to get feature name"))?;
         // deserialize the file to a Grapheme
-        let grapheme: FeatureFile = serde_json::from_reader(std::fs::File::open(feature_path)?)?;
+        let feature_file: FeatureFile =
+            serde_json::from_reader(std::fs::File::open(feature_path)?)?;
 
         // validate that the grapheme id is the same as the feature name
-        if grapheme.id != feature_name {
+        if feature_file.id != feature_name {
             return Err(anyhow!(
                 "Grapheme id {} does not match feature name {}",
-                grapheme.id,
+                feature_file.id,
                 feature_name
             ));
         }
 
         // validate that the parpola graphemes are unique and of the form "V012"
-        for parpola_grapheme in &grapheme.parpola_graphemes {
+        for parpola_grapheme in &feature_file.parpola_graphemes {
             if parpola_grapheme.len() != 4
                 || !parpola_grapheme.starts_with('V')
                 || !parpola_grapheme
@@ -60,7 +65,7 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<FeatureFile>> {
                 return Err(anyhow!(
                     "Parpola grapheme {} is not of form 'V123' in {}",
                     parpola_grapheme,
-                    grapheme.id
+                    feature_file.id
                 ));
             }
             if parpola_graphemes.contains(parpola_grapheme) {
@@ -73,7 +78,7 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<FeatureFile>> {
         }
 
         // validate that the wells graphemes are unique and of the form "W012"
-        for wells_grapheme in &grapheme.wells_graphemes {
+        for wells_grapheme in &feature_file.wells_graphemes {
             if wells_grapheme.len() != 4
                 || !wells_grapheme.starts_with('W')
                 || !wells_grapheme.chars().skip(1).all(|ch| ch.is_ascii_digit())
@@ -81,7 +86,7 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<FeatureFile>> {
                 return Err(anyhow!(
                     "Wells grapheme {} is not of form 'W123' in {}",
                     wells_grapheme,
-                    grapheme.id
+                    feature_file.id
                 ));
             }
             if wells_graphemes.contains(wells_grapheme) {
@@ -90,32 +95,10 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<FeatureFile>> {
             let _unused = wells_graphemes.insert(wells_grapheme.clone());
         }
 
-        graphemes.push(grapheme);
+        graphemes.push(feature_file);
     }
     Ok(graphemes)
 }
-
-#[derive(Debug, Deserialize)]
-struct GLink {
-    id: String,
-    features: Vec<u64>,
-}
-
-impl GLink {
-    pub fn get_feature_count(&self) -> usize {
-        self.features.len()
-    }
-}
-
-#[derive(Debug, Deserialize)]
-struct ArtefactFace {
-    id: String,
-    #[serde(rename = "description")]
-    _description: String,
-    graphemes: Vec<GLink>,
-}
-
-type Artefact = Vec<ArtefactFace>;
 
 fn load_corpus(corpus_directory: &str, graphemes: &[FeatureFile]) -> Result<Vec<Artefact>> {
     let corpus = std::fs::read_dir(corpus_directory)?;
@@ -179,18 +162,18 @@ fn load_corpus(corpus_directory: &str, graphemes: &[FeatureFile]) -> Result<Vec<
             }
 
             // now validate that the number of features in the graphemes match the number of features in the corpus file
-            for glink in &face.graphemes {
-                let grapheme = graphemes
+            for grapheme in &face.graphemes {
+                let feature_file = graphemes
                     .iter()
-                    .find(|gr| gr.id == glink.id)
-                    .ok_or_else(|| anyhow!("Grapheme {} not found", glink.id))?;
+                    .find(|gr| gr.id == grapheme.id)
+                    .ok_or_else(|| anyhow!("Grapheme {} not found", grapheme.id))?;
                 // here we add 3 for the default features
-                let grapheme_features = grapheme.get_feature_count() + 3;
-                let glink_features = glink.get_feature_count();
+                let grapheme_features = feature_file.get_feature_count() + 3;
+                let glink_features = grapheme.get_feature_count();
                 if grapheme_features != glink_features {
                     return Err(anyhow!(
                         "Grapheme {} has {} features but corpus file {} has {} features",
-                        glink.id,
+                        grapheme.id,
                         grapheme_features,
                         corpus_file_name,
                         glink_features

@@ -4,6 +4,9 @@ use std::collections::HashMap;
 
 use serde::Deserialize;
 
+/// Represents a single artefact, which is a collection of faces
+pub type Artefact = Vec<ArtefactFace>;
+
 /// This struct describes a single face from a given artefact
 #[derive(Debug, Deserialize)]
 pub struct ArtefactFace {
@@ -24,6 +27,14 @@ pub struct Grapheme {
     /// N.B. that the first three features are the default features of "damage", "line", and "uncertainty"
     /// where damage and uncertainty are a percentage, from 0 to 100, and line is the line number counted vertically from the top
     pub features: Vec<u64>,
+}
+
+impl Grapheme {
+    /// Get the number of features for this grapheme
+    #[must_use]
+    pub fn get_feature_count(&self) -> usize {
+        self.features.len()
+    }
 }
 
 /// This struct describes a feature file, each of which describes a grapheme from Parpola's sign list, with the features
