@@ -2,6 +2,8 @@
     "id": "default_features",
     "description": "Default features for the grapheme dataset",
     "parpola_graphemes": [],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
     "features": [
         {
             "damage": "integer",

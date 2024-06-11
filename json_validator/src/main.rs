@@ -1,8 +1,9 @@
 //! Simple utility to validate the corpus files against the feature files
 
-use std::collections::{HashMap, HashSet};
+use std::collections::HashSet;
 
 use anyhow::{anyhow, Result};
+use indus_corpus::FeatureFile;
 use serde::Deserialize;
 
 fn main() -> Result<()> {
@@ -15,25 +16,7 @@ fn main() -> Result<()> {
     Ok(())
 }
 
-type Feature = HashMap<String, String>;
-
-#[derive(Debug, Deserialize)]
-struct Grapheme {
-    id: String,
-    #[serde(rename = "description")]
-    _description: String,
-    parpola_graphemes: Vec<String>,
-    wells_graphemes: Option<Vec<String>>,
-    features: Vec<Feature>,
-}
-
-impl Grapheme {
-    pub fn get_feature_count(&self) -> usize {
-        self.features.len()
-    }
-}
-
-fn load_graphemes(features_directory: &str) -> Result<Vec<Grapheme>> {
+fn load_graphemes(features_directory: &str) -> Result<Vec<FeatureFile>> {
     let mut graphemes = Vec::new();
     let features = std::fs::read_dir(features_directory)?;
     let mut parpola_graphemes = HashSet::new();
@@ -54,7 +37,7 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<Grapheme>> {
             .next()
             .ok_or_else(|| anyhow!("Failed to get feature name"))?;
         // deserialize the file to a Grapheme
-        let grapheme: Grapheme = serde_json::from_reader(std::fs::File::open(feature_path)?)?;
+        let grapheme: FeatureFile = serde_json::from_reader(std::fs::File::open(feature_path)?)?;
 
         // validate that the grapheme id is the same as the feature name
         if grapheme.id != feature_name {
@@ -89,24 +72,22 @@ fn load_graphemes(features_directory: &str) -> Result<Vec<Grapheme>> {
             let _unused = parpola_graphemes.insert(parpola_grapheme.clone());
         }
 
-        if let Some(json_wells_graphemes) = &grapheme.wells_graphemes {
-            // validate that the wells graphemes are unique and of the form "W012"
-            for wells_grapheme in json_wells_graphemes {
-                if wells_grapheme.len() != 4
-                    || !wells_grapheme.starts_with('W')
-                    || !wells_grapheme.chars().skip(1).all(|ch| ch.is_ascii_digit())
-                {
-                    return Err(anyhow!(
-                        "Wells grapheme {} is not of form 'W123' in {}",
-                        wells_grapheme,
-                        grapheme.id
-                    ));
-                }
-                if wells_graphemes.contains(wells_grapheme) {
-                    return Err(anyhow!("Wells grapheme {} is not unique", wells_grapheme));
-                }
-                let _unused = wells_graphemes.insert(wells_grapheme.clone());
+        // validate that the wells graphemes are unique and of the form "W012"
+        for wells_grapheme in &grapheme.wells_graphemes {
+            if wells_grapheme.len() != 4
+                || !wells_grapheme.starts_with('W')
+                || !wells_grapheme.chars().skip(1).all(|ch| ch.is_ascii_digit())
+            {
+                return Err(anyhow!(
+                    "Wells grapheme {} is not of form 'W123' in {}",
+                    wells_grapheme,
+                    grapheme.id
+                ));
             }
+            if wells_graphemes.contains(wells_grapheme) {
+                return Err(anyhow!("Wells grapheme {} is not unique", wells_grapheme));
+            }
+            let _unused = wells_graphemes.insert(wells_grapheme.clone());
         }
 
         graphemes.push(grapheme);
@@ -136,7 +117,7 @@ struct ArtefactFace {
 
 type Artefact = Vec<ArtefactFace>;
 
-fn load_corpus(corpus_directory: &str, graphemes: &[Grapheme]) -> Result<Vec<Artefact>> {
+fn load_corpus(corpus_directory: &str, graphemes: &[FeatureFile]) -> Result<Vec<Artefact>> {
     let corpus = std::fs::read_dir(corpus_directory)?;
     let mut files = Vec::new();
 

@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["artefact_finder", "json_validator"]
+members = ["artefact_finder", "indus_corpus", "json_validator"]
 
 [workspace.package]
 authors = ["mike@mayig.net"]
