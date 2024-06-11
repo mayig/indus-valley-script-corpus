@@ -90,3 +90,7 @@ There are a few ambiguities in Parpola's simplest allograph scheme. These are in
 `P121(V764)` seems to be identical with `P144(V008)`, `P122(V765)` with `P145(V009)`, `P123(V766)` with `P147(V010)`, and `P124(V771)` with `P150(V294)`.
 I have tried to be consistent in choosing the allographs from `P144` onward for full-height vertical strokes when possible, and reserving the allographs
 from `P121` for partial-height strokes.
+
+## Font
+
+I intend to include Unicode characters to give a visual clue to the grapheme being described. Right now, I have tested the [AMBILE IVC Script](https://ambile.pk/dev/fonts/ivc/) font, and it seems to work nicely once installed.
