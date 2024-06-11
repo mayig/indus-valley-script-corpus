@@ -4,6 +4,8 @@
     "parpola_graphemes": [
         "V599"
     ],
+    "wells_graphemes": [],
+    "mahadevan_graphemes": [],
     "features": [
         {
             "percent_lost": "integer",
