@@ -10,7 +10,6 @@ const { posix } = require('path');
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-
 	let timeout = undefined;
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
@@ -100,17 +99,43 @@ function activate(context) {
 		}
 
 		// check all Parpola signs in the document
-		const regEx = /(P\d\d\d)\"\,.\s*\"features\"\:\s*\[((.\s*\d+\,?)*?).\s*\]/sg;
+		const regEx = /(P\d\d\d)(\"\,.\s*\"features\"\:\s*\[)((.\s*\d+\,?)*?).\s*\]/sg;
+		const subRegEx = /(\s*)(\S*)(\s*)/sg;
 		let match;
 		while ((match = regEx.exec(text))) {
 			// parpola_id will look something like "P123"
 			const parpola_id = match[1];
 			// parpola_feature_count will be the number of features found in the parpola sign
-			const parpola_feature_count = match[2].split(',').length;
+			const found_features = match[3].split(',');
+			const parpola_feature_count = found_features.length;
 
 			// start and end pos are the positions of the parpola sign in the primary document
 			const startPos = primary_document.positionAt(match.index);
 			const endPos = primary_document.positionAt(match.index + parpola_id.length);
+			const position_of_first_feature = match.index + match[1].length + match[2].length;
+
+			let spacing_match = subRegEx.exec(found_features[0]);
+			if (spacing_match) {
+				const initial_spaces = spacing_match[1].length;
+				const content_length = spacing_match[2].length;
+				console.log('initial_spaces', initial_spaces);
+				console.log('content_length', content_length);
+
+				const startPosOfFeature = primary_document.positionAt(position_of_first_feature + initial_spaces);
+				const endPosOfFeature = primary_document.positionAt(position_of_first_feature + initial_spaces + content_length);
+				let error_item = {
+					code: '',
+					message: 'Lowest two digits: Rough estimate of how much of the grapheme is missing or damaged. Higher digits, between 1-9, signify which parts are damaged (1 is upper left, 2 is upper mid, ...)',
+					range: new vscode.Range(startPosOfFeature, endPosOfFeature),
+					severity: vscode.DiagnosticSeverity.Information,
+					source: '',
+					relatedInformation: []
+				};
+				parpolaErrorItems.push(error_item);
+
+			} else {
+				console.log('No match for spacing', found_features[0]);
+			}
 
 			const decoration = { range: new vscode.Range(startPos, endPos), hoverMessage: 'Parpola sign ' + parpola_id + ' not found.' };
 			const parpola_file = parpola_id + '.json';
@@ -150,6 +175,8 @@ function activate(context) {
 						parpolaErrorItems.push(error_item);
 					}
 
+					// for each feature found, display the hovertext for it
+					// the first three are the default features
 					// set the message
 					decoration.hoverMessage = message;
 
