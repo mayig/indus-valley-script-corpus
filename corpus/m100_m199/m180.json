@@ -1,0 +1,30 @@
+[
+    {
+        "id": "M-180A",
+        "description": "unicorn V seal",
+        "graphemes": [
+            {
+                "id": "P324",
+                "features": [
+                    110,
+                    1,
+                    0,
+                    2,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "id": "P265",
+                "features": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+]
