@@ -12,6 +12,10 @@
         {
             "shape": "integer",
             "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped"
+        },
+        {
+            "decoration": "integer",
+            "description": "What decoration is in the triangle? 0 = nothing, 1 = tree"
         }
     ]
 }
