@@ -113,47 +113,7 @@ function activate(context) {
 			// start and end pos are the positions of the parpola sign in the primary document
 			const startPos = primary_document.positionAt(match.index);
 			const endPos = primary_document.positionAt(match.index + parpola_id.length);
-			const position_of_first_feature = match.index + match[1].length + match[2].length;
 
-			let current_feature_position = position_of_first_feature;
-			for (let i = 0; i < found_features.length; i++) {
-				console.log("Tagging feature " + i + " of " + found_features.length);
-				console.log("Found feature '" + found_features[i] + "'");
-
-				let feature_info = 'damage: Lowest two digits: Rough estimate of how much of the grapheme is missing or damaged. Higher digits, between 1-9, signify which parts are damaged (1 is upper left, 2 is upper mid, ...)'
-				if (i == 1) {
-					feature_info = 'line: On what line of the artefact is this grapheme found?';
-				} else if (i == 2) {
-					feature_info = 'uncertainty: Very subjective estimate, in the range 0-100, of how uncertain the annotator was about the grapheme';
-				}
-
-				const subRegEx = /(\s*)(\d+)(\s*)/sg;
-				let spacing_match = subRegEx.exec(found_features[i]);
-				if (spacing_match) {
-					const initial_spaces = spacing_match[1].length;
-					const content_length = spacing_match[2].length;
-					const final_spaces = spacing_match[3].length;
-					console.log('initial_spaces', initial_spaces);
-					console.log('content_length', content_length);
-					console.log('final_spaces', final_spaces);
-
-					const startPosOfFeature = primary_document.positionAt(current_feature_position + initial_spaces);
-					const endPosOfFeature = primary_document.positionAt(current_feature_position + initial_spaces + content_length);
-					let error_item = {
-						code: '',
-						message: feature_info,
-						range: new vscode.Range(startPosOfFeature, endPosOfFeature),
-						severity: vscode.DiagnosticSeverity.Information,
-						source: '',
-						relatedInformation: []
-					};
-					parpolaErrorItems.push(error_item);
-
-				} else {
-					console.log("No match for spacing '" + found_features[i] + "'");
-				}
-				current_feature_position += found_features[i].length + 1;
-			}
 
 			const decoration = { range: new vscode.Range(startPos, endPos), hoverMessage: 'Parpola sign ' + parpola_id + ' not found.' };
 			const parpola_file = parpola_id + '.json';
@@ -177,6 +137,67 @@ function activate(context) {
 					for (const feature of features) {
 						message += '\n- ' + feature.description;
 					}
+
+					const position_of_first_feature = match.index + match[1].length + match[2].length;
+					let current_feature_position = position_of_first_feature;
+					for (let i = 0; i < found_features.length; i++) {
+						console.log("Tagging feature " + i + " of " + found_features.length);
+						console.log("Found feature '" + found_features[i] + "'");
+
+						let feature_info = 'damage: Lowest two digits: Rough estimate of how much of the grapheme is missing or damaged. Higher digits, between 1-9, signify which parts are damaged (1 is upper left, 2 is upper mid, ...)'
+						if (i == 1) {
+							feature_info = 'line: On what line of the artefact is this grapheme found?';
+						} else if (i == 2) {
+							feature_info = 'uncertainty: Very subjective estimate, in the range 0-100, of how uncertain the annotator was about the grapheme';
+							if (features.length == 0) {
+								feature_info = " " + feature_info;
+							}
+						} else if (i > 2) {
+							let feature_index = i - 3;
+							feature_info = "";
+							if (features[feature_index]) {
+								for (const prop_name of Object.getOwnPropertyNames(features[feature_index])) {
+									if (prop_name != 'description') {
+										feature_info += prop_name + ': ';
+									}
+								}
+								feature_info += features[feature_index].description;
+							} else {
+								feature_info = 'Unknown feature ' + feature_index;
+							}
+							if (feature_index == features.length - 1) {
+								feature_info = " " + feature_info;
+							}
+						}
+
+						const subRegEx = /(\s*)(\d+)(\s*)/sg;
+						let spacing_match = subRegEx.exec(found_features[i]);
+						if (spacing_match) {
+							const initial_spaces = spacing_match[1].length;
+							const content_length = spacing_match[2].length;
+							const final_spaces = spacing_match[3].length;
+							console.log('initial_spaces', initial_spaces);
+							console.log('content_length', content_length);
+							console.log('final_spaces', final_spaces);
+
+							const startPosOfFeature = primary_document.positionAt(current_feature_position + initial_spaces);
+							const endPosOfFeature = primary_document.positionAt(current_feature_position + initial_spaces + content_length);
+							let error_item = {
+								code: '',
+								message: feature_info,
+								range: new vscode.Range(startPosOfFeature, endPosOfFeature),
+								severity: vscode.DiagnosticSeverity.Information,
+								source: '',
+								relatedInformation: []
+							};
+							parpolaErrorItems.push(error_item);
+
+						} else {
+							console.log("No match for spacing '" + found_features[i] + "'");
+						}
+						current_feature_position += found_features[i].length + 1;
+					}
+
 
 					// check if the number of features in the parpola sign matches the expected number
 					const expected_feature_count = features.length + 3;
