@@ -138,6 +138,8 @@ function activate(context) {
 						message += '\n- ' + feature.description;
 					}
 
+					// add an info for the sign
+
 					const position_of_first_feature = match.index + match[1].length + match[2].length;
 					let current_feature_position = position_of_first_feature;
 					for (let i = 0; i < found_features.length; i++) {
@@ -208,6 +210,17 @@ function activate(context) {
 							message: 'Parpola ' + parpola_id + ' has ' + parpola_feature_count + ' features, expected ' + expected_feature_count + '.',
 							range: new vscode.Range(startPos, endPos),
 							severity: vscode.DiagnosticSeverity.Error,
+							source: '',
+							relatedInformation: []
+						};
+						parpolaErrorItems.push(error_item);
+					} else {
+						message += '\n\nWarning: Found ' + parpola_feature_count + ' features, expected ' + expected_feature_count + '.';
+						let error_item = {
+							code: '',
+							message: parpola_id + ': ' + description,
+							range: new vscode.Range(startPos, endPos),
+							severity: vscode.DiagnosticSeverity.Information,
 							source: '',
 							relatedInformation: []
 						};
