@@ -1,2 +1,4 @@
 /target
 *.pdf
+/fonts
+/.vscode
